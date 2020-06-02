@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SpeakFreelyConfig SYSTEM "SpeakFreelyConfig.dtd">
+<SSMTraining version="1.0.0" xml:lang="th-th" tag-format="swi-semantics/1.0"> 
+<features>
+<word>บัตร</word>
+<word>ใช้</word>
+<word>ไม่ได้</word>
+<word>ประมาณ</word>
+<word>เดือน</word>
+<word>กว่า</word>
+<word>แล้ว</word>
+<word>ก็</word>
+<word>ว่า</word>
+<word>จะ</word>
+<word>ยกเลิก</word>
+<word>โทร</word>
+<word>มา</word>
+<word>แจ้ง</word>
+<word>ขอ</word>
+<word>ปิดบัตร</word>
+<word>ตอนนี้</word>
+<word>ถูก</word>
+<word>อายัด</word>
+<word>บัตรวีซ่า</word>
+<word>ของ</word>
+<word>ออมสิน</word>
+<word>มี</word>
+<word>ข้อความ</word>
+<word>เข้า</word>
+<word>ที่</word>
+<word>เก้า</word>
+<word>ร้อย</word>
+<word>สิบ</word>
+<word>บาท</word>
+<word>ไม่</word>
+<word>ทำ</word>
+<word>ต่อ</word>
+<word>ยี่สิบ</word>
+<word>นาที</word>
+<word>พอดี</word>
+<word>เจอ</word>
+<word>วัน</word>
+<word>เสาร์</word>
+<word>ต้อง</word>
+<word>ใหม่</word>
+<word>หรือ</word>
+<word>ยัง</word>
+<word>ไง</word>
+<word>พึ่ง</word>
+<word>ไป</word>
+<word>ไว้</word>
+<word>แต่</word>
+<word>ได้</word>
+<word>ระงับ</word>
+<word>บัตรเอทีเอ็ม</word>
+<word>ตอน</word>
+<word>นี้</word>
+<word>เปิด</word>
+<word>บัตรกดเงินสด</word>
+<word>บัตรสินเชื่อเงินสด</word>
+<word>บัตรเครดิต</word>
+<word>กับ</word>
+<word>ประกัน</word>
+<word>อุบัติเหตุ</word>
+<word>การ</word>
+<word>เอทีเอ็ม</word>
+</features>
+<semantic_models>
+<SSM>
+<param name="num_iterations">
+   <value>0</value>
+</param>
+<param name="ssm_output_filename">
+   <value>Bank_Demo-ssm</value>
+</param>
+<meaning><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></meaning>
+<meaning><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></meaning>
+<meaning><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></meaning>
+<meaning><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></meaning>
+</SSM>
+</semantic_models>
+<training>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>บัตร ใช้ ไม่ได้ ประมาณ เดือน กว่า แล้ว ก็ ว่า จะ ยกเลิก บัตร</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>โทร มา แจ้ง ยกเลิก บัตร</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>จะ ขอ ปิดบัตร ไม่ได้ ใช้</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ตอนนี้ บัตร ถูก อายัด ว่า จะ ยกเลิก</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ยกเลิก บัตร</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ยกเลิก บัตรวีซ่า ของ ออมสิน</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>มี ข้อความ เข้า มา ที่ บัตร เก้า ร้อย เก้า สิบ เก้า บาท ว่า จะ ยกเลิก ไม่ ทำ ต่อ</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>โทร อายัด บัตร ประมาณ ยี่สิบ นาที ที่ แล้ว พอดี เจอ บัตร แล้ว</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>วัน เสาร์ ที่ โทร อายัด บัตร เจอ บัตร แล้ว ต้อง ทำ บัตร ใหม่ หรือ ว่า ยัง ไง</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>พึ่ง โทร ไป แจ้ง อายัด บัตร ไว้ แต่ ว่า เจอ บัตร แล้ว จะ ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>ได้ โทร ระงับ บัตรเอทีเอ็ม ไว้ ตอน นี้ เจอ บัตร แล้ว มา เปิด ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>ยกเลิก อายัด บัตรกดเงินสด</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>ยกเลิก อายัด บัตรสินเชื่อเงินสด</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">NULL</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD_FREEZE</slot></semantics>ยกเลิก อายัด บัตรกดเงินสด บัตรเครดิต</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ขอ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>จะ ขอ ยกเลิก บัตรเอทีเอ็ม กับ ประกัน อุบัติเหตุ</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1"><semantics><slot name="ENTITY_A">ATMCARD</slot><slot name="ENTITY_B">NULL</slot><slot name="INTENTION">CANCEL_CARD</slot></semantics>ยกเลิก เอทีเอ็ม</sentence>
+</training>
+</SSMTraining>

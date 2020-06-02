@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SpeakFreelyConfig SYSTEM "SpeakFreelyConfig.dtd">
+<SLMTraining version="1.0.0" xml:lang="th-th">
+<param name="ngram_order"> <value> 3 </value></param>
+<param name="cutoffs"><value> 0 1 </value></param>
+<param name="smooth_weights"><value>0.1 0.9 0.9 0.4</value></param>
+<param name="smooth_alg"><value>GT-discw-int</value></param>
+<param name="fsm_out"><value>Bank_Demo-slm.fsm</value></param>
+<param name="wordlist_out"><value>Bank_Demo-slm.wordlist</value></param>
+<vocab>
+<item>บัตร</item>
+<item>ใช้</item>
+<item>ไม่ได้</item>
+<item>ประมาณ</item>
+<item>เดือน</item>
+<item>กว่า</item>
+<item>แล้ว</item>
+<item>ก็</item>
+<item>ว่า</item>
+<item>จะ</item>
+<item>ยกเลิก</item>
+<item>โทร</item>
+<item>มา</item>
+<item>แจ้ง</item>
+<item>ขอ</item>
+<item>ปิดบัตร</item>
+<item>ตอนนี้</item>
+<item>ถูก</item>
+<item>อายัด</item>
+<item>บัตรวีซ่า</item>
+<item>ของ</item>
+<item>ออมสิน</item>
+<item>มี</item>
+<item>ข้อความ</item>
+<item>เข้า</item>
+<item>ที่</item>
+<item>เก้า</item>
+<item>ร้อย</item>
+<item>สิบ</item>
+<item>บาท</item>
+<item>ไม่</item>
+<item>ทำ</item>
+<item>ต่อ</item>
+<item>ยี่สิบ</item>
+<item>นาที</item>
+<item>พอดี</item>
+<item>เจอ</item>
+<item>วัน</item>
+<item>เสาร์</item>
+<item>ต้อง</item>
+<item>ใหม่</item>
+<item>หรือ</item>
+<item>ยัง</item>
+<item>ไง</item>
+<item>พึ่ง</item>
+<item>ไป</item>
+<item>ไว้</item>
+<item>แต่</item>
+<item>ได้</item>
+<item>ระงับ</item>
+<item>บัตรเอทีเอ็ม</item>
+<item>ตอน</item>
+<item>นี้</item>
+<item>เปิด</item>
+<item>บัตรกดเงินสด</item>
+<item>บัตรสินเชื่อเงินสด</item>
+<item>บัตรเครดิต</item>
+<item>กับ</item>
+<item>ประกัน</item>
+<item>อุบัติเหตุ</item>
+<item>การ</item>
+<item>เอทีเอ็ม</item>
+</vocab>
+<training>
+
+<sentence count="1">บัตร ใช้ ไม่ได้ ประมาณ เดือน กว่า แล้ว ก็ ว่า จะ ยกเลิก บัตร</sentence>
+<sentence count="1">โทร มา แจ้ง ยกเลิก บัตร</sentence>
+<sentence count="1">จะ ขอ ปิดบัตร ไม่ได้ ใช้</sentence>
+<sentence count="1">ตอนนี้ บัตร ถูก อายัด ว่า จะ ยกเลิก</sentence>
+<sentence count="1">ยกเลิก บัตร</sentence>
+<sentence count="1">ยกเลิก บัตรวีซ่า ของ ออมสิน</sentence>
+<sentence count="1">มี ข้อความ เข้า มา ที่ บัตร เก้า ร้อย เก้า สิบ เก้า บาท ว่า จะ ยกเลิก ไม่ ทำ ต่อ</sentence>
+<sentence count="1">โทร อายัด บัตร ประมาณ ยี่สิบ นาที ที่ แล้ว พอดี เจอ บัตร แล้ว</sentence>
+<sentence count="1">วัน เสาร์ ที่ โทร อายัด บัตร เจอ บัตร แล้ว ต้อง ทำ บัตร ใหม่ หรือ ว่า ยัง ไง</sentence>
+<sentence count="1">พึ่ง โทร ไป แจ้ง อายัด บัตร ไว้ แต่ ว่า เจอ บัตร แล้ว จะ ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">ได้ โทร ระงับ บัตรเอทีเอ็ม ไว้ ตอน นี้ เจอ บัตร แล้ว มา เปิด ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรสินเชื่อเงินสด</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรเครดิต</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">จะ ขอ ยกเลิก บัตรเอทีเอ็ม กับ ประกัน อุบัติเหตุ</sentence>
+<sentence count="1">ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก เอทีเอ็ม</sentence>
+</training>
+</SLMTraining>

@@ -1,0 +1,46 @@
+const logService =require ('../services/logService'); 
+
+class logController{
+    async logContrller(req,res){
+        let body='';
+        req.on('data', chunk => {
+            body += chunk.toString('utf8'); 
+        });
+        req.on('end', async () => {
+           const Insert=await  logService.InsertLog(body);
+           if(Insert[1][0].result == 0){
+            res.end("Insert success");
+           }else{
+               res.json(Insert)
+               res.end();
+           }
+           
+        });
+    }
+    async converController(req,res){
+       const conver= await logService.getconversation(req);
+        res.json(conver);
+        res.end();
+    }
+
+    async updatevoiceController(req,res){
+       const updarte= await logService.updatevoice(req);
+       res.json(updarte)
+       res.end();
+         
+     }
+
+    async logdetail(req,res){
+        const log= await logService.logdetail(req);
+        res.json(log);
+        res.end();
+    }
+
+    async logvoice(req,res){
+        const log= await logService.logvoice(req);
+        res.json(log);
+        res.end();
+    }
+}
+const LogController =new logController();
+module.exports =LogController;

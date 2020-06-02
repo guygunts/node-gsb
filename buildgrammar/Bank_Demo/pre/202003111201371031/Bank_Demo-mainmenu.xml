@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<grammar xml:lang="th-TH" version="1.0" 
+xmlns="http://www.w3.org/2001/06/grammar"
+mode="voice" root="commands">
+<!-- <meta name="swirec_fsm_parser" content="NULL"/> -->
+<meta name="swirec_fsm_grammar" content="Bank_Demo-slm.fsm"/>
+<meta name="swirec_fsm_wordlist" content="Bank_Demo-slm.wordlist"/>
+<semantic_interpretation xmlns="http://www.nuance.com/semantics" priority="1">
+<component confidence_threshold="0.00">
+<interpreter uri="Bank_Demo-ssm.ssm" type="application/x-vnd.nuance.ssm"/>
+</component>
+<tag>BUILD='202003111201371031';</tag>
+</semantic_interpretation>
+<rule id="commands">
+   commands
+</rule>
+</grammar>

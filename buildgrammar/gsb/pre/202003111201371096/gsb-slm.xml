@@ -1,0 +1,3006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SpeakFreelyConfig SYSTEM "SpeakFreelyConfig.dtd">
+<SLMTraining version="1.0.0" xml:lang="th-th">
+<param name="ngram_order"> <value> 3 </value></param>
+<param name="cutoffs"><value> 0 1 </value></param>
+<param name="smooth_weights"><value>0.1 0.9 0.9 0.4</value></param>
+<param name="smooth_alg"><value>GT-discw-int</value></param>
+<param name="fsm_out"><value>gsb-slm.fsm</value></param>
+<param name="wordlist_out"><value>gsb-slm.wordlist</value></param>
+<vocab>
+<item>บัตร</item>
+<item>ใช้</item>
+<item>ไม่ได้</item>
+<item>ประมาณ</item>
+<item>เดือน</item>
+<item>กว่า</item>
+<item>แล้ว</item>
+<item>ก็</item>
+<item>ว่า</item>
+<item>จะ</item>
+<item>ยกเลิก</item>
+<item>โทร</item>
+<item>มา</item>
+<item>แจ้ง</item>
+<item>ขอ</item>
+<item>ปิดบัตร</item>
+<item>ตอนนี้</item>
+<item>ถูก</item>
+<item>อายัด</item>
+<item>บัตรวีซ่า</item>
+<item>ของ</item>
+<item>ออมสิน</item>
+<item>มี</item>
+<item>ข้อความ</item>
+<item>เข้า</item>
+<item>ที่</item>
+<item>เก้า</item>
+<item>ร้อย</item>
+<item>สิบ</item>
+<item>บาท</item>
+<item>ไม่</item>
+<item>ทำ</item>
+<item>ต่อ</item>
+<item>บัตรเอทีเอ็ม</item>
+<item>กับ</item>
+<item>ประกัน</item>
+<item>อุบัติเหตุ</item>
+<item>การ</item>
+<item>เอทีเอ็ม</item>
+<item>ถาม</item>
+<item>เรื่อง</item>
+<item>สมมุติ</item>
+<item>ได้</item>
+<item>ไหม</item>
+<item>คะ</item>
+<item>จีเอสบี</item>
+<item>ต้องการ</item>
+<item>บัตรหาย</item>
+<item>ปิด</item>
+<item>เวลา</item>
+<item>กด</item>
+<item>เงิน</item>
+<item>ผ่าน</item>
+<item>แอพ</item>
+<item>ตลอด</item>
+<item>ประหยัด</item>
+<item>ค่าใช้จ่าย</item>
+<item>อยาก</item>
+<item>เหลือ</item>
+<item>แต่</item>
+<item>สมุด</item>
+<item>บัญชี</item>
+<item>อย่าง</item>
+<item>เดียว</item>
+<item>ค่ะ</item>
+<item>ค่า</item>
+<item>จะขอ</item>
+<item>ไม่ใช้</item>
+<item>ไป</item>
+<item>ค่าธรรมเนียม</item>
+<item>เลิก</item>
+<item>เสีย</item>
+<item>ค่าประกัน</item>
+<item>นี่</item>
+<item>ไว้</item>
+<item>สลาก</item>
+<item>บัตรสินเชื่อ</item>
+<item>บัตรเครดิต</item>
+<item>บัตรเจนการ์ด</item>
+<item>อยากจะ</item>
+<item>บัตรกดเงินสด</item>
+<item>ต้อง</item>
+<item>อย่างไร</item>
+<item>บ้าง</item>
+<item>งาน</item>
+<item>บัตรเดบิต</item>
+<item>บัตรสมาร์ทแคร์</item>
+<item>ลูกค้า</item>
+<item>ให้</item>
+<item>หน่อย</item>
+<item>ครับ</item>
+<item>ขออนุญาต</item>
+<item>กระเป๋า</item>
+<item>ตังค์</item>
+<item>หาย</item>
+<item>รบกวน</item>
+<item>เอกสาร</item>
+<item>ใน</item>
+<item>ค่อย</item>
+<item>ถ้า</item>
+<item>ทาง</item>
+<item>นี้</item>
+<item>หรือ</item>
+<item>ติดต่อ</item>
+<item>ไหน</item>
+<item>ยัง</item>
+<item>เมื่อกี้</item>
+<item>เห็น</item>
+<item>เด้ง</item>
+<item>หัก</item>
+<item>ยอด</item>
+<item>รึเปล่า</item>
+<item>สอง</item>
+<item>ผม</item>
+<item>ก็เลย</item>
+<item>เผอิญ</item>
+<item>ยังไง</item>
+<item>ส่ง</item>
+<item>เปิด</item>
+<item>อนุญาต</item>
+<item>บัตรประกันชีวิต</item>
+<item>บอกว่า</item>
+<item>เตรียม</item>
+<item>เป็น</item>
+<item>เหมือน</item>
+<item>ตัว</item>
+<item>สิทธิ์</item>
+<item>คุ้มครอง</item>
+<item>หมด</item>
+<item>เลย</item>
+<item>เพราะ</item>
+<item>อยู่</item>
+<item>บัตรออมสิน</item>
+<item>เดบิต</item>
+<item>แอคซิเดน</item>
+<item>บัตรผู้สูงอายุ</item>
+<item>สมาร์ทไลฟ์</item>
+<item>สมาร์ทแคร์</item>
+<item>บัตรสมาร์ทไลฟ์</item>
+<item>บัตรสวัสดิการ</item>
+<item>โดน</item>
+<item>ยึด</item>
+<item>นาน</item>
+<item>แล้วไป</item>
+<item>ใหม่</item>
+<item>นั้น</item>
+<item>คือ</item>
+<item>ใช้งาน</item>
+<item>สอบถาม</item>
+<item>ธนาคาร</item>
+<item>สาขา</item>
+<item>รายปี</item>
+<item>ตู้</item>
+<item>มัน</item>
+<item>กิน</item>
+<item>คุณ</item>
+<item>กดตังค์</item>
+<item>ทำไง</item>
+<item>เกี่ยว</item>
+<item>หมดอายุ</item>
+<item>ตั้งแต่</item>
+<item>หนึ่ง</item>
+<item>ปี</item>
+<item>เมื่อวาน</item>
+<item>จ่าย</item>
+<item>ทั้ง</item>
+<item>เนื่อง</item>
+<item>จาก</item>
+<item>หลาย</item>
+<item>ใบ</item>
+<item>ช่วง</item>
+<item>ภาระ</item>
+<item>หนี้</item>
+<item>ใกล้</item>
+<item>กัน</item>
+<item>ต่าง</item>
+<item>จังหวัด</item>
+<item>ยี่สิบ</item>
+<item>นาที</item>
+<item>พอดี</item>
+<item>เจอ</item>
+<item>วัน</item>
+<item>เสาร์</item>
+<item>ไง</item>
+<item>พึ่ง</item>
+<item>ระงับ</item>
+<item>ตอน</item>
+<item>บัตรสินเชื่อเงินสด</item>
+<item>สามารถ</item>
+<item>โทรศัพท์</item>
+<item>เมื่อ</item>
+<item>สิบโมง</item>
+<item>ถอน</item>
+<item>บัตรแอคซิเดน</item>
+<item>ใช่ไหม</item>
+<item>แอพมายโม่</item>
+<item>ยกเลิกมายโม่</item>
+<item>เรียนถาม</item>
+<item>พวก</item>
+<item>มายโม่</item>
+<item>สมัคร</item>
+<item>สาม</item>
+<item>เลข</item>
+<item>ที</item>
+<item>เนี้ยกด</item>
+<item>บัตรประชาชน</item>
+<item>รอบ</item>
+<item>ยอมให้</item>
+<item>ถูกต้อง</item>
+<item>ขอปิด</item>
+<item>รายการ</item>
+<item>เลิกใช้</item>
+<item>บริการ</item>
+<item>ทำการ</item>
+<item>เครื่อง</item>
+<item>พยายาม</item>
+<item>อัตโนมัติ</item>
+<item>อันนี้</item>
+<item>จำ</item>
+<item>รหัส</item>
+<item>อะไร</item>
+<item>เปลี่ยน</item>
+<item>เบอร์</item>
+<item>เคย</item>
+<item>สำโรง</item>
+<item>ปากน้ำ</item>
+<item>แอพพลิเคชั่น</item>
+<item>แอพโทรศัพท์</item>
+<item>เอง</item>
+<item>สวัสดี</item>
+<item>ตรวจสอบ</item>
+<item>สถานะ</item>
+<item>ฝากประจำ</item>
+<item>สองปี</item>
+<item>ครบกำหนด</item>
+<item>โอน</item>
+<item>ทัน</item>
+<item>โรงเรียน</item>
+<item>ละ</item>
+<item>ทราบ</item>
+<item>คุณแม่</item>
+<item>ฝาก</item>
+<item>ประจำ</item>
+<item>หก</item>
+<item>นะคะ</item>
+<item>ผู้สูงอายุ</item>
+<item>ลืม</item>
+<item>หา</item>
+<item>ข้อมูล</item>
+<item>เกี่ยวกับ</item>
+<item>เงินฝาก</item>
+<item>พิเศษ</item>
+<item>ผู้สูงวัย</item>
+<item>กระแสรายวัน</item>
+<item>หมายเลข</item>
+<item>เอา</item>
+<item>ธุรกรรม</item>
+<item>เช็ค</item>
+<item>เปล่า</item>
+<item>อะ</item>
+<item>ตัวเอง</item>
+<item>บัญชีกระแสรายวัน</item>
+<item>อ่ะค่ะ</item>
+<item>ออมทรัพย์</item>
+<item>ถึง</item>
+<item>ดอกเบี้ย</item>
+<item>เยอะ</item>
+<item>นิดนึง</item>
+<item>ฝากเผื่อเรียก</item>
+<item>พี่</item>
+<item>หรือยัง</item>
+<item>ช่วยเช็ค</item>
+<item>สมุดบัญชี</item>
+<item>เลขบัญชี</item>
+<item>ฮัลโหล</item>
+<item>เนี่ย</item>
+<item>หรือเปล่า</item>
+<item>ใช้ได้</item>
+<item>เงื่อนไข</item>
+<item>ฝากเงิน</item>
+<item>ฝากออมทรัพย์</item>
+<item>ไร</item>
+<item>เผื่อเรียก</item>
+<item>ออม</item>
+<item>เซเว่น</item>
+<item>พอ</item>
+<item>ดี</item>
+<item>ก่อน</item>
+<item>จำนวน</item>
+<item>เต็ม</item>
+<item>ปรึกษา</item>
+<item>เปิดบัญชี</item>
+<item>เด็ก</item>
+<item>เพื่อน</item>
+<item>ชาวต่างชาติ</item>
+<item>ได้ไหม</item>
+<item>พา</item>
+<item>อายุเจ็ดปี</item>
+<item>น้องเขา</item>
+<item>กับพ่อ</item>
+<item>กับแม่</item>
+<item>อันเนี้ย</item>
+<item>ต้องเป็น</item>
+<item>ผู้ปกครอง</item>
+<item>หรือว่า</item>
+<item>พ่อกับแม่</item>
+<item>เท่านั้น</item>
+<item>เซ็นต์</item>
+<item>รับรอง</item>
+<item>ให้ลูก</item>
+<item>ต้องใช้</item>
+<item>กี่บาท</item>
+<item>ใช้ไม่ได้</item>
+<item>จะสอบว่า</item>
+<item>เด็กสอง</item>
+<item>สี่ขวบ</item>
+<item>ขั้นต่ำ</item>
+<item>เท่าไหร่</item>
+<item>รายละเอียด</item>
+<item>ธรรมดา</item>
+<item>อะไรบ้าง</item>
+<item>สอบ</item>
+<item>สมุดเงินฝาก</item>
+<item>คนต่างด้าว</item>
+<item>เรื่องการ</item>
+<item>คอมพิวเตอร์</item>
+<item>อินเทอร์เน็ต</item>
+<item>แบงค์กิ้ง</item>
+<item>แอคเคาท์ติ้ง</item>
+<item>เดียวกัน</item>
+<item>สมัดบัญชี</item>
+<item>เสียเท่าไหร่</item>
+<item>เจ็ดขวบ</item>
+<item>คู่</item>
+<item>คนเดียว</item>
+<item>รองรับ</item>
+<item>สวัสดิการ</item>
+<item>ของรัฐ</item>
+<item>จริงหรือเปล่า</item>
+<item>ฟรี</item>
+<item>ทราบว่า</item>
+<item>เจ็ด</item>
+<item>ขวบ</item>
+<item>ด้วย</item>
+<item>ไม่ได้รับ</item>
+<item>แบงค์</item>
+<item>ถอนเงิน</item>
+<item>แสน</item>
+<item>การเปิดสิทธิ์</item>
+<item>การใช้งาน</item>
+<item>แห่ง</item>
+<item>รัฐ</item>
+<item>ชำระ</item>
+<item>ล่าช้า</item>
+<item>แน่ใจ</item>
+<item>บัตรสีชมพู</item>
+<item>รู้</item>
+<item>รึยัง</item>
+<item>บัตรประกัน</item>
+<item>โปรโมชั่น</item>
+<item>บัตรอิเล็กทรอนิกส์</item>
+<item>รูด</item>
+<item>ซื้อ</item>
+<item>สินค้า</item>
+<item>ใช่</item>
+<item>กดเงิน</item>
+<item>ไม่มี</item>
+<item>บัตรพรีเมี่ยม</item>
+<item>บอก</item>
+<item>ชั่วโมง</item>
+<item>เอสเอ็มเอส</item>
+<item>บัตรเงินสด</item>
+<item>บัตรหลัก</item>
+<item>บัตรเสริม</item>
+<item>บัตรพรีเพิล</item>
+<item>การ์ด</item>
+<item>ยอดค้าง</item>
+<item>เท่าไร</item>
+<item>เหรอ</item>
+<item>รัฐบาล</item>
+<item>โอนเงิน</item>
+<item>คน</item>
+<item>ห้า</item>
+<item>ด้าน</item>
+<item>สมาร์ท</item>
+<item>เตือน</item>
+<item>ไม่ต่อ</item>
+<item>หน่อยครับ</item>
+<item>หน่อยค่ะ</item>
+<item>บัตรนี้</item>
+<item>เรียบร้อย</item>
+<item>บัตรพรีเมียม</item>
+<item>ต่างประเทศ</item>
+<item>แห่งรัฐ</item>
+<item>ตรวจสอบบัตร</item>
+<item>บัตรบีเอ็นเค</item>
+<item>สี่สิบแปด</item>
+<item>โฟร์ตี้เอท</item>
+<item>ลงท้าย</item>
+<item>ส่งมอบ</item>
+<item>บัตรเพรสทีจ</item>
+<item>ปกติ</item>
+<item>กดเงินสด</item>
+<item>ส่วน</item>
+<item>คู่มือ</item>
+<item>บัตรคนจน</item>
+<item>บัตรประชารัฐ</item>
+<item>สินเชื่อ</item>
+<item>ได้ไหมคะ</item>
+<item>ถือ</item>
+<item>เกิด</item>
+<item>อันเนี่ย</item>
+<item>สอบถามว่า</item>
+<item>เบิก</item>
+<item>ค่ารักษา</item>
+<item>พยาบาล</item>
+<item>ผ่าตัด</item>
+<item>กราม</item>
+<item>รักษา</item>
+<item>ค่าพยาบาล</item>
+<item>พรีม่า</item>
+<item>ใช้จ่าย</item>
+<item>เกิน</item>
+<item>พัน</item>
+<item>ขึ้นไป</item>
+<item>อยากได้</item>
+<item>พรีเมี่ยม</item>
+<item>ตรงนี้</item>
+<item>รับ</item>
+<item>กำลังจะ</item>
+<item>สงสัย</item>
+<item>วงเงิน</item>
+<item>ถามว่า</item>
+<item>หมอ</item>
+<item>มั้ย</item>
+<item>ช่วย</item>
+<item>สำรองจ่าย</item>
+<item>หรือไม่</item>
+<item>รายชื่อ</item>
+<item>โรงพยาบาล</item>
+<item>ร่วมกับ</item>
+<item>ฉุกเฉิน</item>
+<item>ที่ว่า</item>
+<item>ครบ</item>
+<item>เป็นกระเป๋า</item>
+<item>แบบ</item>
+<item>วันนี้</item>
+<item>ได้รับ</item>
+<item>แต่ว่า</item>
+<item>ทำไม</item>
+<item>สำหรับ</item>
+<item>โน้ตบุ๊ค</item>
+<item>อย่างนี้</item>
+<item>ส่วนลด</item>
+<item>เพิ่ง</item>
+<item>หมื่น</item>
+<item>หรอ</item>
+<item>ของแถม</item>
+<item>แบบนี้</item>
+<item>กรณี</item>
+<item>บัตรหมดอายุ</item>
+<item>ขึ้น</item>
+<item>ออก</item>
+<item>เข้ามา</item>
+<item>แจ้งว่า</item>
+<item>ย้อนหลัง</item>
+<item>แจ้งเตือน</item>
+<item>อันไหน</item>
+<item>เขา</item>
+<item>อายัดบัตร</item>
+<item>คืน</item>
+<item>ไหมคะ</item>
+<item>กำลัง</item>
+<item>ค่าแรกเข้า</item>
+<item>เบสิค</item>
+<item>บัตรจีเอสบี</item>
+<item>เจนการ์ด</item>
+<item>ลิมิเต็ด</item>
+<item>เรียก</item>
+<item>เก็บ</item>
+<item>อยากรู้</item>
+<item>ไหร่</item>
+<item>ค่าสมัคร</item>
+<item>กี่</item>
+<item>ไม่ค่อย</item>
+<item>ที่แล้ว</item>
+<item>ค่าบริการ</item>
+<item>อีก</item>
+<item>ได้คืน</item>
+<item>ค่ารายปี</item>
+<item>ยกเลิกบัตร</item>
+<item>ระบบ</item>
+<item>ไหมค่ะ</item>
+<item>เสียภาษี</item>
+<item>สองร้อย</item>
+<item>สองร้อยบาท</item>
+<item>ค่าสินค้า</item>
+<item>และ</item>
+<item>อีดีซี</item>
+<item>มีค่าบริการ</item>
+<item>บัตรทดแทน</item>
+<item>การใช้</item>
+<item>เครื่องเอทีเอ็ม</item>
+<item>วีซ่า</item>
+<item>บูท</item>
+<item>ไม่ต้อง</item>
+<item>ตลอดชีพ</item>
+<item>จริง</item>
+<item>อัตราดอกเบี้ย</item>
+<item>คิดดอกเบี้ย</item>
+<item>ป่าว</item>
+<item>อัน</item>
+<item>เงินสด</item>
+<item>ผิด</item>
+<item>งด</item>
+<item>ให้บริการ</item>
+<item>ชั่วคราว</item>
+<item>เดิม</item>
+<item>แทน</item>
+<item>บุคคล</item>
+<item>อื่น</item>
+<item>สาเหตุ</item>
+<item>หมุนเวียน</item>
+<item>ถึงโดน</item>
+<item>คอร์เปอร์เรท</item>
+<item>ซีโอไอบี</item>
+<item>เปลี่ยนเบอร์</item>
+<item>กองทุนหมู่บ้าน</item>
+<item>ระบุ</item>
+<item>ครั้งแรก</item>
+<item>องค์กร</item>
+<item>หน้า</item>
+<item>ผู้ใช้งาน</item>
+<item>แบบผม</item>
+<item>โหลด</item>
+<item>ใส่รหัส</item>
+<item>หมายความว่า</item>
+<item>ในนาม</item>
+<item>บริษัท</item>
+<item>กล้วยน้ำไท</item>
+<item>จำกัด</item>
+<item>เข้าไป</item>
+<item>รหัสผ่าน</item>
+<item>ยูสเซอร์</item>
+<item>ดู</item>
+<item>สเตทเม้น</item>
+<item>ตรง</item>
+<item>เลือก</item>
+<item>เขียน</item>
+<item>รูปแบบ</item>
+<item>ล็อกอิน</item>
+<item>เว็บไซต์</item>
+<item>พิมพ์</item>
+<item>พาสเวิร์ด</item>
+<item>สอน</item>
+<item>ตั้ง</item>
+<item>ล่วงหน้า</item>
+<item>ปุ่ม</item>
+<item>ลง</item>
+<item>เมคเกอร์</item>
+<item>เอสเอ็มอี</item>
+<item>นิติบุคคล</item>
+<item>คอมพานี</item>
+<item>ล็อคอิน</item>
+<item>ตรงไหน</item>
+<item>เปลี่ยนแปลง</item>
+<item>อีเมล</item>
+<item>ใส่</item>
+<item>ชื่อ</item>
+<item>หมายถึง</item>
+<item>เข้าตัว</item>
+<item>ซอง</item>
+<item>ล่ะ</item>
+<item>ไอดี</item>
+<item>ยูสเซอร์เนม</item>
+<item>เข้าสู่</item>
+<item>กู้สวัสดิการ</item>
+<item>คนจน</item>
+<item>ต้องมี</item>
+<item>เรื่องกู้เงิน</item>
+<item>ประชาชน</item>
+<item>ยืนยัน</item>
+<item>ปิดบัญชี</item>
+<item>สำเนา</item>
+<item>ที่ไหน</item>
+<item>ยื่นกู้</item>
+<item>กู้</item>
+<item>กู้เงิน</item>
+<item>พอดีว่า</item>
+<item>การกู้</item>
+<item>หลักฐาน</item>
+<item>เพื่อประชาชน</item>
+<item>อยากจะไป</item>
+<item>ปิดหนี้</item>
+<item>หนังสือ</item>
+<item>การฝาก</item>
+<item>จะไป</item>
+<item>ใบเปลี่ยน</item>
+<item>สกุล</item>
+<item>ไหมครับ</item>
+<item>รหัสผิด</item>
+<item>เฉพาะ</item>
+<item>มือถือ</item>
+<item>แจ้งความ</item>
+<item>ออนไลน์</item>
+<item>มันนี่แกรม</item>
+<item>ข้าม</item>
+<item>เสียค่าธรรมเนียม</item>
+<item>อยากทราบ</item>
+<item>วิธีการ</item>
+<item>ใช่ไหมคะ</item>
+<item>ที่ตู้</item>
+<item>เคลื่อนไหว</item>
+<item>เงินออก</item>
+<item>บัญชีออมทรัพย์</item>
+<item>ให้หน่อยค่ะ</item>
+<item>ตัด</item>
+<item>รายเดือน</item>
+<item>เพิ่ม</item>
+<item>ร้าน</item>
+<item>ตนเอง</item>
+<item>ช้</item>
+<item>ผู้</item>
+<item>ลงทะเบียน</item>
+<item>ร่วม</item>
+<item>ย่าง</item>
+<item>แม่</item>
+<item>เท่า</item>
+<item>นาม</item>
+<item>ครั้ง</item>
+<item>แรก</item>
+<item>กรอก</item>
+<item>เลขที่</item>
+<item>หลัก</item>
+<item>เน็ต</item>
+<item>บ้าน</item>
+<item>ถ่าย</item>
+<item>รูป</item>
+<item>ช่อง</item>
+<item>จอ</item>
+<item>แบงก์กิ้ง</item>
+<item>ชำระเงิน</item>
+<item>หาก</item>
+<item>ทำสัญญา</item>
+<item>ผ่อนชำระ</item>
+<item>เบี้ย</item>
+<item>ประกันชีวิต</item>
+<item>เอ่ย</item>
+<item>แบ่ง</item>
+<item>สโตร์</item>
+<item>งวด</item>
+<item>แค่</item>
+<item>ราคา</item>
+<item>เพิ่มเติม</item>
+<item>สิน</item>
+<item>แล้วก็</item>
+<item>ทำได้</item>
+<item>ออกมา</item>
+<item>นึง</item>
+<item>ผ่อน</item>
+<item>ศูนย์</item>
+<item>จุด</item>
+<item>แปด</item>
+<item>สามสิบ</item>
+<item>เปอร์เซ็น</item>
+<item>ทำเป็น</item>
+<item>การผ่อน</item>
+<item>เป็นหนึ่ง</item>
+<item>สลิป</item>
+<item>พ้อยท์</item>
+<item>ค่าเรียน</item>
+<item>ลูก</item>
+<item>เบี้ยประกัน</item>
+<item>ค้างชำระ</item>
+<item>เงินก้อน</item>
+<item>ช่วงนี้</item>
+<item>อนุมัติ</item>
+<item>ใบแจ้งหนี้</item>
+<item>มีสิทธิ์</item>
+<item>ใบเสร็จรับเงิน</item>
+<item>จัด</item>
+<item>ใบแจ้งยอด</item>
+<item>เมื่อไหร่</item>
+<item>ใบแจ้งยอดหนี้</item>
+<item>คงค้าง</item>
+<item>ทั้งหมด</item>
+<item>ค้าง</item>
+<item>คราว</item>
+<item>คุย</item>
+<item>เจ้าหน้าที่</item>
+<item>หนึ่งร้อย</item>
+<item>ถัดไป</item>
+<item>ขอสอบถาม</item>
+<item>ใบเสร็จ</item>
+<item>ซ้ำ</item>
+<item>ขยาย</item>
+<item>สมมุต</item>
+<item>ฐาน</item>
+<item>เงินเดือน</item>
+<item>วง</item>
+<item>กู้สินเชื่อ</item>
+<item>เงินกู้</item>
+<item>พ่อค้า</item>
+<item>แม่ค้า</item>
+<item>อาชีพ</item>
+<item>ค้าขาย</item>
+<item>ซื้อบ้าน</item>
+<item>ไทรทอง</item>
+<item>นอก</item>
+<item>เพื่อ</item>
+<item>ข้าราชการ</item>
+<item>โครงการ</item>
+<item>เรา</item>
+<item>ลงทุน</item>
+<item>ค้ำประกัน</item>
+<item>ปลดหนี้</item>
+<item>สุขใจ</item>
+<item>โปะ</item>
+<item>อยู่ไหม</item>
+<item>เพื่อการศึกษา</item>
+<item>มัธยม</item>
+<item>สนใจ</item>
+<item>ส่วนบุคคล</item>
+<item>ได้บ้าง</item>
+<item>ยอดคงเหลือ</item>
+<item>ยอดเงิน</item>
+<item>คงเหลือ</item>
+<item>เช็คยอด</item>
+<item>ในเครือ</item>
+<item>เซ็นทรัล</item>
+<item>ยอดหนี้</item>
+<item>รีไฟแนนซ์</item>
+<item>กู้บ้าน</item>
+<item>หมาย</item>
+<item>ถึงว่า</item>
+<item>งี้</item>
+<item>กู้เพิ่ม</item>
+<item>รอ</item>
+<item>อายุ</item>
+<item>ได้ไหมค่ะ</item>
+<item>ทรายทอง</item>
+<item>หกหนึ่ง</item>
+<item>จะทำ</item>
+<item>แบงค์อื่น</item>
+<item>มันจะ</item>
+<item>มีค่าปรับ</item>
+<item>ลดลง</item>
+<item>จะสามารถ</item>
+<item>สัญญา</item>
+<item>ถ้าจะ</item>
+<item>ใคร</item>
+<item>ปรับโครงสร้าง</item>
+<item>เอื้ออาทร</item>
+<item>ห้าปี</item>
+<item>แล้วจะ</item>
+<item>ภายใน</item>
+<item>แหละ</item>
+<item>อยู่แล้ว</item>
+<item>ไว</item>
+<item>ขี่</item>
+<item>รถ</item>
+<item>บล็อค</item>
+<item>ดาวน์โหลด</item>
+<item>โปรแกรม</item>
+<item>โฟน</item>
+<item>ธนาคารออมสิน</item>
+<item>เงินเข้า</item>
+<item>ลืมรหัส</item>
+<item>พร้อมเพย์</item>
+<item>ติดตั้ง</item>
+<item>ผู้ใช้</item>
+<item>ไม่ถูก</item>
+<item>ล็อค</item>
+<item>จ่ายบิล</item>
+<item>ป้อน</item>
+<item>โอที่พี</item>
+<item>ล็อก</item>
+<item>ลบ</item>
+<item>ทำงาน</item>
+<item>เคแบงค์ใน</item>
+<item>ที่ไหนบ้าง</item>
+<item>ขอโทษ</item>
+<item>เก่า</item>
+<item>ซิม</item>
+<item>จำเป็น</item>
+<item>ปัญหา</item>
+<item>ใบขับขี่</item>
+<item>อะค่ะ</item>
+<item>คง</item>
+<item>แปดร้อย</item>
+<item>ทวงถาม</item>
+<item>ดำเนินการ</item>
+<item>ปิดสินเชื่อ</item>
+<item>ยอดปิดบัญชี</item>
+<item>ถามยอด</item>
+<item>ยอดค้างชำระ</item>
+<item>ไว้ว่า</item>
+<item>ในบัตร</item>
+<item>เงินได้</item>
+<item>เล่ม</item>
+<item>บุ๊คแบงค์</item>
+<item>สลากออมสิน</item>
+<item>สถานีตำรวจ</item>
+<item>แฟน</item>
+<item>ซี</item>
+<item>เอ็ม</item>
+<item>บี</item>
+<item>แทบ</item>
+<item>พลิก</item>
+<item>แผ่นดิน</item>
+<item>ไม่ทราบว่า</item>
+<item>ลูกชาย</item>
+<item>สิ้นสุด</item>
+<item>ความ</item>
+<item>วันที่</item>
+<item>เนี้ย</item>
+<item>นะ</item>
+<item>วิธี</item>
+<item>ชำระหนี้</item>
+<item>ค่าไฟ</item>
+<item>ค่าบัตร</item>
+<item>จ่ายสินเชื่อ</item>
+<item>คราวนี้</item>
+<item>บิล</item>
+<item>สมมติ</item>
+<item>ไม่มีบิล</item>
+<item>ค่าเบี้ย</item>
+<item>ยอดขั้นต่ำ</item>
+<item>จ่ายบัตร</item>
+<item>น้อง</item>
+<item>เคแบงค์</item>
+<item>เครดิต</item>
+<item>เปย์</item>
+<item>เค</item>
+<item>พลัส</item>
+<item>เข้าบัญชี</item>
+<item>ใช้เวลา</item>
+<item>กำหนด</item>
+<item>อาทิตย์</item>
+<item>ประชารัฐ</item>
+<item>ไม่เกิน</item>
+<item>ชำระคืน</item>
+<item>พิษณุโลก</item>
+<item>ผู้อนุมัติ</item>
+<item>คอลเซ็นเตอร์</item>
+<item>วันทำการ</item>
+<item>สี่</item>
+<item>เข้ารหัส</item>
+<item>คิด</item>
+<item>บุคคลธรรมดา</item>
+<item>ที่จะ</item>
+<item>ปลดล็อก</item>
+<item>ตอนนั้น</item>
+<item>ลอง</item>
+<item>ย้อน</item>
+<item>มาหา</item>
+<item>พัง</item>
+<item>รหัสใหม่</item>
+<item>เข้าว่า</item>
+<item>ตามที่</item>
+<item>ท่าน</item>
+<item>จัดส่ง</item>
+<item>เสร็จ</item>
+<item>คอย</item>
+<item>ผูก</item>
+<item>สำเร็จ</item>
+<item>จีเมล</item>
+<item>ตู้เอทีเอ็ม</item>
+<item>เชื่อมต่อ</item>
+<item>ทวง</item>
+<item>ตาม</item>
+<item>ซูโม่</item>
+<item>โหล</item>
+<item>จัก</item>
+<item>ให้หน่อย</item>
+<item>ปิดยอด</item>
+<item>ที่สอง</item>
+<item>ปลายทาง</item>
+<item>ความเคลื่อนไหว</item>
+<item>บัตรรัฐ</item>
+<item>โอทีพี</item>
+<item>ปริ้น</item>
+<item>เว็บ</item>
+<item>ดึง</item>
+<item>หวัด</item>
+<item>นิดหนึ่ง</item>
+<item>ตู้เสีย</item>
+<item>เครือข่าย</item>
+<item>วีซ่าเน็ต</item>
+<item>เงินโอน</item>
+<item>ระยะ</item>
+<item>หลัง</item>
+<item>มีเงิน</item>
+<item>ไม่รู้</item>
+<item>โอนตังค์</item>
+<item>สั่ง</item>
+<item>ลาซาด้า</item>
+<item>ยอดเข้า</item>
+<item>ไม่ใช่</item>
+<item>เจ้า</item>
+<item>เบิกเงิน</item>
+<item>กลับ</item>
+<item>สูงสุด</item>
+<item>รายย่อย</item>
+<item>ระหว่าง</item>
+<item>ที่ตั้ง</item>
+<item>หมายความ</item>
+<item>ปรับ</item>
+<item>ล้าน</item>
+<item>คอร์ปอเรท</item>
+<item>ตอนแรก</item>
+<item>รู้สึก</item>
+<item>หน้าจอ</item>
+<item>ประสงค์</item>
+<item>ตั้งค่า</item>
+<item>เหมือนกัน</item>
+<item>วันหนึ่ง</item>
+<item>กสิกร</item>
+<item>ไม่สามารถ</item>
+<item>กดเงินได้</item>
+<item>โชว์</item>
+<item>ทีนี้</item>
+<item>เออ</item>
+<item>อ่ะครับ</item>
+<item>ครับผม</item>
+<item>เมื่อคืน</item>
+<item>ถูกล็อค</item>
+<item>โปรด</item>
+<item>ถูกอายัด</item>
+<item>สินเชื่อเงินสด</item>
+<item>สวัสดีค่ะ</item>
+<item>ต้องทำ</item>
+<item>เค้า</item>
+<item>บัตรอายัด</item>
+<item>ฟ้อง</item>
+<item>โดนระงับ</item>
+<item>เนื่องจาก</item>
+<item>แก้ไข</item>
+<item>เอทีเอ็มโดนระงับ</item>
+<item>มีปัญหา</item>
+<item>บัตรถูกอายัด</item>
+<item>เมื่อเช้า</item>
+<item>โดนอายัด</item>
+<item>บัตรโดนอายัด</item>
+<item>บัตรกดเงิน</item>
+<item>ได้ไง</item>
+<item>หน้าตู้</item>
+<item>กดเงินแล้ว</item>
+<item>ไม่ถูกต้อง</item>
+<item>ยาย</item>
+<item>จำรหัส</item>
+<item>จำไม่ได้</item>
+<item>แจ้งปัญหา</item>
+<item>กดรหัส</item>
+<item>จำนวนเงิน</item>
+<item>บีเอ็นเค</item>
+<item>พีเพิ้ล</item>
+<item>ทำรายการ</item>
+<item>จะต้อง</item>
+<item>ใส่รหัสผิด</item>
+<item>เปลี่ยนรหัส</item>
+<item>กรุณา</item>
+<item>รหัสบัตร</item>
+<item>ดีด</item>
+<item>กี้</item>
+<item>รหัสถูก</item>
+<item>เจ้าของ</item>
+<item>ปลดล็อค</item>
+<item>ถัด</item>
+<item>ทิ้ง</item>
+<item>ข้าง</item>
+<item>บัตรบัตรเครดิต</item>
+<item>มีเรื่อง</item>
+<item>เสียบ</item>
+<item>รหัสไม่ถูกต้อง</item>
+<item>ลืมรหัสบัตร</item>
+<item>จำรหัสบัตร</item>
+<item>รหัสล็อค</item>
+<item>จำรหัสไม่ได้</item>
+<item>ทำใหม่</item>
+<item>กดรหัสผิด</item>
+<item>มันหาย</item>
+<item>รหัสมันหาย</item>
+<item>อุบล</item>
+<item>กลืน</item>
+<item>มุกดาหาร</item>
+<item>สี่แยก</item>
+<item>สักครู่</item>
+<item>สีแดง</item>
+<item>ขออภัย</item>
+<item>ขณะ</item>
+<item>จะแจ้ง</item>
+<item>ไฟ</item>
+<item>ดับ</item>
+<item>ติด</item>
+<item>คา</item>
+<item>คลาย</item>
+<item>ถามสอบ</item>
+<item>ไม่ไ</item>
+<item>ด้</item>
+<item>ดูด</item>
+<item>กรุงเทพ</item>
+<item>ทอน</item>
+<item>บัตรอิออน</item>
+<item>ยอม</item>
+<item>คาย</item>
+<item>ตลาด</item>
+<item>นกฮูก</item>
+<item>ลูกสาว</item>
+<item>กรุงไทย</item>
+<item>บัตรกสิกร</item>
+<item>พัทยา</item>
+<item>จอมเทียน</item>
+<item>ชลบุรี</item>
+<item>หยิบ</item>
+<item>แน่</item>
+<item>ใจ</item>
+<item>ข้างใน</item>
+<item>สอดบัตร</item>
+<item>กำ</item>
+<item>ลัง</item>
+<item>อม</item>
+<item>พ่อ</item>
+<item>มันกินบัตร</item>
+<item>โดนตู้ยึด</item>
+<item>ลืมเอาบัตร</item>
+<item>ลืมบัตรเอทีเอ็ม</item>
+<item>เครื่องยึดบัตร</item>
+<item>โดนกลืน</item>
+<item>บัตรเอทีเอ็มติด</item>
+<item>ถูกดูด</item>
+<item>เครื่องดูดบัตร</item>
+<item>เนม</item>
+<item>ปลด</item>
+<item>โมบาย</item>
+<item>ลืมรหัสผ่าน</item>
+<item>ต่อมา</item>
+<item>บน</item>
+<item>ปรากฏ</item>
+<item>คอลเซนเตอร์</item>
+<item>สัก</item>
+<item>ครู่</item>
+<item>อีกที</item>
+<item>ขั้นตอน</item>
+<item>ทำต่อ</item>
+<item>ติดตั้งใหม่</item>
+<item>รหัสผ่านผิด</item>
+<item>การเข้ารหัส</item>
+<item>แจ้งรหัส</item>
+<item>เครดิตการ์ด</item>
+<item>จำรหัสผ่าน</item>
+<item>อีกแล้ว</item>
+<item>จน</item>
+<item>แก้</item>
+<item>ไม</item>
+<item>อัปโหลด</item>
+<item>อัพเดท</item>
+<item>มาย</item>
+<item>ไอ</item>
+<item>ป้า</item>
+<item>บ่อย</item>
+<item>สุด</item>
+<item>ที่นี้</item>
+<item>กรมธรรม์</item>
+<item>ว่าไม่ได้</item>
+<item>รับเงิน</item>
+<item>ใส่หมายเลข</item>
+<item>ปรับปรุง</item>
+<item>เลขบัตร</item>
+<item>ไม่เข้า</item>
+<item>แมสเสจ</item>
+<item>ไม่ออก</item>
+<item>ได้เงิน</item>
+<item>ตัดเงิน</item>
+<item>มาก</item>
+<item>หมายเลขบัญชี</item>
+<item>ปุ๊บ</item>
+<item>เพราะว่า</item>
+<item>เข้าตู้</item>
+<item>ไม่สำเร็จ</item>
+<item>ยังไม่เข้า</item>
+<item>ขณะนี้</item>
+<item>ศุกร์</item>
+<item>สามร้อย</item>
+<item>ตามเรื่อง</item>
+<item>ไม่ออกมา</item>
+<item>วัด</item>
+<item>หยุด</item>
+<item>อ่ะครับผม</item>
+<item>ตู้ออมสิน</item>
+<item>เช้า</item>
+<item>ก็คือ</item>
+<item>บัตรกรุงไทย</item>
+<item>ไปกด</item>
+<item>ช่วงประมาณ</item>
+<item>สามโมง</item>
+<item>สิบห้า</item>
+<item>สามห้า</item>
+<item>กดไป</item>
+<item>สามพัน</item>
+<item>อีกครั้ง</item>
+<item>สองครั้ง</item>
+<item>ครั้งเดียว</item>
+<item>ถูกหัก</item>
+<item>โอนไม่ได้</item>
+<item>มีคน</item>
+<item>เหมือนกับ</item>
+<item>บัวหลวง</item>
+<item>ผิดบัญชี</item>
+<item>ตู้บุญเติม</item>
+<item>ป่านนี้</item>
+<item>หรือป่าว</item>
+<item>สองพัน</item>
+<item>ไปดู</item>
+<item>โดนหลอก</item>
+<item>โมง</item>
+<item>สองทุ่ม</item>
+<item>ไทยพาณิชย์</item>
+<item>โอนมา</item>
+<item>ตะ</item>
+<item>ตู้อัตโนมัติ</item>
+<item>พนักงาน</item>
+<item>ฝากตังค์</item>
+<item>เคาน์เตอร์</item>
+<item>เซอร์วิส</item>
+<item>ไปทำ</item>
+<item>แค่นี้</item>
+<item>มายการ์ด</item>
+<item>เบอร์หาย</item>
+<item>เบอร์ใหม่</item>
+<item>โดนหัก</item>
+<item>บันทึก</item>
+<item>เพิ่มขึ้น</item>
+<item>กลับคืน</item>
+<item>ตี</item>
+<item>ไลน์</item>
+<item>ดัน</item>
+<item>โอนเข้า</item>
+<item>เอาไว้</item>
+<item>แจ้งยอด</item>
+<item>เท่าเดิม</item>
+<item>ผิดเบอร์</item>
+<item>ดึงเงิน</item>
+<item>ไม่ได้เงิน</item>
+<item>คิวอาร์โค้ด</item>
+<item>ไม่โชว์</item>
+<item>เติมเงิน</item>
+<item>บุญเติม</item>
+<item>ยอดไม่ขึ้น</item>
+<item>ต้นทาง</item>
+<item>การโอน</item>
+<item>เรียบร้อยแล้ว</item>
+<item>ผู</item>
+<item>เบอร์โทรศัพท์</item>
+<item>เรี่อง</item>
+<item>ตัวเงิน</item>
+<item>ต้องรอ</item>
+<item>ตีสาม</item>
+<item>ไม่ปรับ</item>
+<item>มาให้</item>
+<item>ไปแล้ว</item>
+<item>แปดพัน</item>
+<item>หกพันแปด</item>
+<item>กี่โมง</item>
+<item>ตีสี่</item>
+<item>ได้แล้ว</item>
+<item>โอนออก</item>
+<item>เช็คให้หน่อย</item>
+<item>เข้าทาง</item>
+<item>ไม่ขึ้น</item>
+<item>แต่ใน</item>
+<item>บัตรติด</item>
+<item>ลืมบัตร</item>
+<item>น่าจะ</item>
+<item>เชื่อมโยง</item>
+<item>หน่วยงาน</item>
+<item>เทศบาล</item>
+<item>ใบสมัคร</item>
+<item>สมาชิก</item>
+</vocab>
+<training>
+
+<sentence count="1">บัตร ใช้ ไม่ได้ ประมาณ เดือน กว่า แล้ว ก็ ว่า จะ ยกเลิก บัตร</sentence>
+<sentence count="1">โทร มา แจ้ง ยกเลิก บัตร</sentence>
+<sentence count="1">จะ ขอ ปิดบัตร ไม่ได้ ใช้</sentence>
+<sentence count="1">ตอนนี้ บัตร ถูก อายัด ว่า จะ ยกเลิก</sentence>
+<sentence count="1">ยกเลิก บัตร</sentence>
+<sentence count="1">ยกเลิก บัตรวีซ่า ของ ออมสิน</sentence>
+<sentence count="1">มี ข้อความ เข้า มา ที่ บัตร เก้า ร้อย เก้า สิบ เก้า บาท ว่า จะ ยกเลิก ไม่ ทำ ต่อ</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">จะ ขอ ยกเลิก บัตรเอทีเอ็ม กับ ประกัน อุบัติเหตุ</sentence>
+<sentence count="1">ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก เอทีเอ็ม</sentence>
+<sentence count="1">ถาม เรื่อง บัตร สมมุติ ยกเลิก บัตรเอทีเอ็ม ได้ ไหม คะ จีเอสบี</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ไม่ได้ ใช้ บัตรเอทีเอ็ม ยกเลิก การ ใช้</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม บัตรหาย</sentence>
+<sentence count="1">ต้องการ ปิด บัตรเอทีเอ็ม ไม่ได้ ใช้ บัตร แล้ว เวลา กด เงิน กด ผ่าน แอพ ตลอด ประหยัด ค่าใช้จ่าย</sentence>
+<sentence count="1">จะ ขอ ยกเลิก บัตรเอทีเอ็ม ไม่ ได้ ทำ แล้ว</sentence>
+<sentence count="1">อยาก ปิด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">อยาก ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">อยาก ยกเลิก การ ใช้ บัตรเอทีเอ็ม เหลือ แต่ สมุด บัญชี อย่าง เดียว</sentence>
+<sentence count="1">ค่ะ จะ ขอ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ค่า จะขอ ยกเลิก บัตรเอทีเอ็ม แล้ว ก็ ไม่ใช้ อายัด ไป</sentence>
+<sentence count="1">ค่า ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก ค่าธรรมเนียม บัตรเอทีเอ็ม เลิก ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ของ ออมสิน เสีย ค่าประกัน อยาก ยกเลิก ได้ ไหม คะ</sentence>
+<sentence count="1">ปิด บัตรเอทีเอ็ม ใช้ แอพ แล้ว บัญชี ที่ ปิด นี่ ไว้ สลาก ออมสิน</sentence>
+<sentence count="1">ยกเลิก บัตรสินเชื่อ</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเครดิต อายัด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตรเจนการ์ด</sentence>
+<sentence count="1">อยากจะ ยกเลิก บัตรเครดิต กับ บัตรกดเงินสด</sentence>
+<sentence count="1">อยากจะ ยกเลิก บัตรกดเงินสด</sentence>
+<sentence count="1">ยกเลิก บัตร ต้อง ทำ อย่างไร บ้าง</sentence>
+<sentence count="1">ปิด เอทีเอ็ม</sentence>
+<sentence count="1">โทร ยกเลิก บัตรเอทีเอ็ม ไม่ใช้ แล้ว</sentence>
+<sentence count="1">ต้องการ ยกเลิก การ ใช้ งาน บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเดบิต</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรสมาร์ทแคร์</sentence>
+<sentence count="1">ลูกค้า ต้องการ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ให้ ยกเลิก บัตรเอทีเอ็ม ให้ หน่อย ครับ</sentence>
+<sentence count="1">ขออนุญาต ปิด บัตรเครดิต</sentence>
+<sentence count="1">อยาก ยกเลิก บัตร</sentence>
+<sentence count="1">อายัด บัตร ทำ กระเป๋า ตังค์ หาย</sentence>
+<sentence count="1">ต้องการ ปิด บัตร</sentence>
+<sentence count="1">อยาก ยกเลิก การ ใช้ งาน บัตรเครดิต</sentence>
+<sentence count="1">อยาก จะ แจ้ง ยกเลิก บัตร</sentence>
+<sentence count="1">อยาก จะ แจ้ง ปิด การ ใช้ งาน บัตร</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตร</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม ไม่ได้ ใช้</sentence>
+<sentence count="1">รบกวน ขอ เอกสาร ใน การ ยกเลิก ใช้ งาน บัตร</sentence>
+<sentence count="1">โทร มา แจ้ง ยกเลิก ไม่ ใช้ บัตร แล้ว</sentence>
+<sentence count="1">ยกเลิก บัตร</sentence>
+<sentence count="1">อยาก ยกเลิก บัตรกดเงินสด</sentence>
+<sentence count="1">อยาก จะ แจ้ง ยกเลิก ใช้ งาน บัตร</sentence>
+<sentence count="1">อยาก ยกเลิก บัตร</sentence>
+<sentence count="1">ยกเลิก บัตร บัตร ไม่ ค่อย ได้ ใช้</sentence>
+<sentence count="1">จะ แจ้ง ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ค่ะ ต้องการ ยกเลิก บัตร</sentence>
+<sentence count="1">อยาก ปิด บัตร</sentence>
+<sentence count="1">อยาก ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ยกเลิก ไม่ใช้ เอทีเอ็ม แล้ว</sentence>
+<sentence count="1">ถ้า ยกเลิก บัตรเอทีเอ็ม นี่ ทาง นี้ ได้ ไหม หรือ ว่า ติดต่อ ทาง ไหน ได้ บ้าง</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรเอทีเอ็ม ไม่ ต้องการ ใช้ งาน</sentence>
+<sentence count="1">จะ ขอ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ขอ ยกเลิก ใช้ บัตรเอทีเอ็ม อายัด บัตร</sentence>
+<sentence count="1">ค่า ยกเลิก บัตรเอทีเอ็ม บัตร หาย แล้ว อายัด ไว้ แต่ ยัง ไม่ได้ ยกเลิก</sentence>
+<sentence count="1">ค่า อยาก ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">อยาก จะ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">เมื่อกี้ เห็น ข้อความ เด้ง เข้า มา หัก ยอด เงิน เอทีเอ็ม รึเปล่า สอง ร้อย บาท ครับ ผม ก็เลย อยาก จะ ทำ การ ยกเลิก</sentence>
+<sentence count="1">เผอิญ ว่า จะ ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ทำ ไป แล้ว ไม่ได้ ใช้ จะ ขอ ยกเลิก ได้ ไหม คะ แล้ว ต้อง ทำ ยังไง</sentence>
+<sentence count="1">มี บัตรเครดิต ส่ง มา แต่ ไม่ ต้องการ เปิด ใช้ จะ ขอ อนุญาต รบกวน ยกเลิก ให้ หน่อย</sentence>
+<sentence count="1">ยกเลิก บัตรประกันชีวิต</sentence>
+<sentence count="1">ข้อความ เข้า มา บอกว่า ให้ เตรียม เงิน เก้า ร้อย เก้า สิบ เก้า บาท เป็น เหมือน กับ ตัว สิทธิ์ คุ้มครอง หมด แล้ว ก็ เลย ว่า จะ ยกเลิก เพราะ ตัว นี้ ผม ไม่ได้ ใช้ อยู่ แล้ว มี ประกัน นี่ อยู่ แล้ว</sentence>
+<sentence count="1">ยกเลิก บัตรเดบิต</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรออมสิน เดบิต</sentence>
+<sentence count="1">ยกเลิก บัตร แอคซิเดน</sentence>
+<sentence count="1">ยกเลิก บัตรผู้สูงอายุ</sentence>
+<sentence count="1">ยกเลิก บัตรสมาร์ทแคร์</sentence>
+<sentence count="1">ยกเลิก บัตร สมาร์ทไลฟ์ สมาร์ทแคร์</sentence>
+<sentence count="1">ยกเลิก บัตรสมาร์ทไลฟ์</sentence>
+<sentence count="1">ยกเลิก บัตรสวัสดิการ</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรสวัสดิการ</sentence>
+<sentence count="1">ขอ ยกเลิก บัตร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ผม จะ แจ้ง บัตร เอทีเอ็ม โดน ยึด ไป นาน แล้ว ไม่ได้ ใช้ แล้ว ไม่ได้ แจ้ง ยกเลิก ยกเลิก ไป แล้วไป ทำ ใหม่ อย่าง นั้น ได้ ไหม</sentence>
+<sentence count="1">คือ จะ ยกเลิก เอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก ใช้งาน บัตร เอทีเอ็ม</sentence>
+<sentence count="1">ว่า จะ ยกเลิก บัตรเอทีเอ็ม บัตรหาย</sentence>
+<sentence count="1">เอทีเอ็ม ไม่ได้ ใช้ จะ ขอ ยกเลิก</sentence>
+<sentence count="1">ต้องการ ยกเลิก การ ใช้ งาน บัตรเดบิต</sentence>
+<sentence count="1">อยาก จะ ยกเลิก ใช้ งาน บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ที่ จะ ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ต้อง สอบถาม ปิด บัตรเครดิต ของ ธนาคาร</sentence>
+<sentence count="1">สอบถาม ต้องการ ปิด บัตรเครดิต ไป สาขา ได้ ไหม คะ</sentence>
+<sentence count="1">ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ยกเลิก การ ใช้ บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรกดเงินสด</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตร</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม ที่ หัก รายปี</sentence>
+<sentence count="1">ให้ ยกเลิก เอทีเอ็ม ตู้ มัน กิน บัตร</sentence>
+<sentence count="1">จะ แจ้ง ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ต้องการ ยกเลิก การ ใช้ งาน บัตรเอทีเอ็ม สมาร์ทไลฟ์</sentence>
+<sentence count="1">จะ โทร มา ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">จะ ขอ ยกเลิก เอทีเอ็ม ออมสิน ของ คุณ</sentence>
+<sentence count="1">โทร มา ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">บัตร กดตังค์ ไม่ได้ อยาก มา ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม เพราะ ว่า บัตร หาย ไม่ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตร ต้อง ทำไง</sentence>
+<sentence count="1">สอบถาม เกี่ยว กับ บัตรเอทีเอ็ม หมดอายุ ตั้งแต่ เดือน หนึ่ง ปี หนึ่ง เก้า จะ ขอ ยกเลิก ไป ไม่ใช้ บัตร</sentence>
+<sentence count="1">มา ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม ไม่ได้ ใช้ แล้ว</sentence>
+<sentence count="1">ยกเลิก ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก บัตร</sentence>
+<sentence count="1">โทร มา ยกเลิก บัตร ไม่ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">แจ้ง ยกเลิก บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ปิด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ต้องการ ยกเลิก การ ใช้ งาน บัตรเอทีเอ็ม</sentence>
+<sentence count="1">จะ ยกเลิก บัตร</sentence>
+<sentence count="1">ปิด บัตรเครดิต เมื่อวาน ไป จ่าย ทั้ง หมด แล้ว</sentence>
+<sentence count="1">ต้องการ ยกเลิก บัตรเอทีเอ็ม ไม่ได้ ใช้</sentence>
+<sentence count="1">ยกเลิก การ ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">สอบถาม ว่า ยกเลิก เอทีเอ็ม เพราะ ไม่ได้ ใช้ ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">รบกวน บัตร หาย จะ แจ้ง อายัด บัตร</sentence>
+<sentence count="1">ขอ ยกเลิก บัตรเครดิต</sentence>
+<sentence count="1">ปิดบัตร</sentence>
+<sentence count="1">ยกเลิก บัตรเครดิต เนื่อง จาก ว่า มี บัตร หลาย ใบ แล้ว ก็ อยู่ ใน ช่วง ที่ ภาระ หนี้ ใกล้ ใกล้ กัน</sentence>
+<sentence count="1">โทร มา ยกเลิก บัตรเอทีเอ็ม ไม่ ค่อย ได้ ใช้ ไม่ได้ ใช้</sentence>
+<sentence count="1">ยกเลิก บัตรเอทีเอ็ม ไม่ได้ ใช้ งาน แล้ว ไป อยู่ ต่าง จังหวัด</sentence>
+<sentence count="1">โทร อายัด บัตร ประมาณ ยี่สิบ นาที ที่ แล้ว พอดี เจอ บัตร แล้ว</sentence>
+<sentence count="1">วัน เสาร์ ที่ โทร อายัด บัตร เจอ บัตร แล้ว ต้อง ทำ บัตร ใหม่ หรือ ว่า ยัง ไง</sentence>
+<sentence count="1">พึ่ง โทร ไป แจ้ง อายัด บัตร ไว้ แต่ ว่า เจอ บัตร แล้ว จะ ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">ได้ โทร ระงับ บัตรเอทีเอ็ม ไว้ ตอน นี้ เจอ บัตร แล้ว มา เปิด ใช้ บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรสินเชื่อเงินสด</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรเครดิต</sentence>
+<sentence count="1">โทร มา สอบถาม บัตร หาย แล้ว โทร อายัด ไว้ ถ้า ยัง เจอ บัตร แล้ว ยกเลิก ได้ ไหม</sentence>
+<sentence count="1">เมื่อวาน นี้ โทร ไป อายัด บัตร สามารถ ยกเลิก ทาง โทรศัพท์ ได้ ไหม คะ</sentence>
+<sentence count="1">เมื่อ ประมาณ สิบโมง โทร ไป อายัด บัตร แต่ ตอนนี้ เจอ บัตร แล้ว</sentence>
+<sentence count="1">มา แจ้ง ถอน อายัด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเอทีเอ็ม แจ้ง อายัด บัตร ไว้ ตอน นี้ เจอ แล้ว</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ที่ อายัด ไป แล้ว ตอนนี้ เจอ แล้ว สามารถ เปิด บัตร ได้ รึเปล่า</sentence>
+<sentence count="1">ค่า ยกเลิก ระงับ บัตรเอทีเอ็ม ของ ออมสิน</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรแอคซิเดน</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรผู้สูงอายุ</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรสมาร์ทแคร์</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรสมาร์ทไลฟ์</sentence>
+<sentence count="1">ยกเลิก อายัด บัตรกดเงินสด บัตรสวัสดิการ</sentence>
+<sentence count="1">ติดต่อ เรื่อง บัตรเครดิต กับ บัตรกดเงินสด วัน นั้น แจ้ง หาย ให้ อายัด บัตร แต่ ตอนนี้ เจอ บัตร แล้ว ต้อง ยกเลิก ใช่ไหม ค่ะ</sentence>
+<sentence count="1">ต้องการ ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">ต้องการ ยกเลิกมายโม่</sentence>
+<sentence count="1">ยกเลิกมายโม่</sentence>
+<sentence count="1">อยาก ขอ เรียนถาม การ ที่ ยกเลิกมายโม่ นี่ ทำ ยังไง บ้าง</sentence>
+<sentence count="1">ขอ ยกเลิกมายโม่ ไม่ ได้ ใช้</sentence>
+<sentence count="1">ยกเลิก พวก มายโม่</sentence>
+<sentence count="1">พอดี จะ ขอ แจ้ง ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">จะขอ ยกเลิก แอพมายโม่ แล้ว สมัคร ใหม่</sentence>
+<sentence count="1">ขอ ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">ต้องการ ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">กด สาม ไม่ ได้ เลข ขอ ยกเลิกมายโม่</sentence>
+<sentence count="1">ยกเลิกมายโม่</sentence>
+<sentence count="1">เมื่อกี้ กด ยกเลิกมายโม่ แล้ว ที เนี้ยกด เลข บัตรประชาชน สาม รอบ แล้ว ไม่ ยอมให้ บอกว่า ไม่ ถูกต้อง</sentence>
+<sentence count="1">ขอปิด การ ทำ รายการ มายโม่</sentence>
+<sentence count="1">เลิกใช้ บริการ มายโม่</sentence>
+<sentence count="1">ยกเลิก แอพมายโม่</sentence>
+<sentence count="1">เมื่อ วัน เสาร์ ทำการ ยกเลิก แอพมายโม่ ใน โทรศัพท์ เครื่อง โทรศัพท์ หาย พยายาม ทำ แล้ว เหมือน ยกเลิก ไม่ ได้</sentence>
+<sentence count="1">ยกเลิกมายโม่ อัตโนมัติ ไม่ได้</sentence>
+<sentence count="1">อันนี้ ขอ ยกเลิกมายโม่ จำ รหัส อะไร ไม่ ได้ หาย หมด</sentence>
+<sentence count="1">โทร มา ยกเลิกมายโม่ เพราะ เปลี่ยน เบอร์ ใหม่</sentence>
+<sentence count="1">ยกเลิก ที่ เคย สมัคร มายโม่</sentence>
+<sentence count="1">ต้องการ ยกเลิกมายโม่ ของ สาขา สำโรง แล้ว เปิด สาขา ปากน้ำ</sentence>
+<sentence count="1">ยกเลิก ไม่ได้ ต้องการ ยกเลิกมายโม่</sentence>
+<sentence count="1">จะขอ ยกเลิกมายโม่</sentence>
+<sentence count="1">ต้องการ ยกเลิก บริการ มายโม่</sentence>
+<sentence count="1">ต้องการ ยกเลิกมายโม่</sentence>
+<sentence count="1">ยกเลิก เบอร์ ที่ เคย ใช้ สมัคร มายโม่</sentence>
+<sentence count="1">ยกเลิก แอพพลิเคชั่น มายโม่ จำ รหัส ไม่ ได้</sentence>
+<sentence count="1">ถ้า ยกเลิก แอพโทรศัพท์ เอง ได้ ไหม</sentence>
+<sentence count="1">โทร ไป ยกเลิก แล้ว ไม่ ให้ ยกเลิก แอพพลิเคชั่น</sentence>
+<sentence count="1">ยกเลิก แอพมายโม่ ไม่ได้ ใช้ บัญชี นั้น แล้ว</sentence>
+<sentence count="1">ยกเลิกมายโม่ โทรศัพท์ หาย</sentence>
+<sentence count="1">สวัสดี ครับ ขอ อนุญาต ตรวจสอบ สถานะ บัญชี ให้ หน่อย ครับ ผม</sentence>
+<sentence count="1">เปิด บัญชี ฝากประจำ สองปี แล้ว ครบกำหนด แล้ว โอน ตอนนี้ จะ ทัน ไหม</sentence>
+<sentence count="1">พอดี ผม เปิด บัญชี กับ ธนาคาร โรงเรียน ละ อยาก ทราบ เลข บัญชี</sentence>
+<sentence count="1">คุณแม่ เปิด บัญชี ไว้ ไม่ได้ ใช้ มา สองปี แล้ว ยัง ใช้ ได้ อยู่ ไหม ค่ะ</sentence>
+<sentence count="1">พอดี ว่า อยาก จะ สอบถาม บัญชี เงิน ฝาก ประจำ สาม สิบ หก เดือน นะคะ</sentence>
+<sentence count="1">ตรวจสอบ เงิน ผู้สูงอายุ</sentence>
+<sentence count="1">สวัสดี ค่ะ จะ มา ขอ เลข บัญชี ค่ะ พอดี ว่า ลืม</sentence>
+<sentence count="1">สวัสดี ค่ะ พอดี ตอนนี้ หา สมุด บัญชี ไม่ เจอ ขอ เลข บัญชี</sentence>
+<sentence count="1">สวัสดี ค่ะ สอบถาม ตัว ข้อมูล เกี่ยวกับ เงินฝาก พิเศษ ผู้สูงวัย ค่ะ</sentence>
+<sentence count="1">สอบถาม เลข บัญชี ฝาก กระแสรายวัน</sentence>
+<sentence count="1">อยาก จะ ทราบ หมายเลข บัญชี</sentence>
+<sentence count="1">ผม จะ สอบถาม เบอร์ บัญชี ของ ผม ได้ ไหม ลืม เอา เลข มา</sentence>
+<sentence count="1">สวัสดี ค่ะ สอบถาม เรื่อง หมายเลข บัญชี ค่ะ</sentence>
+<sentence count="1">สวัสดี ค่ะ พอดี จะ ติดต่อ สอบถาม ว่า พอดี จำ เลข บัญชี ไม่ ได้ ค่ะ</sentence>
+<sentence count="1">ครับ ว่า จะ สอบถาม จะ ทำ เป็น บัญชี ธุรกรรม ต้อง ทำ ยังไง ครับ</sentence>
+<sentence count="1">ผม จะ เช็ค ว่า บัญชี ของ ผม ยัง ใช้ ได้ อยู่ หรือ เปล่า อะ ครับ</sentence>
+<sentence count="1">สวัสดี ค่ะ อยาก ทราบ เบอร์ บัญชี ค่ะ ของ ตัวเอง อะ ค่ะ จำ ไม่ ได้ ค่ะ</sentence>
+<sentence count="1">ค่ะ จะ สอบถาม เกี่ยวกับ บัญชีกระแสรายวัน อ่ะค่ะ</sentence>
+<sentence count="1">จะ สอบถาม เงิน บัญชี ออมทรัพย์ ต้อง ใช้ งาน ยังไง ถึง จะ ดอกเบี้ย เยอะ</sentence>
+<sentence count="1">รบกวน สอบถาม นิดนึง ค่ะ ตอนนี้ ยัง มี ฝากเผื่อเรียก พิเศษ หรือ ไม่ ครับ</sentence>
+<sentence count="1">อยาก สอบถาม ฝากประจำ</sentence>
+<sentence count="1">พี่ อยาก ทราบ เลข บัญชี ของ พี่</sentence>
+<sentence count="1">อยาก ทราบ เลข บัญชี</sentence>
+<sentence count="1">บัญชี หมดอายุ หรือยัง</sentence>
+<sentence count="1">ช่วยเช็ค สมุดบัญชี</sentence>
+<sentence count="1">สอบถาม เลขบัญชี</sentence>
+<sentence count="1">ฮัลโหล อยาก สอบถาม ว่า หมายเลข บัญชี เนี่ย ยัง ใช้งาน ได้ หรือเปล่า</sentence>
+<sentence count="1">จะ เช็ค สถานะ บัญชี ยัง ใช้ได้ ไหม</sentence>
+<sentence count="1">ต้องการ ทราบ เงื่อนไข ใน การ ฝากเงิน</sentence>
+<sentence count="1">ฝากออมทรัพย์ ของ ธนาคาร ออมสิน ต้อง ใช้ อะ ไร บ้าง</sentence>
+<sentence count="1">อยาก จะ สอบถาม เกี่ยว บัญชี เงินฝาก</sentence>
+<sentence count="1">ฮัลโหล คะ บัญชี เผื่อเรียก บัญชี อะไร</sentence>
+<sentence count="1">สอบถาม เรื่อง เงิน ฝากประจำ</sentence>
+<sentence count="1">อยาก ทราบ ทำ บัญชี เผื่อเรียก ต้อง ทำ ไง</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยว บัญชี ออม</sentence>
+<sentence count="1">ฝากเงิน กับ ทาง เซเว่น ไป จะ เข้า ตอน ไหน</sentence>
+<sentence count="1">พอ ดี จะ สอบถาม เรื่อง สมุด บัญชี เงินฝาก</sentence>
+<sentence count="1">มี บัญชี เงินฝาก ลืม โอน เข้า เป็น อะไร ไหม</sentence>
+<sentence count="1">จะ สอบถาม มี เงิน ฝากประจำ ถ้า ถอน ก่อน ครบกำหนด ได้ เงิน เป็น จำนวน เต็ม ไหม ค่ะ</sentence>
+<sentence count="1">อยาก สอบถาม ออมสิน เผื่อเรียก พิเศษ</sentence>
+<sentence count="1">อยาก จะ ขอ ปรึกษา เกี่ยวกับ การ เปิดบัญชี ธนาคาร ของ เด็ก</sentence>
+<sentence count="1">ขอ สอบถาม อยาก จะ เปิดบัญชี ต้อง ทำ อย่างไร บ้าง</sentence>
+<sentence count="1">จะ ขอ สอบถาม เพื่อน เป็น ชาวต่างชาติ เปิดบัญชี ได้ไหม</sentence>
+<sentence count="1">สอบถาม ข้อมูล พา เด็ก อายุเจ็ดปี มี บัตรประชาชน แล้ว ไป เปิดบัญชี แต่ น้องเขา ไม่ได้ อยู่ กับพ่อ กับแม่ อันเนี้ย ต้องเป็น ผู้ปกครอง หรือว่า ต้องเป็น พ่อกับแม่ เท่านั้น ที่ เซ็นต์ รับรอง เปิดบัญชี</sentence>
+<sentence count="1">เปิด บัญชี ธนาคาร ให้ลูก</sentence>
+<sentence count="1">เปิดบัญชี ต้องใช้ ตังค์ กี่บาท</sentence>
+<sentence count="1">ติดต่อ เรื่อง เปิดบัญชี เลขบัญชี ใช้ไม่ได้</sentence>
+<sentence count="1">จะสอบว่า เด็กสอง ถึง สี่ขวบ สามารถ เปิดบัญชี ได้ไหม</sentence>
+<sentence count="1">ต้องการ เปิดบัญชี ออมทรัพย์ ต้อง ฝาก ขั้นต่ำ เท่าไหร่</sentence>
+<sentence count="1">อยาก จะ ถาม อยาก ทราบ รายละเอียด เกี่ยวกับ การ เปิดบัญชี</sentence>
+<sentence count="1">เปิดบัญชี ธรรมดา ต้องใช้ อะไรบ้าง ค่าใช้จ่าย เท่าไหร่</sentence>
+<sentence count="1">อยากจะ สอบ เรื่อง เกี่ยวกับ เปิด สมุดเงินฝาก</sentence>
+<sentence count="1">สอบถาม การ เปิด บัญชี กระแสรายวัน</sentence>
+<sentence count="1">อยาก เปิดบัญชี เกี่ยวกับ คนต่างด้าว</sentence>
+<sentence count="1">อยาก สอบถาม เรื่องการ เปิดบัญชี ให้ลูก</sentence>
+<sentence count="1">ถ้า ไป เปิดบัญชี ออมสิน ใน การ ทำ คอมพิวเตอร์ ใช้ อินเทอร์เน็ต แบงค์กิ้ง แอคเคาท์ติ้ง เดียวกัน ได้ ไหม</sentence>
+<sentence count="1">ขอ สอบถาม เรื่อง สมัดบัญชี</sentence>
+<sentence count="1">ติดต่อ เกี่ยวกับ เปิดบัญชี</sentence>
+<sentence count="1">ตอนนี้ เปิดบัญชี ออมสิน แต่ ไม่ใช้ บัตร เสียเท่าไหร่</sentence>
+<sentence count="1">สอบถาม เปิดบัญชี ของ เด็ก เจ็ดขวบ ต้องใช้ อะไรบ้าง</sentence>
+<sentence count="1">ไป เปิดบัญชี คู่ แล้ว ยกเลิก ไป เปิด คนเดียว ได้ไหม</sentence>
+<sentence count="1">อยาก ทราบ เอกสาร ที่ ใช้ ใน การ เปิดบัญชี</sentence>
+<sentence count="1">เปิดบัญชี ใหม่ ของ ธนาคาร ออมสิน รองรับ สวัสดิการ ของรัฐ นี้ จริงหรือเปล่า</sentence>
+<sentence count="1">สอบถาม เรื่อง การ เปิดบัญชี</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ เปิดบัญชี</sentence>
+<sentence count="1">เปิดบัญชี ต้อง มี ขั้นต่ำ เท่าไหร่ หรือ ฟรี</sentence>
+<sentence count="1">สอบถาม เรื่อง การ เปิดบัญชี ใหม่</sentence>
+<sentence count="1">อยากจะ ทราบว่า เปิดบัญชี ใหม่ ต้อง เสีย เท่าไหร่</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ การ เปิดบัญชี</sentence>
+<sentence count="1">อยาก ทราบ เกี่ยวกับ การ เปิดบัญชี</sentence>
+<sentence count="1">เด็ก เจ็ด ขวบ เปิดบัญชี ผู้ปกครอง ต้อง ไป ด้วย ไหม</sentence>
+<sentence count="1">ไป เปิดบัญชี มา ยัง ไม่ได้รับ สมุด แบงค์ มา ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก ทำ บัญชี ถอนเงิน วัน ละ หนึ่ง แสน ได้ ไหม</sentence>
+<sentence count="1">สอบถาม การเปิดสิทธิ์ การใช้งาน บัญชี</sentence>
+<sentence count="1">ต้องการ สอบถาม เรื่อง บัตรเครดิต</sentence>
+<sentence count="1">อยาก จะ ถาม เรื่อง บัตรสวัสดิการ แห่ง รัฐ หน่อย ครับ</sentence>
+<sentence count="1">สอบถาม ชำระ บัตร ล่าช้า บัตร ใช้ ได้ วัน ไหน</sentence>
+<sentence count="1">สมัคร บัตรกดเงินสด ไว้ จะ ถาม ข้อมูล</sentence>
+<sentence count="1">สอบถาม บัตร ใช้ งาน ได้ ไหม เมื่อ วัน ก่อน จ่าย ไป แล้ว</sentence>
+<sentence count="1">บัตรออมสิน ไม่ แน่ใจ ว่า เป็น บัตร อะไร เป็น บัตรสีชมพู</sentence>
+<sentence count="1">อยาก ทราบว่า เช็ค ข้อมูล ผ่าน บัตร ได้ ไหม</sentence>
+<sentence count="1">อยาก รู้ ว่า บัตร ธนาคาร ออมสิน ยัง ใช้ ได้ อยู่ ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตร ปิด ใช้ งาน รึยัง</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรประกัน</sentence>
+<sentence count="1">สอบถาม โปรโมชั่น เกี่ยวกับ บัตรอิเล็กทรอนิกส์</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเครดิต กับ บัตรกดเงินสด</sentence>
+<sentence count="1">สอบถาม บัตร ที่ ใช้ อยู่ ใช้ รูด ซื้อ สินค้า ได้ เลย ใช่ ไหม</sentence>
+<sentence count="1">อยาก กดเงิน แต่ ไม่มี บัตร ต้อง ทำ ไง</sentence>
+<sentence count="1">บัตร หมดอายุ บัตร มี ประกัน ด้วย ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรพรีเมี่ยม ออมสิน</sentence>
+<sentence count="1">เมื่อกี้ ติดต่อ ไป ทาง ธนาคาร บอก ว่า ประมาณ สอง ชั่วโมง ส่ง เอสเอ็มเอส มา เรื่อง ใช้ บัตรเงินสด</sentence>
+<sentence count="1">เปิด บัตรออมสิน เปิด ทั้ง บัตรหลัก ทั้ง บัตรเสริม เลย ได้ ไหม</sentence>
+<sentence count="1">ขอ เช็ค สถานะ บัตร</sentence>
+<sentence count="1">บัตรพรีเพิล การ์ด กด ผ่าน ตู้ เอทีเอ็ม ได้ ไหม</sentence>
+<sentence count="1">อยาก ทราบว่า ยอดค้าง ชำระ ของ บัตรกดเงินสด เหลือ เท่าไร</sentence>
+<sentence count="1">สอบถาม บัตรออมสิน สมาร์ทไลฟ์ เคย ทำ ด้วย เหรอ คะ</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรแอคซิเดน</sentence>
+<sentence count="1">ตอนนี้ รัฐบาล โอนเงิน เข้า บัตรผู้สูงอายุ คน ละ ห้า ร้อย ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรเจนการ์ด</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ทาง ด้าน บัญชี จีเอสบี สมาร์ทแคร์</sentence>
+<sentence count="1">เงิน อยู่ ใน บัญชี แต่ ไม่ได้ หัก ประกัน ทำ ไง</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเดบิต สมาร์ท อะไร ที่ ว่า เดือน ห้า เก้า เก้า เตือน มา เป็น ประกัน ใช่ ไหม ไม่ต่อ ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรกดเงินสด</sentence>
+<sentence count="1">ตรวจสอบ สถานะ ของ บัตร</sentence>
+<sentence count="1">บัตรเครดิต มี ค่าธรรมเนียม รายปี ไหม</sentence>
+<sentence count="1">เช็ค สถานะ บัตรเครดิต</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเดบิต</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ บัตรเอทีเอ็ม หน่อยครับ</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ บัตรเอทีเอ็ม หน่อยค่ะ</sentence>
+<sentence count="1">อยากจะ สอบถาม สถานะ บัตร หน่อย</sentence>
+<sentence count="1">อยาก ทราบว่า บัตรนี้ เป็น บัตรกดเงินสด หรือเปล่า</sentence>
+<sentence count="1">บัตรเสริม ผม เปิด บัตร เรียบร้อย รึยัง</sentence>
+<sentence count="1">สอบถาม บัตรพรีเมียม ใช้ ต่างประเทศ ได้ไหม</sentence>
+<sentence count="1">บัตรนี้ เป็น ของ เลข บัญชี ไหน</sentence>
+<sentence count="1">ตรวจสอบ บัตร ให้ หน่อย</sentence>
+<sentence count="1">ขอ สอบถาม เกี่ยวกับ บัตรสวัสดิการ หน่อย</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรสวัสดิการ แห่งรัฐ</sentence>
+<sentence count="1">ตรวจสอบบัตร</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรบีเอ็นเค สี่สิบแปด</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรบีเอ็นเค โฟร์ตี้เอท</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง บัตรเอทีเอ็ม</sentence>
+<sentence count="1">รบกวน ตรวจสอบ สถานะ ของ บัตร</sentence>
+<sentence count="1">อยาก ทราบ ว่า บัตร ที่ ลงท้าย ด้วย เลข นี้ เป็น บัตรกดเงินสด หรือ เปล่า</sentence>
+<sentence count="1">สอบถาม บัตรกดเงินสด ส่งมอบ วัน ไหน</sentence>
+<sentence count="1">บัตรเพรสทีจ นี้ ปกติ แล้ว กดเงินสด ได้ ไหม</sentence>
+<sentence count="1">สอบถาม ใน ส่วน ของ บัตรกดเงินสด</sentence>
+<sentence count="1">บัตรเครดิต ออมสิน นี่ ทำ ที่ สาขา ได้ ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม อยาก ทราบ หมายเลข บัตรเครดิต</sentence>
+<sentence count="1">สอบถาม ชำระ บัตรเงินสด ไป แล้ว แต่ ว่า บัตร ใช้ ไม่ได้</sentence>
+<sentence count="1">อยาก จะ ทราบ เกี่ยวกับ บัตรสวัสดิการ แห่งรัฐ</sentence>
+<sentence count="1">สอบถาม คู่มือ บัตรคนจน</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ บัตรประชารัฐ</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ บัตรสวัสดิการ แห่งรัฐ</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรกดเงินสด</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ สินเชื่อ บัตรกดเงินสด</sentence>
+<sentence count="1">อันนี้ สามารถ สอบถาม เรื่อง เกี่ยวกับ บัตรเดบิต สมาร์ทไลฟ์ ได้ไหมคะ</sentence>
+<sentence count="1">ถือ บัตร ของ ธนาคาร ออมสิน อยู่ มี ประกัน อุบัติเหตุ อยู่ ไหม</sentence>
+<sentence count="1">บัตร มี ประกัน อุบัติเหตุ เวลา เกิด อุบัติเหตุ นี้ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">รบกวน สอบถาม เอทีเอ็ม อันเนี่ย มี ประกัน อุบัติเหตุ ไหม คะ</sentence>
+<sentence count="1">สอบถามว่า บัตรสมาร์ทไลฟ์ ของ ธนาคาร ออมสิน สามารถ เบิก ใช้ ค่ารักษา พยาบาล ได้ไหม คะ ต้อง ผ่าตัด กราม</sentence>
+<sentence count="1">ต้องการ สอบถาม เบิก รักษา ค่าพยาบาล</sentence>
+<sentence count="1">รบกวน สอบถาม บัตรเงินสด พรีม่า อันนี้ มี โปรโมชั่น อะไร บ้าง พึ่ง ได้ บัตร มา</sentence>
+<sentence count="1">อยาก สอบถาม ถ้า ใช้จ่าย เกิน สอง พัน ห้า ขึ้นไป ได้ กระเป๋า ใช่ไหม</sentence>
+<sentence count="1">รบกวน เช็ค โปรโมชั่น ของ บัตรเครดิต</sentence>
+<sentence count="1">สอบถาม ถ้า เกิด อยากได้ ของ พรีเมี่ยม ตรงนี้ คือ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก จะ รับ กระเป๋า ครับ</sentence>
+<sentence count="1">อยาก สอบถาม ทำ อย่างไร ถึง ได้ กระเป๋า</sentence>
+<sentence count="1">กำลังจะ เปิด บัตร ของ ออมสิน แต่ ตอนนี้ สงสัย ที่ บอกว่า ต้อง ใช้ วงเงิน เท่าไหร่ ถึง ได้ กระเป๋า</sentence>
+<sentence count="1">ถามว่า บัตร ใบ นี้ ใช้ ไป หา หมอ อุบัติเหตุ ได้ หรือเปล่า</sentence>
+<sentence count="1">ตรวจสอบ เอทีเอ็ม ได้ ทำ ประกัน อุบัติเหตุ ไว้ มั้ย</sentence>
+<sentence count="1">ช่วย เช็ค สิทธิ์ ของ บัตร เอทีเอ็ม เสีย รายปี</sentence>
+<sentence count="1">มี บัตรออมสิน เดบิต ที่ มี ประกัน อุบัติเหตุ แล้ว เกิด อุบัติเหตุ ต้อง สำรองจ่าย หรือไม่</sentence>
+<sentence count="1">ตรวจสอบ รายชื่อ โรงพยาบาล ที่ ร่วมกับ บัตรออมสิน เดบิต ที่ มี ประกัน อุบัติเหตุ</sentence>
+<sentence count="1">บัตรออมสิน เดบิต สมาร์ทแคร์ มี ประกัน คุ้มครอง ยังไง บ้าง</sentence>
+<sentence count="1">ถาม เกี่ยวกับ คุ้มครอง เกี่ยวกับ สมาร์ทไลฟ์</sentence>
+<sentence count="1">ถาม ข้อมูล เรื่อง บัตรเดบิต สมาร์ทไลฟ์</sentence>
+<sentence count="1">สอบถาม บัตรเครดิต ออมสิน มี วงเงิน ฉุกเฉิน ไหม</sentence>
+<sentence count="1">เรื่อง บัตร ที่ ใช้ วงเงิน บัตรเครดิต แล้ว ได้ กระเป๋า</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ โปรโมชั่น บัตรเครดิต ที่ว่า ใช้จ่าย ครบ แล้ว ได้ กระเป๋า เป็นกระเป๋า ธนาคาร ออมสิน หรือว่า กระเป๋า แบบ ไหน</sentence>
+<sentence count="1">สอบถาม วันนี้ ได้รับ กระเป๋า แล้ว แต่ว่า ทำไม ได้รับ ใบ เดียว</sentence>
+<sentence count="1">ตรวจสอบ ข้อมูล ที่ว่า โปรโมชั่น ของ บัตรเครดิต มี อะไร บ้าง สำหรับ ลูกค้า ที่ สมัคร ใหม่</sentence>
+<sentence count="1">รูด บัตร ซื้อ โน้ตบุ๊ค ไป อย่างนี้ ได้ ส่วนลด หรือ เปล่า</sentence>
+<sentence count="1">เพิ่ง ได้รับ บัตร มา เห็น ก่อน สมัคร ถ้า รูด หมื่น ห้า ขึ้นไป ได้ สลาก ออมสิน ด้วย หรอ</sentence>
+<sentence count="1">สอบถาม ตอนนี้ ได้รับ บัตร แล้ว มี โปรโมชั่น อะไร บ้าง แบบ ถ้า ใช้ บัตร เกิน เท่าไหร่ ได้ ของแถม อะไร แบบนี้</sentence>
+<sentence count="1">กรณี ที่ บัตรหมดอายุ จะ ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ที่ ใช่ อยู่ บัตรหมดอายุ</sentence>
+<sentence count="1">สอบถาม ตอนนี้ บัตร ยัง ไม่ ได้ ใช้ งาน บัตรหมดอายุ หรือ ยัง</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตร ที่ ว่า หมดอายุ</sentence>
+<sentence count="1">ไป กด ขึ้น บัตรหมดอายุ</sentence>
+<sentence count="1">ไม่ ทราบ ว่า ถ้า บัตรหมดอายุ นี่ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">บัตรหมดอายุ มี ไหม</sentence>
+<sentence count="1">สอบถาม บัตรหมดอายุ</sentence>
+<sentence count="1">บัตรหมดอายุ นี่ ทำ ไง</sentence>
+<sentence count="1">บัตรออมสิน เดบิต หมดอายุ ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">ขอ สอบถาม บัตรเอทีเอ็ม สมาร์ทไลฟ์ หมดอายุ วัน ไหน เพราะ ว่า บัตร กดเงิน ออก ไม่ได้</sentence>
+<sentence count="1">ได้ รับ ข้อความ บัตรเดบิต สมาร์ทไลฟ์ หมดอายุ</sentence>
+<sentence count="1">มี ข้อความ เข้ามา บัตรหมดอายุ แต่ ว่า เพิ่ง ต่อ</sentence>
+<sentence count="1">สมัคร บัตร ไว้ แล้ว มี ข้อความ แจ้งว่า หมดอายุ แล้ว จะ ต่อ ย้อนหลัง ได้ ไหม ค่ะ</sentence>
+<sentence count="1">มี การ แจ้งเตือน บัตรหมดอายุ อยาก ทราบ ว่า บัตร อันไหน</sentence>
+<sentence count="1">บัตร ผม หมดอายุ เขา บอก ให้ ทำ บัตร ใหม่</sentence>
+<sentence count="1">สอบถาม ข้อมูล ถ้า เกิด อายัดบัตร จะ ได้ ค่าธรรมเนียม คืน ไหมคะ</sentence>
+<sentence count="1">สามารถ ชำระ ค่าธรรมเนียม บัตรเอทีเอ็ม ที่ สาขา ได้ หรือไม่</sentence>
+<sentence count="1">อยาก ทราบ ว่า ค่าธรรมเนียม รายปี ของ บัตรเอทีเอ็ม ที่ กำลัง ถือ อยู่ รายปี เท่าไหร่</sentence>
+<sentence count="1">ค่าแรกเข้า หรือ ค่าธรรมเนียม ใน การ ทำ บัตรออมสิน เดบิต</sentence>
+<sentence count="1">ค่าแรกเข้า หรือ ค่าธรรมเนียม ใน การ ทำ บัตรออมสิน เดบิต เบสิค</sentence>
+<sentence count="1">ค่าแรกเข้า หรือ ค่าธรรมเนียม ใน การ ทำ บัตรจีเอสบี เจนการ์ด ลิมิเต็ด</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ หัก ค่าธรรมเนียม ใน บัตร</sentence>
+<sentence count="1">สอบถาม บัตร ถ้า ไม่ ได้ เปิด ใช้งาน มี เรียก เก็บ ค่าธรรมเนียม รายปี ไหม</sentence>
+<sentence count="1">อยากรู้ บัตร มี ค่าธรรมเนียม อยู่ ไหร่</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ ค่าธรรมเนียม รายปี</sentence>
+<sentence count="1">สอบถาม ค่าสมัคร บัตร กี่ บาท บัตรเอทีเอ็ม ของ ออมสิน</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ การ ยกเลิก บัตรเอทีเอ็ม ไม่ค่อย ได้ ใช้ เดือน ที่แล้ว หัก ค่าบริการ ไป อีก ถ้า ยกเลิก แล้ว ได้คืน ค่าธรรมเนียม ใช่ไหม</sentence>
+<sentence count="1">มา จ่าย ค่ารายปี ของ บัตร ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก รู้ ค่าธรรมเนียม ถูก หัก ไป แล้ว หรือยัง</sentence>
+<sentence count="1">ถ้า สมมุติ โทร ยกเลิกบัตร แล้ว ทาง ระบบ เรียก เก็บ ค่าธรรมเนียม รายปี ไหมค่ะ</sentence>
+<sentence count="1">ทำ บัตรเอทีเอ็ม เท่าไหร่</sentence>
+<sentence count="1">นี่ ไป กด บัตรเอทีเอ็ม เสียภาษี อยากรู้ ต้อง เสีย อะไร อีก ไหม</sentence>
+<sentence count="1">ได้รับ เอสเอ็มเอส แจ้ง หัก ค่าธรรมเนียม สองร้อย บาท</sentence>
+<sentence count="1">ค่า บัตรเอทีเอ็ม สองร้อยบาท ใช่ไหม</sentence>
+<sentence count="1">สอบถาม ทำ เอทีเอ็ม ยัง ไม่ ถึง ปี โดน หัก ค่า เอทีเอ็ม สองร้อย โทร มา สอบถาม</sentence>
+<sentence count="1">กรณี บัตรออมสิน เดบิต ทำ รายการ ชำระ ค่าสินค้า และ บริการ ที่ เครื่อง อีดีซี มีค่าบริการ หรือไม่</sentence>
+<sentence count="1">ค่าธรรมเนียม การ ทำ บัตรทดแทน บัตรออมสิน เดบิต</sentence>
+<sentence count="1">สอบถาม ค่าธรรมเนียม การใช้ บัตรออมสิน เดบิต ถอนเงิน ที่ เครื่องเอทีเอ็ม ใน ต่างประเทศ</sentence>
+<sentence count="1">สอบถาม ค่าธรรมเนียม การใช้ บัตรออมสิน เดบิต สอบถาม ยอด ที่ เครื่องเอทีเอ็ม ใน ต่างประเทศ</sentence>
+<sentence count="1">สอบถาม ค่าธรรมเนียม รายปี บัตรออมสิน เดบิต แอคซิเดน</sentence>
+<sentence count="1">ค่าแรกเข้า หรือ ค่าธรรมเนียม ใน การ ทำ บัตรจีเอสบี เจนการ์ด</sentence>
+<sentence count="1">ค่าธรรมเนียม การ ทำ บัตรทดแทน บัตรจีเอสบี เจนการ์ด หรือ จีเอสบี เจนการ์ด ลิมิเต็ด</sentence>
+<sentence count="1">ค่าธรรมเนียม รายปี บัตรจีเอสบี เจนการ์ด หรือ จีเอสบี เจนการ์ด ลิมิเต็ด</sentence>
+<sentence count="1">สอบถาม ค่าธรรมเนียม รายปี บัตรออมสิน เดบิต สมาร์ทแคร์</sentence>
+<sentence count="1">สอบถาม ค่าธรรมเนียม รายปี บัตรออมสิน วีซ่า เดบิต สมาร์ทไลฟ์</sentence>
+<sentence count="1">ธนาคาร ออมสิน มา เปิด บูท ถ้า เปิดบัญชี ไม่ต้อง เสีย ค่า บัตรเอทีเอ็ม ตลอดชีพ จริง ไหม</sentence>
+<sentence count="1">สอบถาม อัตราดอกเบี้ย ของ บัตรพรีเมี่ยม การ์ด วีซ่า พรีเมี่ยม</sentence>
+<sentence count="1">บัตรเครดิต ไม่ค่อย ได้ ใช้ ไม่ รู้ คิดดอกเบี้ย หรือ ป่าว แล้ว บัตร หาย ด้วย</sentence>
+<sentence count="1">ถาม ข้อมูล เรื่อง บัตร โดน อายัด อัน นี้ เพราะ อะไร</sentence>
+<sentence count="1">สอบถาม ข้อมูล บัตร ถูก อายัด</sentence>
+<sentence count="1">อยาก สอบถาม ว่า ทำไม บัตร โดน อายัด</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตร กด เงินสด เมื่อ เดือน ที่ แล้ว ลืม ชำระ ไป ผิด วัน แล้ว มี ใบ แจ้ง มา บัตร ตอนนี้ งด ใช้ บริการ งด ให้บริการ ชั่วคราว ให้ ติดต่อ ธนาคาร</sentence>
+<sentence count="1">สอบถาม เมื่อกี้ เพิ่ง โทร ไป อายัดบัตร แต่ เลข บัญชี ยัง สามารถ ใช้ เลข เดิม ได้ ไหมค่ะ</sentence>
+<sentence count="1">สามารถ แจ้ง อายัดบัตร แทน บุคคล อื่น ได้ หรือไม่</sentence>
+<sentence count="1">อยาก สอบถาม การ อายัดบัตร</sentence>
+<sentence count="1">อยาก ทราบว่า ทำไม บัตร ถูก อายัด</sentence>
+<sentence count="1">สามารถ อายัด บัตรเครดิต ชั่วคราว ได้ เปล่า</sentence>
+<sentence count="1">สอบถามว่า ทำไม บัตร เอทีเอ็ม โดน อายัด</sentence>
+<sentence count="1">อยาก ถามว่า ถ้า อายัด บัตร สามารถ กดเงิน ผ่าน แอพ ได้ ไหม คะ แอพ มายโม่</sentence>
+<sentence count="1">สอบถามว่า บัตร โดน อายัด หรือเปล่า</sentence>
+<sentence count="1">อยาก สอบถาม ข้อมูล เรื่อง บัตรเอทีเอ็ม ไป กดเงิน แล้ว บอกว่า บัตร โดน อายัด ทั้ง ทั้ง ที่ ไม่ ได้ โทร ไป อายัด</sentence>
+<sentence count="1">ไป กดเงิน แล้ว บัตร ถูก อายัด ไม่ ทราบว่า เกิด จาก สาเหตุ อะไร</sentence>
+<sentence count="1">เงิน ไม่ หมุนเวียน ใช่ไหม ถึงโดน อายัด บัตร ใช่ไหม</sentence>
+<sentence count="1">ต้องการ สอบถาม เกี่ยวกับ การ อายัด บัตร</sentence>
+<sentence count="1">เรื่อง จีเอสบี คอร์เปอร์เรท อินเทอร์เน็ต แบงค์กิ้ง ซีโอไอบี เปลี่ยน โทรศัพท์ แล้ว ไม่ ได้ เปลี่ยนเบอร์ เป็น ของ กองทุนหมู่บ้าน</sentence>
+<sentence count="1">ถาม ถ้า ใช้ คอร์เปอร์เรท อินเทอร์เน็ต แบงค์กิ้ง มี ค่าบริการ ไหม</sentence>
+<sentence count="1">พอดี ระบุ ครั้งแรก ของ คอร์เปอร์เรท รหัส องค์กร ถึง หน้า รหัส ผู้ใช้งาน ใหม่ กับ รหัส ผู้ใช้งาน ใหม่ ระบบ ไม่ รับ</sentence>
+<sentence count="1">ขอ สอบถาม แบบผม โหลด แอพ แบงค์กิ้ง มา นี่ ใส่รหัส ไม่ ถูก นี่ องค์กร หมายความว่า อะไร</sentence>
+<sentence count="1">โทร ในนาม บริษัท โรงพยาบาล กล้วยน้ำไท จำกัด สมัคร ตัว ที่ เป็น ของ อินเทอร์เน็ต แบงค์กิ้ง ไป แล้ว ได้ รหัส มา แล้ว ตอนนี้ เข้าไป เปลี่ยน รหัสผ่าน กับ ยูสเซอร์ แล้ว แต่ พอ เข้า ไป ดู ที่ หน้า รายการ สเตทเม้น ต้อง เข้า ตรง ไหน ไม่ เห็น มี ให้ เลือก บัญชี แล้ว ดู ย้อนหลัง ได้ กี่ เดือน</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ แอพ ซีโอไอบี</sentence>
+<sentence count="1">อยาก ทราบ แอพ ที่ว่า ของ ออมสิน ที่ เขียน รหัส องค์กร ต้อง ทำ ยังไง</sentence>
+<sentence count="1">สมัคร คอร์เปอร์เรท อินเทอร์เน็ต แบงค์กิ้ง ของ รูปแบบ บริษัท ได้ รหัส มา แล้ว เข้า ล็อกอิน ตรง หน้า เว็บไซต์ แล้ว ก็ เข้ามา เป็น รหัส ของ บริษัท พิมพ์ ไป แล้ว พอ รหัส พาสเวิร์ด ทำ หลาย รอบ ขอ ให้ ช่วย สอน ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ คอร์เปอร์เรท</sentence>
+<sentence count="1">ใช้ จีเอสบี คอร์เปอร์เรท อินเทอร์เน็ต แบงค์กิ้ง จะ ตั้ง รายการ โอน เงิน ล่วงหน้า ต้อง ตั้ง ยัง ไง ไม่ เห็น มี ปุ่ม ให้ กด ล่วงหน้า</sentence>
+<sentence count="1">ล็อกอิน เข้า แอพพลิเคชั่น ใน โทรศัพท์ ต้อง ทำ ยังไง บ้าง ซีโอไอบี</sentence>
+<sentence count="1">ขอ อนุญาต ถาม มา ลง เข้า ใช้ ระบบ ตัว คอร์เปอร์เรท แบงค์กิ้ง ให้ ลูกค้า ตรง ที่ เป็น เมคเกอร์ ระบบ แจ้ง เตือน มา มี ข้อมูล ไม่ ถูกต้อง จาก เอสเอ็มอี เป็น ลูกค้า นิติบุคคล</sentence>
+<sentence count="1">อินเทอร์เน็ต แบงค์กิ้ง อยาก สอบถาม การใช้งาน ของ คอมพานี  อันนี้ ยัง ใช้ได้ อยู่ ไหม</sentence>
+<sentence count="1">ของ นิติบุคคล ต้อง ใช้ อะไร บ้าง</sentence>
+<sentence count="1">รบกวน สอบถาม ล็อคอิน เข้าไป ใช้ แล้ว หน้า แอพ ขึ้น หน้า รหัส องค์กร ต้อง ล็อคอิน ตรงไหน</sentence>
+<sentence count="1">โทร จาก บริษัท สอบถาม เรื่อง การ เปลี่ยนแปลง ข้อมูล พวก ยูสเซอร์ ดี กับ อีเมล ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">อยาก ทำ ธนาคาร ผ่าน โทรศัพท์ ใส่ แล้ว ใส่ ไม่ ได้ ให้ ใส่ ชื่อ องค์กร</sentence>
+<sentence count="1">อยาก สอบถาม รหัส องค์กร หมายถึง อะไร</sentence>
+<sentence count="1">เข้าตัว จีเอสบี คอร์เปอร์เรท อินเทอร์เน็ต แบงค์กิ้ง ได้ รับ ซอง มา แล้ว ล่ะ พวก ไอดี ยูสเซอร์เนม พาสเวิร์ด เข้าสู่ ระบบ เลย ใช่ไหม</sentence>
+<sentence count="1">ปรึกษา เห็น มี กู้สวัสดิการ คนจน ต้องมี เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">สอบถาม เรื่องกู้เงิน ของ คน ที่ มี บัตรสวัสดิการ ประชาชน ต้องใช้ รายละเอียด อะไรบ้าง</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ เอกสาร ยืนยัน การ ปิดบัญชี</sentence>
+<sentence count="1">อยาก รบกวน สอบถาม ถ้า อยากได้ เอกสาร สำเนา การ สมัคร ใช้ บริการ ที่ เคย สมัคร ไป แล้ว ขอ ได้ จาก ที่ไหน</sentence>
+<sentence count="1">ยัง ไม่ เคย ยื่นกู้ อยาก กู้ ต้อง ใช้ เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">เอกสาร ที่ ต้อง ใช้ กู้เงิน ครั้งแรก มี อะไรบ้าง</sentence>
+<sentence count="1">พอดีว่า สอบถาม เรื่อง การกู้ บัตรคนจน ต้อง ใช้ เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">สอบถาม กู้ บัตรประชารัฐ ต้อง ใช้ หลักฐาน อะไรบ้าง</sentence>
+<sentence count="1">ถาม เรื่อง ที่ กู้ ธนาคาร  ต้อง ใช้ เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">อยาก สอบ กู้เงิน เพื่อประชาชน ต้อง มี เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">สอบถาม พอดี ว่า อยากจะไป ขอ ใบ ปิดหนี้ จาก ธนาคาร ต้อง ใช้ เอกสาร อะไร</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ส่ง หนังสือ ยืนยัน การฝาก ยอด ธนาคาร</sentence>
+<sentence count="1">สอบถาม จะไป ปิดบัญชี ต้อง เอา ใบเปลี่ยน สกุล ด้วย ไหมครับ</sentence>
+<sentence count="1">จำ รหัสผิด แล้ว ให้ ติดต่อ แบงค์ มี เฉพาะ มือถือ กับ บัตรประชาชน ได้ ไหม หรือ ต้อง มี สมุด ด้วย ไหม</sentence>
+<sentence count="1">จะ เตรียม เอกสาร ไป แจ้งความ ที่ว่า โดน ธุรกรรม เกี่ยวกับ ซื้อ ของ ทาง ออนไลน์ ต้อง ใช้ อะไร บ้าง</sentence>
+<sentence count="1">อยาก ทราบ ค่าธรรมเนียม การ โอนเงิน ไป ต่างประเทศ ของ มันนี่แกรม</sentence>
+<sentence count="1">ต้องการ ทราบ เงื่อนไข ค่าธรรมเนียม ถ้า ไม่ได้ ใช้ บัญชี นาน</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ การ ชำระ ค่าธรรมเนียม รายปี</sentence>
+<sentence count="1">อยาก ทราบ ค่าธรรมเนียม รายปี สามารถ ชำระ ผ่าน มายโม่ ได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม อินเทอร์เน็ต แบงค์กิ้ง ของ นิติบุคคล ไม่ ฟรี ค่าธรรมเนียม แล้ว เหรอ</sentence>
+<sentence count="1">สอบถาม โอนเงิน ข้าม ธนาคาร ข้าม จังหวัด ผ่าน แอพพลิเคชั่น เสียค่าธรรมเนียม อย่างไร</sentence>
+<sentence count="1">อยากทราบ วิธีการ คิดดอกเบี้ย ชำระ</sentence>
+<sentence count="1">สอบถาม ว่า ที่ เงิน สองร้อย ที่ หาย จาก บัญชี นี่ หัก ค่าธรรมเนียม ใช่ไหมคะ</sentence>
+<sentence count="1">อยาก ทราบ เกี่ยวกับ ค่าธรรมเนียม</sentence>
+<sentence count="1">อยาก สอบถาม เอา บัตรออมสิน ไป กดเงิน ที่ตู้ อื่น หัก ค่าธรรมเนียม หรือเปล่า</sentence>
+<sentence count="1">เมื่อวาน การ เคลื่อนไหว เงินออก ค่าธรรมเนียม หรือ อะไร</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ค่าธรรมเนียม</sentence>
+<sentence count="1">รบกวน เช็ค รายการ บัญชีออมทรัพย์ ให้หน่อยค่ะ พอดี ว่า จะ ตัด ค่าธรรมเนียม</sentence>
+<sentence count="1">อยากจะ รบกวน สอบถาม เรื่อง ค่าบริการ การฝาก ของ เท่าไหร่</sentence>
+<sentence count="1">สอบถาม แอพ มายโม่ นี่ เสีย ค่าบริการ รายเดือน ไหม แล้ว รบกวน ถาม ที่ ใน ยอด บัญชี เพิ่ม ดอกเบี้ย จ่าย นี่ ยังไง</sentence>
+<sentence count="1">ร้าน ต้อง เสียค่าธรรมเนียม ให้ ธนาคาร เท่าไหร่</sentence>
+<sentence count="1">ต้องการ ตรวจสอบ ว่า ตนเอง มี การ สมัคร อินเทอร์เน็ต แบงค์กิ้ง ไหม</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ไง</sentence>
+<sentence count="1">ถ้า จะ ช้ อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">ถ้า สมัคร อินเทอร์เน็ต แบงค์กิ้ง ของ ออมสิน ต้อง ไป ธนาคาร ไหม</sentence>
+<sentence count="1">สมัคร ใช้ อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">ผู้ ใช้ อินเทอร์เน็ต แบงค์กิ้ง อยาก ลงทะเบียน ต้อง ทำ ไง</sentence>
+<sentence count="1">สมัคร แบงค์กิ้ง ตอนนี้ ไม่ ได้ อยู่ หน้า ตู้ ถ้า สมัคร ทาง มือถือ ได้ ไหม</sentence>
+<sentence count="1">ถาม เวลา สมัคร อินเทอร์เน็ต แบงค์กิ้ง สามารถ ใช้ ได้ เลย ไหม</sentence>
+<sentence count="1">อยาก สมัคร อินเทอร์เน็ต แบงค์กิ้ง แล้ว ใช้ บัญชี ร่วม ได้ ไหม</sentence>
+<sentence count="1">ขออนุญาต สอบถาม เรื่อง การ สมัคร อินเทอร์เน็ต แบงค์กิ้ง อยู่ ต่างประเทศ สมัคร ต้อง ทำ ยังไง แล้ว ย่าง นี้ ถ้า ให้ แม่ ไป ทำ แต่ เป็น ชื่อ ตัว ได้ ไหม</sentence>
+<sentence count="1">รบกวน สอบถาม ถ้า สมัคร อินเทอร์เน็ต แบงค์กิ้ง ต่าง สาขา ต้อง ใช้ เวลา นาน เท่า ไหร่</sentence>
+<sentence count="1">สมัคร แบงค์กิ้ง สมัคร ทาง ออนไลน์ ได้ ไหม</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง สมัคร ผ่าน โทรศัพท์ ไม่ ได้ เหรอ</sentence>
+<sentence count="1">สอบถาม สมัคร อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ยังไง</sentence>
+<sentence count="1">รบกวน สอบถาม ใน นาม ของ นิติบุคคล ต้อง ใช้ เอกสาร อะไร บ้าง ใน การ สมัคร อินเทอร์เน็ต แบงค์กิ้ง แล้ว ก็ ทำ ธุรกรรม อะ ไร ได้ บ้าง</sentence>
+<sentence count="1">สอบถาม เข้า ใช้งาน อินเทอร์เน็ต แบงค์กิ้ง ครั้ง แรก ให้ กรอก หมายเลข บัตรประชาชน กรอก เลขที่ บัญชี หลัก แล้ว ขึ้น หมายเลข บัตรประชาชน หรือ เลข บัญชี หลัก ไม่ ถูกต้อง</sentence>
+<sentence count="1">มี ธนาคาร ออมสิน แต่ ไม่ ได้ ทำ เอทีเอ็ม สามารถ ทำ แบงค์กิ้ง ได้ ไหม</sentence>
+<sentence count="1">ถ้า จะ ใช้ งาน อินเทอร์เน็ต แบงค์กิ้ง นี่ ต้อง ไป ลงทะเบียน ก่อน ใช่ ไหม</sentence>
+<sentence count="1">สมัคร เน็ต ออมสิน ต้อง ทำ ไง</sentence>
+<sentence count="1">สมัคร แบงค์กิ้ง ทำ ยัง ไง บ้าง</sentence>
+<sentence count="1">ถ้า สมมุติ สมุดบัญชี อยู่ ที่ บ้าน แล้ว ถ่าย รูป มา สมัคร อินเทอร์เน็ต แบงค์กิ้ง ได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม สามารถ สมัคร อินเทอร์เน็ต แบงค์กิ้ง ผ่าน ช่อง ทาง ไหน ได้ บ้าง</sentence>
+<sentence count="1">ต้องการ สมัคร อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ยัง ไง ของ ตัว เอง</sentence>
+<sentence count="1">ต้องการ สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">ลงทะเบียน อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ยัง ไง บ้าง</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง ของ ออมสิน ไม่ ทราบ ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง รหัส องค์กร นี่ สาขา ที่ เปิด บัญชี ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม การ สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สอบถาม ทำ อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ไง</sentence>
+<sentence count="1">อยาก สมัคร อินเทอร์เน็ต แบงค์กิ้ง ผ่าน ตู้ เครื่อง เอทีเอ็ม ได้ ไหม</sentence>
+<sentence count="1">อยาก สมัคร อินเทอร์เน็ต แบงค์กิ้ง ยัง ไม่ มี ยูสเซอร์เนม กับ พาสเวิร์ด ต้อง วิธีการ สมัคร</sentence>
+<sentence count="1">อยาก ลงทะเบียน อินเทอร์เน็ต แบงค์กิ้ง ทำ ไง ลง ทาง หน้า จอ ได้ ไหม</sentence>
+<sentence count="1">ไม่ ทราบ เงิน เวลา สมัคร อินเทอร์เน็ต แบงก์กิ้ง</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง แต่ พอ เข้า มา ที่ หน้า ของ แล้ว ขึ้น รหัส องค์กร ไม่ ทราบ ใส่ อะไร ยังไง</sentence>
+<sentence count="1">สอบถาม บัตรเครดิต โดน ยกเลิก ไป แล้ว ต้อง ชำระเงิน ถ้า หาก ว่า ขอ ทำสัญญา การ ผ่อนชำระ ใหม่ ได้ ไหม</sentence>
+<sentence count="1">รบกวน สอบถาม เกี่ยวกับ ผ่อนชำระ เบี้ย ประกันชีวิต ของ ออมสิน มี โปรโมชั่น อะไร ไหม เอ่ย</sentence>
+<sentence count="1">สอบถาม เรื่อง การ แบ่ง ชำระเงิน บัตรเครดิต ซื้อ ของ ใน แอพ สโตร์ แล้ว ไม่ สามารถ เลือก แบ่ง ชำระ เป็น งวด มี แค่ ช่อง ให้ เลือก ชำระ หนึ่ง งวด ราคา เต็ม ถ้า ขอ แบบ ชำระ เพิ่มเติม อันนี้ ต้อง ติดต่อ กับ ธนาคาร หรือว่า อันนี้ ทำไม ได้</sentence>
+<sentence count="1">สอบถาม รูด ซื้อ สิน ค่า แล้วก็ แบ่ง ผ่อนชำระ อย่างนี้ ทำได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม ถ้า กด เงิน ออกมา หมื่น สาม ส่ง เดือน ประมาณ เท่าไหร่</sentence>
+<sentence count="1">เกี่ยวกับ ผ่อนชำระ บัตรเครดิต ไป ซื้อ มือถือ มา เครื่อง นึง แล้วก็ ไป ใช้ โปรโมชั่น ที่ ผ่อน สิบ เดือน มา แจ้ง ขอ ผ่อน สิบ งวด</sentence>
+<sentence count="1">โทร มา แบ่ง ชำระ ที่ ดอกเบี้ย ศูนย์ จุด แปด สามสิบ เดือน</sentence>
+<sentence count="1">สอบถาม เรื่อง การ แบ่ง ยอด ชำระ ตัว ศูนย์ เปอร์เซ็น</sentence>
+<sentence count="1">รูด ของ ไป หนึ่ง หมื่น หนึ่ง พัน บาท และ ถ้า แบบ เหมือน ผ่อนชำระ อันนี้ เดือน เท่าไหร่</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ เรื่อง การ ผ่อนชำระ สินค้า</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ การ แบ่ง ผ่อนชำระ</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ แบ่ง ผ่อนชำระ</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเครดิต เขียน แบ่ง จ่าย ประกัน ศูนย์ เปอร์เซ็น ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">อยาก สอบถาม บัตรเครดิต ทำเป็น การผ่อน เป็น งวด</sentence>
+<sentence count="1">ถาม เรื่อง การ แบ่ง จ่าย</sentence>
+<sentence count="1">ต้องการ ที่ จะ ผ่อน ศูนย์ เปอร์เซ็น หก เดือน ที่ เป็นหนึ่ง หมื่น ต่อ สลิป นี่ ต้อง ติดต่อ อะไร</sentence>
+<sentence count="1">เปิด พ้อยท์ บัตรเครดิต ไป รูด ค่าเรียน ลูก โทร มา ที่ มี ผ่อน ศูนย์ เปอร์เซ็น หก เดือน</sentence>
+<sentence count="1">พึ่ง รูด บัตร ไป แล้ว ถ้า การ แบ่ง ชำระ นี่ แจ้ง ต้อง โทร มา แจ้ง สามารถ แบ่ง ชำระ เป็น กี่ ครั้ง ได้ บ้าง ของ จีเอสบี นี่ สามารถ ทำได้ ใช่ไหม</sentence>
+<sentence count="1">ต้องการ ทำ เรื่อง ผ่อนชำระ เบี้ยประกัน</sentence>
+<sentence count="1">อยาก สอบถาม ถ้า ค้างชำระ ประมาณ เดือน สอง เดือน แต่ ทำ เรื่อง แบบ ผ่อน จ่าย เป็น เงินก้อน แบบ ช่วง สอง ช่วงนี้ ทำได้ ไหม</sentence>
+<sentence count="1">สอบถาม มี ตัว ระบบ ผ่อน ประกัน ไหม</sentence>
+<sentence count="1">ผม ถือ บัตร ที่ วงเงิน อนุมัติ ห้า หมื่น เผอิญ วันนี้ เห็น ใบแจ้งหนี้ มา แล้วก็ บอกว่า มีสิทธิ์ ผ่อน สาม เดือน ศูนย์ เปอร์เซ็น ใช่ไหม</sentence>
+<sentence count="1">อยาก ติดต่อ เรื่อง การผ่อน บัตร ชำระ ประกัน</sentence>
+<sentence count="1">จะขอ สอบถาม เกี่ยวกับ ใบเสร็จรับเงิน</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ ใบแจ้งหนี้ จัด ส่ง มา ทาง ไหน</sentence>
+<sentence count="1">ต้อง สอบถาม ยอด จ่าย ใบแจ้งยอด ไม่ ทราบ ส่ง มา ทาง ไหน</sentence>
+<sentence count="1">อยาก สอบถาม ส่ง ใบแจ้งหนี้ ให้ เมื่อไหร่</sentence>
+<sentence count="1">ขอ ใบแจ้งยอดหนี้ ชำระ คงค้าง ทั้งหมด</sentence>
+<sentence count="1">อยาก ให้ ตรวจสอบ เรื่อง ใบ ชำระ</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ ใบแจ้งหนี้</sentence>
+<sentence count="1">สอบถาม เรื่อง ใบแจ้งหนี้ มา มี ดอกเบี้ย ค้าง มา ไร</sentence>
+<sentence count="1">รบกวน ได้ รับ ใบแจ้งหนี้ แล้ว คราว ที่แล้ว ได้ คุย กับ เจ้าหน้าที่ บอกว่า มี ส่วนลด หนึ่งร้อย บาท ใน ใบแจ้งหนี้ รอบ ถัดไป แต่ ว่า ใน นี้ ดู แล้ว ไม่ มี</sentence>
+<sentence count="1">สอบถาม พึ่ง ใช้ บัตรเครดิต ของ ออมสิน แต่ ไม่ เห็น มี ใบแจ้งหนี้ มา ที่ บ้าน</sentence>
+<sentence count="1">สอบถาม เรื่อง ใบแจ้งหนี้ เดือน นี้ ได้ แจ้ง มา ไหม ไม่ เห็น อยู่ บ้าน</sentence>
+<sentence count="1">อยาก สอบถาม ข้อมูล เกี่ยวกับ ใบแจ้งหนี้</sentence>
+<sentence count="1">ขอสอบถาม ใบแจ้งหนี้</sentence>
+<sentence count="1">อยากจะ ติดต่อ เรื่อง ใบเสร็จ ยัง ไม่ ได้ รับ</sentence>
+<sentence count="1">เวลา จ่าย สินเชื่อ ออนไลน์ ใบเสร็จ แจ้ง ไป ที่ ไหน</sentence>
+<sentence count="1">สอบถาม ยอด บัตรเครดิต ที่ ต้อง ชำระ ใบแจ้งหนี้ ทำไม มี ยอด ซ้ำ กัน</sentence>
+<sentence count="1">ขยาย วงเงิน บัตรเอทีเอ็ม ได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม ข้อมูล สามารถ เพิ่ม วงเงิน ได้ หรือ ไม่</sentence>
+<sentence count="1">อยาก ขอ วงเงิน เพิ่ม</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ วงเงิน ที่ ได้</sentence>
+<sentence count="1">สอบถาม ข้อมูล การ เพิ่ม วงเงิน</sentence>
+<sentence count="1">บัตรเอทีเอ็ม สามารถ กด ได้ วงเงิน วัน ละ เท่าไหร่</sentence>
+<sentence count="1">สอบถามว่า บัตรเอทีเอ็ม ของ ออมสิน ที่ เป็น วีซ่า กด ได้ วัน ละ กี่ ตังค์</sentence>
+<sentence count="1">ต้องการ ขยาย วงเงิน การ ใช้ บัตรออมสิน เดบิต ได้ ไหม</sentence>
+<sentence count="1">สามารถ เพิ่ม วงเงิน ใน การ โอน ได้ หรือไม่</sentence>
+<sentence count="1">สอบถาม จะขอ เพิ่ม วงเงิน</sentence>
+<sentence count="1">อยากจะ เพิ่ม วงเงิน ใน บัตร</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ขยาย วงเงิน</sentence>
+<sentence count="1">สอบถาม เพิ่ม วงเงิน ของ มายโม่ วงเงิน โอน</sentence>
+<sentence count="1">อยาก ตรวจสอบ วงเงิน ที่ ได้รับ</sentence>
+<sentence count="1">อยาก ทราบ เรื่อง ที่ ส่ง ขอ เพิ่ม วงเงิน</sentence>
+<sentence count="1">สมมุต มี ฐาน เงินเดือน ที่ เพิ่ม ขึ้น แล้ว ต้องการ เพิ่ม วงเงิน ต้อง ทำ ยัง ไง บัตรเครดิต</sentence>
+<sentence count="1">อยาก สอบถาม ข้อมูล ว่า ครบ หนึ่ง ปี ขอ เพิ่ม วง เงิน ได้ ไหม</sentence>
+<sentence count="1">สอบถาม ของ วงเงิน ฉุกเฉิน</sentence>
+<sentence count="1">สอบถาม เรื่อง การ กู้เงิน ของ คน ที่ ถือ บัตรสวัสดิการ แห่งรัฐ</sentence>
+<sentence count="1">อยาก สอบถาม ยอด ของ ผม ที่ กู้สินเชื่อ มัน เข้า บัญชี หรือ ยัง</sentence>
+<sentence count="1">ถาม เรื่อง สินเชื่อ เงินกู้ ที่ ให้ พ่อค้า แม่ค้า กู้</sentence>
+<sentence count="1">สมมุติ ว่า ผม ทำ อาชีพ ค้าขาย สามารถ กู้เงิน ออมสิน ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง เงินกู้ ซื้อบ้าน</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ เงินกู้ ไทรทอง</sentence>
+<sentence count="1">ขอ ปรึกษา เรื่อง สินเชื่อ</sentence>
+<sentence count="1">ขอ สอบถาม การ กู้เงิน ไป ใช้ หนี้ นอก ระบบ</sentence>
+<sentence count="1">อยาก จะ สอบถาม เกี่ยวกับ การ ค้าง ชำระ สินเชื่อ</sentence>
+<sentence count="1">อยาก ติดต่อ สอบถาม เรื่อง เงินกู้ เพื่อ ปิด บัตร</sentence>
+<sentence count="1">จะ ขอ ถาม เรื่อง เงินกู้ ของ ข้าราชการ</sentence>
+<sentence count="1">จะ สอบถาม เกี่ยวกับ บัตรสินเชื่อ โครงการ</sentence>
+<sentence count="1">พอดี ว่า มี เรื่อง จะ สอบถาม ตอน นี้ มี สินเชื่อ อยู่ แล้ว เรา จะ กู้ อีก ได้ ไหม</sentence>
+<sentence count="1">มี สลาก ออมสิน อยู่ พี่ กู้ ออก มา ลงทุน ตอน นี้ อยาก กู้ ซื้อบ้าน พี่ เอา สลาก ค้ำประกัน ได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม ธนาคาร ว่า มี สินเชื่อ ปิด บัตรเครดิต</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ โครงการ ที่ สามารถ กู้ ให้ ปลดหนี้ หน่อย</sentence>
+<sentence count="1">พอดี อยาก จะ สอบถาม เรื่อง สินเชื่อ ประกัน สุขใจ</sentence>
+<sentence count="1">มี เรื่อง ปรึกษา สินเชื่อ ที่ ว่า โปะ หนี้ ให้ ยัง มี อยู่ไหม</sentence>
+<sentence count="1">อยาก ทราบ ว่า ถ้า ทำ การ กู้เงิน เนี่ย คน ค้ำประกัน ต้อง ใช้ สเตทเม้น</sentence>
+<sentence count="1">อยาก จะ สอบถาม เรื่อง บัตรคนจน ที่ สามารถ กู้เงิน ได้</sentence>
+<sentence count="1">อยาก จะ รบกวน ปรึกษา เกี่ยวกับ การ กู้เงิน สุขใจ</sentence>
+<sentence count="1">อยาก จะ สอบ เกี่ยวกับ การ กู้ บัตรสวัสดิการ แห่งรัฐ หน่อย</sentence>
+<sentence count="1">ขอ สอบถาม สินเชื่อ เพื่อการศึกษา แล้ว เด็ก อยู่ มัธยม หก สามารถ กู้ ได้ ไหม</sentence>
+<sentence count="1">คือ สนใจ จะ สมัคร สินเชื่อ ส่วนบุคคล ค่ะ</sentence>
+<sentence count="1">อยาก สมัคร กู้เงิน อะไร ได้บ้าง ครับ</sentence>
+<sentence count="1">สมัคร กู้เงิน อะไร ได้บ้าง</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ ยอดคงเหลือ กับ สินเชื่อ ที่ กู้ มา</sentence>
+<sentence count="1">อยาก ทราบ ยอดเงิน เรื่อง การกู้ เพื่อประชาชน เหลือ เท่าไหร่</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง ยอด กู้</sentence>
+<sentence count="1">เช็ค ยอด สินเชื่อ ที่ เคย กู้ ไว้</sentence>
+<sentence count="1">สอบถาม เงินกู้ ที่ กู้ ไว้ ยอด เหลือ เท่าไหร่</sentence>
+<sentence count="1">อยาก ตรวจสอบ บัญชี ที่ กู้ ซื้อ บ้าน ยอด ที่ เหลือ อย่างนี้</sentence>
+<sentence count="1">ขอ เช็ค ยอด คงเหลือ ไทรทอง</sentence>
+<sentence count="1">อยากจะ เช็คยอด ชำระ สินเชื่อ</sentence>
+<sentence count="1">สอบถาม ยอด สินเชื่อ</sentence>
+<sentence count="1">ต้องการ ทราบ ยอด ชำระ สินเชื่อ</sentence>
+<sentence count="1">อยากจะ ตรวจสอบ ยอด สินเชื่อ</sentence>
+<sentence count="1">อยากจะ ทราบ ยอด เงินกู้ ที่ เหลือ</sentence>
+<sentence count="1">ยอด เงินกู้ ของ ประชาชน</sentence>
+<sentence count="1">อยาก ทราบ วงเงิน สินเชื่อ คงเหลือ</sentence>
+<sentence count="1">สอบถาม ยอด คงเหลือ สินเชื่อ ในเครือ เซ็นทรัล</sentence>
+<sentence count="1">อยาก สอบถาม ยอดหนี้ คงเหลือ</sentence>
+<sentence count="1">ต้องการ เช็ค ยอด หนี้</sentence>
+<sentence count="1">อยาก ทราบ ยอด คงเหลือ ของ สินเชื่อ</sentence>
+<sentence count="1">สอบถาม ยอด สินเชื่อ</sentence>
+<sentence count="1">สอบถาม จะ ทราบ ยอด ที่ ไป กู้ ได้ ยังไง</sentence>
+<sentence count="1">เห็น โครงการ กู้ รีไฟแนนซ์ ของ ธนาคาร</sentence>
+<sentence count="1">พอ อยากจะ สอบถาม เรื่อง สินเชื่อ รีไฟแนนซ์</sentence>
+<sentence count="1">สอบถาม ใน ส่วน ของ รีไฟแนนซ์ บัตรเครดิต</sentence>
+<sentence count="1">รบกวน สอบถาม เกี่ยวกับ การ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">อยากจะ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">พอดี จะ สอบถาม เรื่อง การ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">อยาก จะ สอบถาม เกี่ยวกับ การ รีไฟแนนซ์</sentence>
+<sentence count="1">จะ ขอ สอบถาม กู้บ้าน กับ ธนาคาร ออมสิน รีไฟแนนซ์ ได้ไหม ค่ะ</sentence>
+<sentence count="1">ใน ส่วน ของ รีไฟแนนซ์ บ้าน หมาย ถึงว่า รีไฟแนนซ์ บ้าน แล้ว กู้ เพิ่ม อย่าง งี้ รายละเอียด การ รีไฟแนนซ์ และ การ กู้เพิ่ม</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง การ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">สอบถาม ข้อมูล อยาก รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">ต้อง สอบถาม เรื่อง รีไฟแนนซ์</sentence>
+<sentence count="1">สอบถาม เรื่อง รีไฟแนนซ์ ต้อง เตรียม เอกสาร อะไรบ้าง</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">จะ ขอ สอบถาม ถ้า รีไฟแนนซ์ บ้าน เพราะ ว่า ทำ สินเชื่อ ไว้ กับ ธนาคาร ออมสิน แต่ว่า ต้อง รอ ให้ ครบ อายุ สาม ปี หรือ หรือ อย่างไร</sentence>
+<sentence count="1">ต้อง สอบถาม เกี่ยวกับ รีไฟแนนซ์</sentence>
+<sentence count="1">ถ้า ทำ สินเชื่อ อยากจะ รีไฟแนนซ์ ได้ไหมค่ะ</sentence>
+<sentence count="1">รบกวน สอบถาม การ รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">อยาก จะ ติดต่อ เกี่ยวกับ การ รีไฟแนนซ์</sentence>
+<sentence count="1">อยาก จะ สอบถาม เกี่ยวกับ การ รีไฟแนนซ์</sentence>
+<sentence count="1">อยาก จะ สอบถาม ดอกเบี้ย รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ สินเชื่อ รีไฟแนนซ์</sentence>
+<sentence count="1">จะ ขอ สอบถาม เกี่ยวกับ บ้าน สินเชื่อ ทรายทอง พอดี ว่า ถ้า เกิด กู้บ้าน ปี หกหนึ่ง จะทำ รีไฟแนนซ์ ไป แบงค์อื่น มันจะ มีค่าปรับ อะไรบ้าง</sentence>
+<sentence count="1">อยากจะ สอบถาม เรื่อง รีไฟแนนซ์ ให้ ดอกเบี้ย ลดลง จะสามารถ ทำได้ หรือไม่</sentence>
+<sentence count="1">มี สัญญา เงินกู้ ถ้าจะ รีไฟแนนซ์ ต้อง ติดต่อ ใคร</sentence>
+<sentence count="1">ต้องการ สอบถาม ปรับโครงสร้าง หนี้</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ การ รีไฟแนนซ์ บ้าน เอื้ออาทร ส่ง มา ประมาณ ห้าปี แล้วจะ รีไฟแนนซ์ ภายใน</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง รีไฟแนนซ์ บ้าน</sentence>
+<sentence count="1">สอบถาม โหลด แอพ ของ จีเอสบี ออมสิน มา เข้า ไม่ ได้ เป็น รหัส อะไร นี่ แหละ มี ของ ออมสิน อยู่แล้ว แต่ พึ่ง โหลด แอพ มา</sentence>
+<sentence count="1">โหลด อินเทอร์เน็ต ของ แบงค์ ต้อง เข้า ยังไง บ้าง</sentence>
+<sentence count="1">ถ้า สมมุติ อยาก ใช้ อินเทอร์เน็ต แบงค์กิ้ง แล้ว โหลด ใน มือถือ ได้ ไหม</sentence>
+<sentence count="1">อยาก โหลด แอพ ที่ โอน เงิน ไว แบบ ที่ ไม่ต้อง ขี่ รถ ไป กด โอน อย่างนี้ ต้อง โหลด แอพ ไหน คะ</sentence>
+<sentence count="1">อยาก โหลด แอพ ธนาคาร อยาก ใช้</sentence>
+<sentence count="1">ถาม ที่ ทำ เป็น แอพ ใน โทรศัพท์</sentence>
+<sentence count="1">อยาก สอบถาม ถ้า โหลด แอพ ธนาคาร ออมสิน สามารถ เช็ค ยอดเงิน ใน บัญชี ได้ ไหม</sentence>
+<sentence count="1">ต้องการ ทำ แอพ ธนาคาร เข้าสู่ โทรศัพท์ ต้อง ทำ ไง</sentence>
+<sentence count="1">โหลด แอพ เข้า โทรศัพท์ ต้อง ทำ ไง</sentence>
+<sentence count="1">โหลด แอพ เข้า ธนาคาร ออมสิน</sentence>
+<sentence count="1">อยาก สอบถาม การ ใช้ แอพ ออมสิน ต้อง โหลด แอพ ตัว ไหน</sentence>
+<sentence count="1">แอพ หาย จะ โหลด แอพ ใหม่ ทำ ไง</sentence>
+<sentence count="1">โหลด แอพ ธนาคาร แล้ว โดน บล็อค</sentence>
+<sentence count="1">โทร มา สอบถาม โหลด แอพ ธนาคาร ออมสิน</sentence>
+<sentence count="1">ดาวน์โหลด แอพ ธนาคาร ออมสิน</sentence>
+<sentence count="1">ขอ ทราบ รายละเอียด การ โหลด แอพ อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">อยาก สอบถาม โหลด แอพ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">โหลด แอพ ของ ออมสิน ต้อง ทำ ไง</sentence>
+<sentence count="1">อยาก โหลด แอพ โอน เงิน ของ ออมสิน ต้อง ทำ ไง</sentence>
+<sentence count="1">โหลด แอพ ของ ธนาคาร ออมสิน มา ใช้ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก ทราบ มี เฉพาะ สมุด ใช่ไหม โหลด แอพ ได้ ไหม</sentence>
+<sentence count="1">โหลด โปรแกรม เน็ต แบงค์ ของ ออมสิน สมาร์ท โฟน เปิดบัญชี กับ ธนาคาร ไว้ แล้ว</sentence>
+<sentence count="1">สมัคร แอพ แล้ว ยัง ไม่ ส่ง รหัส ให้</sentence>
+<sentence count="1">รหัส ของ องค์กร ของ ธนาคารออมสิน อะไร หรอ</sentence>
+<sentence count="1">รหัส เข้า ใช้ แอพ</sentence>
+<sentence count="1">อยาก ทราบ รหัส เข้า ออมสิน แบงค์กิ้ง เข้า ยัง ไง ต้องการ รู้ ข้อมูล เงินเข้า เงินออก</sentence>
+<sentence count="1">ลืมรหัส เข้า แอพ ทำ ยัง ไง</sentence>
+<sentence count="1">โหลด พร้อมเพย์ ของ ออมสิน มา อยาก รู้ รหัสผ่าน</sentence>
+<sentence count="1">เข้า แอพ แล้ว รหัส เข้า ไม่ ได้</sentence>
+<sentence count="1">ปรึกษา ลืม รหัสผ่าน มายโม่ นี่ ต้อง ทำ ไง</sentence>
+<sentence count="1">เปิด แอพ ของ ธนาคารออมสิน มา แล้ว มี ให้ ใส่รหัส องค์กร อะไร</sentence>
+<sentence count="1">อยาก ทราบ รหัส ของ องค์กร ต้อง กด อะไร</sentence>
+<sentence count="1">อยาก ติดตั้ง แอพ ธนาคาร แต่ ถาม รหัส องค์กร อะไร</sentence>
+<sentence count="1">อยาก ทราบ รหัส องค์กร อะไร หรอ</sentence>
+<sentence count="1">สอบถาม เรื่อง เข้า แอพ รหัส ของ ธนาคารออมสิน ขึ้น รหัส องค์กร กับ รหัส ผู้ใช้ ต้อง กรอก จาก หมายเลข ตรงไหน</sentence>
+<sentence count="1">รหัส ของ แอพ เข้า ได้ ไหม</sentence>
+<sentence count="1">มายโม่ กด รหัส ไม่ถูก มายโม่ บล็อค</sentence>
+<sentence count="1">สอบถาม ใส่รหัส ใน แอพ ผิด ล็อค</sentence>
+<sentence count="1">โหลด แอพ โอนเงิน กับ จ่ายบิล ทาง โทรศัพท์ มา แล้ว บอก ให้ ใส่ ป้อน รหัส โอที่พี อะไร</sentence>
+<sentence count="1">สอบถาม รหัส แอพ ตอนนี้ โดน ล็อก ลบ ออก ไป แล้ว โหลด ใหม่</sentence>
+<sentence count="1">สอบถาม ธนาคาร ออมสิน ทำ ใน แอพ สามารถ เพิ่ม ไป สอง บัญชี ได้ ไหม</sentence>
+<sentence count="1">สมัคร มายโม่ ทำ ยังไง</sentence>
+<sentence count="1">สมัคร มายโม่ สมัคร ออนไลน์ ไม่ ได้ เหรอ</sentence>
+<sentence count="1">ถ้า สมัคร มายโม่ ต้อง ไป สาขา ใช่ ไหม ถ้า เคย สมัคร ยกเลิก ไป แล้ว ต้อง ไป ลงทะเบียน ใหม่ ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม การ สมัคร มายโม่ ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">อยาก สอบถาม ถ้า สมัคร มายโม่ ต้อง ไป ที่ สาขา อย่าง เดียว เหรอ หรือว่า สมัคร ออนไลน์ ได้</sentence>
+<sentence count="1">โทร มา สอบถาม เรื่อง มายโม่ ลงทะเบียน ได้ ไหม</sentence>
+<sentence count="1">สอบถาม สมัคร มายโม่ ทาง โทรศัพท์ ได้ ไหม</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ วิธีการ สมัคร ใช้งาน แอพ มายโม่</sentence>
+<sentence count="1">อยาก ทราบ สามารถ สมัคร แอพ มายโม่ ได้ ที่ไหน</sentence>
+<sentence count="1">อยาก สมัคร แอพ มายโม่ ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ สมัคร ใช้งาน แอพ มายโม่</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ สมัคร มายโม่</sentence>
+<sentence count="1">ดาวน์โหลด แอพ มายโม่ แล้ว ก็ ลงทะเบียน บอก ว่า หมายเลข บัตรประชาชน ยัง ไม่ ถูก ลงทะเบียน กับ มายโม่ ยัง ไม่ ได้ ครับ</sentence>
+<sentence count="1">ต้องการ ใช้ มายโม่ ต้อง ใช้ ไร บ้าง โอน เงิน</sentence>
+<sentence count="1">อยาก สมัคร ใช้งาน ลงทะเบียน บัตรประชาชน ลง ไป ไม่ ทำงาน ทั้ง มายโม่ ทั้ง อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สมัคร เคแบงค์ใน โทรศัพท์ แต่ ใส่ เลข บัตรประชาชน แล้ว ไม่ ได้</sentence>
+<sentence count="1">ต้องการ สมัคร แอพ มายโม่ ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ สมัคร ใช้งาน แอพ มายโม่</sentence>
+<sentence count="1">อยาก สอบถาม สมัคร ใช้งาน แอพ มายโม่ ได้ ที่ไหนบ้าง</sentence>
+<sentence count="1">อยาก สมัคร แอพ มายโม่ ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">อยาก สมัคร มายโม่ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">ขอโทษ แอพมายโม่ ลง ของ คนต่างด้าว ได้ไหมค่ะ</sentence>
+<sentence count="1">สมัคร แอพมายโม่ แล้วก็ เบอร์ เก่า ซิม หาย ไป แล้ว</sentence>
+<sentence count="1">สมัคร ใช้ แอพ ใน โทรศัพท์ ต้อง ทำไง</sentence>
+<sentence count="1">สมัคร แอพมายโม่ ต้อง ไป ลงทะเบียน ที่ ธนาคาร ใช่ไหมคะ หรือว่า อะไร</sentence>
+<sentence count="1">เคย เปิด บัญชี กับ ธนาคาร ออมสิน ไว้ อยาก จะ สมัคร แอพ</sentence>
+<sentence count="1">สอบถาม สมัคร มายโม่ ต้อง ไป ที่ ธนาคาร ใช่ ไหม</sentence>
+<sentence count="1">สอบถาม สมัคร มายโม่ ที่ แอพ มือถือ แล้ว ต้อง ไป ลงทะเบียน กับ สาขา ธนาคารออมสิน จำเป็น ต้อง เป็น สาขา ที่ เปิด บัญชี ไหม หรือ สาขา ไหน ก็ ได้</sentence>
+<sentence count="1">ขออนุญาต สอบถาม ไม่ ได้ มี ปัญหา อะไร เกี่ยวกับ มายโม่ อยาก สอบถาม ถ้า สมัคร ใช้ บริการ นี้ ต้อง ทำ ยัง ไง บ้าง</sentence>
+<sentence count="1">ถ้า สมัคร มายโม่ ไม่ ใช้ บัตรประชาชน แล้ว ใช้ ใบขับขี่ แทน ได้ ไหม</sentence>
+<sentence count="1">สามารถ สมัคร มายโม่ ให้ คน อื่น ได้ หรือ ไม่</sentence>
+<sentence count="1">อยาก ตรวจสอบ เช็ค ยอดคงเหลือ สินเชื่อ</sentence>
+<sentence count="1">พอดี จะ สอบถาม ยอด สินเชื่อ ที่ ต้อง ชำระ</sentence>
+<sentence count="1">อยาก รบกวน สอบถาม ยอด ที่ พี่ ค้าง อะค่ะ ของ เงินกู้</sentence>
+<sentence count="1">ต้องการ สอบถาม ยอดค้าง ชำระ สินเชื่อ</sentence>
+<sentence count="1">สอบถาม ยอดค้าง ชำระ ของ สินเชื่อ</sentence>
+<sentence count="1">จะ ขอ เช็ค ยอดหนี้ คงค้าง หน่อย ค่ะ</sentence>
+<sentence count="1">อยาก ทราบ เลขที่ บัญชี กู้ ครับ ยอด คง ค้าง อยู่ เท่าไหร่</sentence>
+<sentence count="1">ตอนนี้ เรา มี ยอดค้าง จ่าย แปดร้อย กว่า บาท เช็ค ให้ หน่อย ค่ะ ว่า ต้อง อะไร อย่างไร</sentence>
+<sentence count="1">ต้องการ ปิด บัตร ครับ ยอด ค้าง เท่าไหร่ ครับ</sentence>
+<sentence count="1">รบกวน สอบถาม ยอด ที่ ต้อง ชำระ ครับ</sentence>
+<sentence count="1">ขอ สอบถาม ยอด ขั้นต่ำ ของ เดือน นี้ เท่าไหร่ ครับ</sentence>
+<sentence count="1">ผม อยาก ทราบ ยอด ชำระ ปิดบัญชี เป็น ศูนย์ ใน วันนี้ ครับ</sentence>
+<sentence count="1">อยาก จะ ถาม ยอด ที่ ต้อง ชำระ แล้ว ก็ วงเงิน ที่ เหลือ อยู่ ครับ</sentence>
+<sentence count="1">สอบถาม ว่า คือ ใช้ บัตรกดเงินสด เรา ชำระ หมด ไป ตั้งแต่ สอง เดือน ที่ แล้ว แต่ ยัง มี ยอด เรียก เก็บ เป็น ค่า ทวงถาม ไม่ รู้ ว่า ดำเนินการ หรือ ยัง</sentence>
+<sentence count="1">จะ สอบถาม ยอด ชำระ ของ บัตรเครดิต ครับ</sentence>
+<sentence count="1">พอดี อยาก จะ เช็ค ยอดค้าง ชำระ บัตรเครดิต หน่อย</sentence>
+<sentence count="1">พอดี อยาก จะ ทราบ ยอด ชำระ บัตรเครดิต หน่อย</sentence>
+<sentence count="1">อยาก ทราบ ว่า ยอด ที่ ต้อง ชำระ เหลือ อีก เท่าไหร่</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ยอดค้าง ชำระ บัตร หน่อย</sentence>
+<sentence count="1">อยาก จะ ชำระ ยอด เพื่อ ปิด บัตรเครดิต หน่อย</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ยอด ที่ ปิดสินเชื่อ</sentence>
+<sentence count="1">ยอดปิดบัญชี</sentence>
+<sentence count="1">ค่ะ ยอด ปิดบัญชี ค่ะ</sentence>
+<sentence count="1">โทร มา ถามยอด</sentence>
+<sentence count="1">จะ ปิดบัตร เลย โทร มา ถามยอด</sentence>
+<sentence count="1">ไม่ ทราบว่า มี ยอด ที่ ต้อง ชำระ เท่าไหร่</sentence>
+<sentence count="1">แจ้ง เรื่อง ปิด สินเชื่อ หน่อยครับ</sentence>
+<sentence count="1">อยากจะ สอบ ยอด ชำระ บัตรเครดิต หน่อย</sentence>
+<sentence count="1">สอบถาม เรื่อง ยอดค้างชำระ เงินกู้</sentence>
+<sentence count="1">สามารถ เช็ค ยอด สินเชื่อ ที่ เรา ค้าง ที่ ออมสิน ได้ ไหม</sentence>
+<sentence count="1">อยากจะ เช็คยอด ที่ กู้สินเชื่อ ไว้ว่า เหลือ เท่าไหร่</sentence>
+<sentence count="1">เช็คยอด ที่ เหลือ เท่าไหร่</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ยอดค้างชำระ ในบัตร</sentence>
+<sentence count="1">สอบถาม ยอดค้างชำระ</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ ยอด ชำระ ทั้งหมด</sentence>
+<sentence count="1">อยากจะ ชำระ ยอด ปิดบัตร</sentence>
+<sentence count="1">มี ยอด ที่ ต้อง ชำระ เท่าไหร่</sentence>
+<sentence count="1">สอบถาม ปิด ยอด เงินได้ หรือเปล่า</sentence>
+<sentence count="1">ยอด ชำระ บัตรเครดิต</sentence>
+<sentence count="1">สมุด หาย ต้อง ไป แจ้งความ ไหม ค่ะ</sentence>
+<sentence count="1">ทำ สมุด บัญชี หาย จะ ขอ เล่ม ใหม่ ได้ หรือ ไม่</sentence>
+<sentence count="1">สมุด บัญชี หาย อยาก จะ ทราบ ว่า ต้อง ทำ อย่าง ไร บ้าง</sentence>
+<sentence count="1">สอบถาม สมุด บัญชี หาย ต้อง ทำไง</sentence>
+<sentence count="1">พอดี ว่า ถ้า เอกสาร สมุด บัญชี หาย ต้อง เอา อะไร ไป บ้าง</sentence>
+<sentence count="1">ค่า อยากจะ รบกวน สอบถาม ทำ สมุด บัญชี บุ๊คแบงค์ หาย ต้อง ทำ อย่าง ไร บ้าง</sentence>
+<sentence count="1">ถ้า สมุด บัญชี กับ สลากออมสิน หาย ต้อง แจ้งความ ไหม</sentence>
+<sentence count="1">ทำ สมุด บัญชี หาย แล้ว ต้อง ทำ อย่าง ไร บ้าง</sentence>
+<sentence count="1">ถ้า สมุด บัญชี หาย ต้อง ไป แจ้งความ หาย ไหม</sentence>
+<sentence count="1">สมุด บัญชี หาย ต้อง ไป แจ้งความ ที่ สถานีตำรวจ ก่อน ใช่ ไหม ค่ะ</sentence>
+<sentence count="1">ทำ สมุด บัญชี หาย จะ ขอ เล่ม ได้ หรือ ไม่</sentence>
+<sentence count="1">ทำ สมุด บัญชี หาย ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">อยาก จะ สอบถาม ว่า ทำ สมุด บัญชี หาย ต้อง ไป แจ้งความ ไหม</sentence>
+<sentence count="1">รบกวน สอบถาม ถ้า สมุด บัญชี หาย ต้อง ทำ อย่าง ไร บ้าง</sentence>
+<sentence count="1">ขอ สอบถาม เคย เปิด บัญชี ไว้ ตอนนี้ สมุด หาย ต้อง ทำ อย่าง ไง บ้าง</sentence>
+<sentence count="1">แฟน มี บัญชี ออมสิน แต่ หา สมุด ไม่ เจอ และ ได้ รับ เช็ค ของ ทาง ธนาคาร ซี เอ็ม บี จะ พา ไป เข้า บัญชี แต่ หา แทบ พลิก แผ่นดิน แล้ว ไม่ทราบว่า ลืม ไว้ ตรงไหน</sentence>
+<sentence count="1">อยาก ทราบ เบอร์ ของ ธนาคาร สมุด ของ ลูกชาย หาย ต้อง แจ้งความ ไหม</sentence>
+<sentence count="1">สมุด หาย สามารถ ไป ขอ ใหม่ ได้ หรือ ไม่</sentence>
+<sentence count="1">สอบถาม ทำ สมุด บัญชี หาย ต้อง ไป แจ้งความ หรือ ไม่</sentence>
+<sentence count="1">บัตรออมสิน สมาร์ทไลฟ์ มัน ส่ง ข้อความ มา ว่า สิ้นสุด ความ คุ้มครอง วันที่ หก ครับ จะ ให้ หัก ผ่าน บัญชี ครับ</sentence>
+<sentence count="1">คือ จะ สอบถาม เรื่อง ชำระ สินเชื่อ</sentence>
+<sentence count="1">พอดี ผม จะ สอบถาม ผม ลืม เอา เงิน เข้า บัญชี จ่าย สินเชื่อ จะ ชำระ ผ่าน ทาง ไหน ได้ บ้าง</sentence>
+<sentence count="1">คือ จะ สอบถาม คะ สมมุติ ว่า เรา เนี้ย อยาก จะ จ่าย แบบ ว่า โอนเงิน เข้า ชำระ อะไร นะ ชำระ สินเชื่อ ค่ะ มัน ต้อง ทำ วิธี ไหน ได้ บ้าง</sentence>
+<sentence count="1">ค่ะ จะ ติดต่อ ชำระหนี้</sentence>
+<sentence count="1">ต้องการ ติดต่อ การ ชำระ หนี้ บัตรเครดิต</sentence>
+<sentence count="1">ต้องการ ทราบ ช่อง ทาง การ ชำระ เงินสด</sentence>
+<sentence count="1">อยาก จะ ขอ ใบแจ้งหนี้ บัตรเครดิต นะคะ ยอด ทั้งหมด เลย ที่ จะ ปิด</sentence>
+<sentence count="1">อยาก ถาม ว่า ทำไม จ่ายบิล อะไร ไม่ได้ เลย คะ จะ จ่าย ค่าไฟ ก็ จ่าย ไม่ ได้ เลย</sentence>
+<sentence count="1">ผม อยาก ถาม ว่า ชำระ ค่าบัตร นี่ ผ่าน มายโม่ ได้ ไหม คือ บัตรเอทีเอ็ม ผม โดน อายัด ผม ว่า จะ ชำระ ผ่าน มายโม่ ได้ หรือ เปล่า</sentence>
+<sentence count="1">อยาก จะ สอบถาม ว่า ถ้า เรา จะ จ่ายสินเชื่อ ที่ เรา กู้ มา ใช่ไหม จ่าย ผ่าน แอพ ได้ ไหม พี่</sentence>
+<sentence count="1">พอดี ว่า จะ ชำระ บัตรเงินสด แต่ คราวนี้ ก็ คือ เหมือน บิล ของ เรา แจ้ง ไป ที่ ทำงาน เก่า ก็ เลย ถ้า สมมติ จะ ไป ชำระ แบบ ไม่มีบิล สามารถ ชำระ ได้ ที่ ธนาคาร เลย ได้ ไหม</sentence>
+<sentence count="1">พอดี พี่ อยาก ชำระ ค่าเบี้ย ชำระ ผ่าน อินเทอร์เน็ต แบงค์กิ้ง ได้ ไหม</sentence>
+<sentence count="1">วันที่ ต้อง ชำระ ค่าบัตร</sentence>
+<sentence count="1">ต้องการ ถาม ยอดขั้นต่ำ การ จ่ายบัตร</sentence>
+<sentence count="1">น้อง เวลา พี่ ไป จ่าย บัตรเครดิต เรา จ่าย ใน เคแบงค์ ได้ ไหม</sentence>
+<sentence count="1">จะ สอบถาม ยอด ชำระ ของ บัตรเครดิต ที่ ตัด ยอด วันที่ สิบ</sentence>
+<sentence count="1">ขอ สอบถาม เกี่ยวกับ การ ชำระ สินเชื่อ</sentence>
+<sentence count="1">พอดี ว่า มี บัญชี นาน แล้ว แต่ ปิด ไป แล้ว วันนี้ มี ข้อความ เข้า มา ใน ชำระ สินเชื่อ</sentence>
+<sentence count="1">ต้องการ ตรวจสอบ การ ชำระ ค่าบัตร เอทีเอ็ม</sentence>
+<sentence count="1">จะ สอบถาม ว่า วิธีการ จ่าย เงิน ผ่าน ตู้ ต้อง ทำ ไง</sentence>
+<sentence count="1">พอดี จะ สอบถาม เรื่อง จ่าย บัตรเครดิต</sentence>
+<sentence count="1">พี่ จะ ขอ สอบถาม ว่า พี่ อยากรู้ ว่า วันที่ ตัด บัตรเครดิต ของ พี่ วันที่ เท่าไหร่ พอดี พี่ จะ รูด บัตร ผ่อน ของ ประกัน ค่ะ พอ จะ ผ่อน ได้ ไหม</sentence>
+<sentence count="1">ต้องการ ทราบ ว่า ชำระ ค่าบัตร เครดิต ผ่าน มายโม่ จะ ออนไลน์ เข้า ระบบ ให้ เลย หรือไม่</sentence>
+<sentence count="1">สวัสดี ครับ คือ เดือน นี้ ผม จะ จ่าย ค่า สินเชื่อ เท่าไหร่ ครับ</sentence>
+<sentence count="1">สวัสดี ครับ ขอ ทราบ ยอด บัตรเครดิต หน่อย ครับ ชำระ ครับ</sentence>
+<sentence count="1">สอบถาม ชำระ ค่า บัตรเครดิต ผ่าน ทาง มายโม่ เปย์</sentence>
+<sentence count="1">สอบถาม ชำระ ค่า บัตรเครดิต ผ่าน เค พลัส</sentence>
+<sentence count="1">ชำระ ค่า บัตรเครดิต ผ่าน เค พลัส แล้ว ยอด จะ เข้าบัญชี ใช้เวลา ประมาณ กี่ วัน</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ชำระ ค่ะ</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ชำระ ครับ</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ชำระ คือ มัน ไม่มี ใบ แจ้ง ยอด มา เลย</sentence>
+<sentence count="1">พี่ จ่าย ถึง งวด ไหน แล้ว พี่ จำ ไม่ได้ ไม่มี ใบ แจ้ง ยอด</sentence>
+<sentence count="1">สอบถาม เรื่อง กู้เงิน ครบ กำหนด ชำระ วันที่</sentence>
+<sentence count="1">สอบถาม วันที่ ครบ กำหนด ชำระ เงินกู้</sentence>
+<sentence count="1">วัน ครบ กำหนด ชำระ ตรง กับ เสาร์ อาทิตย์ แล้ว แอพ มายโม่ ไม่ หัก เงิน</sentence>
+<sentence count="1">รบกวน สอบถาม คือ มี อะไร แจ้ง ไหม ครับ ว่า ชำระ แล้ว</sentence>
+<sentence count="1">อยาก จะ เช็ค วันที่ ต้อง จ่ายสินเชื่อ</sentence>
+<sentence count="1">จ่ายสินเชื่อ วันที่ เท่าไร</sentence>
+<sentence count="1">สอบถาม เรื่อง ค่า ผ่อน ชำระ จะ ชำระ เดือน หน้า ติดต่อ ไหน</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ชำระ หนี้</sentence>
+<sentence count="1">อยากจะ ชำระ ค่า บัตรเครดิต</sentence>
+<sentence count="1">ได้ กู้เงิน แล้ว ชำระ ที่ ทาง สาขา ได้ไหม</sentence>
+<sentence count="1">ขอ สอบถาม การ ชำระ สินเชื่อ บ้าน หน่อย</sentence>
+<sentence count="1">ขอ สอบถาม การ ชำระ สินเชื่อ ประชารัฐ หน่อย</sentence>
+<sentence count="1">สินเชื่อ จ่าย ล่าช้า ได้ ไม่เกิน กี่ วัน</sentence>
+<sentence count="1">ชำระ สินเชื่อ ล่าช้า ได้ ไม่เกิน กี่ วัน</sentence>
+<sentence count="1">พี่ จำ ไม่ ได้ ว่า พี่ จ่าย ไป ถึง งวด ไหน</sentence>
+<sentence count="1">ฮัลโหล ค่ะ พอดี จะ โทร สอบถาม เรื่อง การ ชำระ อะ ค่ะ</sentence>
+<sentence count="1">มัน ไม่ มี ใบ แจ้ง ยอด มา เลย ค่ะ</sentence>
+<sentence count="1">พอดีว่า แฟน ไป ทำ บัตรกดเงินสด ของ ออมสิน มา แล้วจะ ชำระคืน สามารถ ชำระ ที่ไหน</sentence>
+<sentence count="1">จะ ชำระคืน สามารถ ชำระ ที่ไหน</sentence>
+<sentence count="1">รหัส เข้า ใช้งาน นี่ รหัส อะไร</sentence>
+<sentence count="1">ขอ สอบถาม รหัส ผู้ใช้งาน</sentence>
+<sentence count="1">ถาม เกี่ยวกับ ธนาคาร ออมสิน ของ โรงเรียน ที่ พิษณุโลก เป็น ผู้อนุมัติ รายการ พอ ป้อน ข้อมูล ไป แล้ว พาสเวิร์ด ให้ ติดต่อ คอลเซ็นเตอร์</sentence>
+<sentence count="1">สอบถาม สมัคร ไป แล้ว ยัง ไม่ ได้รับ รหัส ธนาคาร บอกว่า สาม วันทำการ นี่ สี่ วัน แล้ว</sentence>
+<sentence count="1">ใช้ รหัสผิด เกิน ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">เข้ารหัส ไม่ได้ บอก ให้ ติดต่อ คอลเซ็นเตอร์</sentence>
+<sentence count="1">ลืม พาสเวิร์ด คิด ว่า ลืม หรือไม่ ก็ ยัง ไม่ ได้ สมัคร</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ รหัส บัตร</sentence>
+<sentence count="1">อยาก สอบถาม เกี่ยวกับ การ เปลี่ยนแปลง รหัส บัตร</sentence>
+<sentence count="1">อยากรู้ รหัส สมัคร ออมสิน ยังไง</sentence>
+<sentence count="1">สอบถาม วันนี้ ไป ซื้อ สลาก ออมสิน จาก ธนาคาร ออมสิน มา แล้ว ทำ ระบบ แบงค์กิ้ง เข้าไป แล้ว ให้ ใส่รหัส ผู้ใช้ รหัส อะไร คือ ยังไง</sentence>
+<sentence count="1">ลืม รหัสผ่าน และ ยูสเซอร์เนม พาสเวิร์ด เป็น บุคคลธรรมดา</sentence>
+<sentence count="1">สอบถาม ลืมรหัส บัญชี ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก ทราบ รหัส ที่ ต้อง เข้า แอพ</sentence>
+<sentence count="1">โทร มา สอบถาม ถ้า ลืมรหัส ของ ออมสิน ทำ ยังไง รหัส ที่จะ กด เงิน</sentence>
+<sentence count="1">ลืม รหัส อยาก ปลดล็อก ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">พาสเวิร์ด ออนไลน์ คือ อะไร</sentence>
+<sentence count="1">ปรึกษา เคย มี บัญชี กับ ทาง ออมสิน ตอนนั้น เคย ซื้อ สลาก ไว้ แล้วก็ ไม่ ได้ ใช้ อีก ลอง เข้ามา ล็อกอิน ตัว แบงค์กิ้ง แต่ จำ ตัว รหัส ไม่ ได้</sentence>
+<sentence count="1">อยากรู้ รหัสผ่าน ธนาคาร ออมสิน บัญชี</sentence>
+<sentence count="1">อยาก ทราบ ลืม รหัสผ่าน อันนี้ อยาก ทราบ อีเมล ไป ย้อน ดู ที่ ส่ง รหัสผ่าน มาหา อีเมล อะไร</sentence>
+<sentence count="1">สอบถาม เรื่อง ที่ เข้ารหัส ไม่ได้ ที่ สมัคร ไว้ ใน ธนาคาร โทรศัพท์ เครื่อง นั้น พัง มา ใช้ เครื่อง ใหม่ แล้ว เข้า ไม่ ได้</sentence>
+<sentence count="1">อยาก สอบถาม มี รหัส ห้า ตัว อยู่ อัน นึง แบบ เข้า ใช้ ทำ ไง</sentence>
+<sentence count="1">ขอ รหัสผ่าน ของ ที่ว่า ไม่ต้อง ใช้ บัตรเอทีเอ็ม ใช้ โทรศัพท์ แทน ถูก บล็อค</sentence>
+<sentence count="1">อยากได้ รหัส แต่ ทำ ไม่ ทัน</sentence>
+<sentence count="1">เกี่ยวกับ แจ้ง ขอ ทำ รหัสใหม่ มี ข้อความ เข้าว่า ธนาคาร ได้ ดำเนินการ ออก รหัส ใหม่ ตามที่ ท่าน แจ้ง เรียบร้อย แล้ว ต้อง ทำ ไง ต่อ</sentence>
+<sentence count="1">อยาก ทราบ เกี่ยวกับ รหัส บัตร จะ ส่ง มา เมื่อไหร่ อย่างนี้</sentence>
+<sentence count="1">อยาก ทราบ รหัส จัดส่ง ให้ วัน ไหน</sentence>
+<sentence count="1">ได้รับ บัตร เสร็จ แล้ว สมัคร ไป ทาง อินเทอร์เน็ต แล้ว แล้ว มี ข้อความ ส่ง มา ให้ เปิด บัตร เรียบร้อย ต้อง คอย รหัส อีก ใช่ไหม</sentence>
+<sentence count="1">อยาก ทราบ ว่า บัญชี ธนาคาร ผูก กับ พร้อมเพย์</sentence>
+<sentence count="1">สอบถาม ถ้า ทำ ผูก เป็น พร้อมเพย์ ใส่ เลขที่ บัตรประชาชน ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">ติดต่อ เรื่อง การ ทำ พร้อมเพย์ ใน โทรศัพท์ แต่ เมื่อกี้ ไป ติดต่อ ธนาคาร แล้ว ธนาคาร บอก เรียบร้อย แต่ พอ ทำ ใน โทรศัพท์ ไม่ เข้า</sentence>
+<sentence count="1">จะ เช็ค ว่า ได้ เปิด พร้อมเพย์ ไว้ ธนาคารออมสิน ไหม เพราะ เพื่อน โอน เงิน เป็น เบอร์ มา ไป เข้า ของ ออมสิน</sentence>
+<sentence count="1">จะ โทร มา สอบถาม เรื่อง พร้อมเพย์ ต้อง ไป ทำ ที่ ไหน</sentence>
+<sentence count="1">สมัคร พร้อมเพย์ ที่ เครื่อง เอทีเอ็ม ออมสิน จะ ทราบ ได้ อย่าง ไร สำเร็จ หรือ ไม่</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ พร้อมเพย์ อยาก จะ ใส่ จีเมล เข้า ไป แล้ว ก็ ใส่ หมายเลข เข้า ไป ทำ หน้า ตู้เอทีเอ็ม ได้ ไหม คะ</sentence>
+<sentence count="1">เมื่อกี้ ลงทะเบียน พร้อมเพย์ ไป ที่ ตู้เอทีเอ็ม แล้ว อยาก ทราบ ว่า ลงทะเบียน เสร็จ หรือ ยัง</sentence>
+<sentence count="1">ผูก พร้อมเพย์ ด้วย เลข บัตรประชาชน</sentence>
+<sentence count="1">ทำ รายการ โอน เงิน พร้อมเพย์ ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">สอบถาม ถ้า เกิด พร้อมเพย์ ไป เชื่อมต่อ กับ อีก บัญชี หนึ่ง แล้ว สามารถ ที่ จะ ทำ เบอร์ เดิม ได้ ไหม เบอร์ เดียว กัน กับ อีก ธนาคาร</sentence>
+<sentence count="1">วิธีการ สมัคร พร้อมเพย์ ผ่าน มายโม่</sentence>
+<sentence count="1">สอบถาม ยกเลิก พร้อมเพย์ ผ่าน มายโม่</sentence>
+<sentence count="1">เลขบัญชี มี ข้อความ แจ้ง มา ทวง เงิน</sentence>
+<sentence count="1">เห็น ข้อความ มา ให้ ชำระเงิน</sentence>
+<sentence count="1">มี เอสเอ็มเอส มา บอก เงินฝาก ผู้สูงวัย เข้า บัญชี แล้ว เข้า บัญชี อะไร</sentence>
+<sentence count="1">มี ข้อความ จะ หมดอายุ คือ อะไร</sentence>
+<sentence count="1">อยาก สมัคร ข้อความ ตาม ยอดเงิน</sentence>
+<sentence count="1">ต้องการ รู้ ยอด เวลา เงิน เข้า อย่าง นี้ ไม่ ต้อง สมัคร ที่ สาขา ใช่ ไหม ค่ะ</sentence>
+<sentence count="1">สมัคร ข้อความ ที่ว่า โอน ตังค์ เข้า แล้ว มี ข้อความ แจ้ง ว่า เข้า แล้ว ไป สมัคร แล้ว ลบ ไป สมัคร ใหม่ ไม่ ได้</sentence>
+<sentence count="1">สอบถาม จีเอสบี ซูโม่ ที่ ส่ง เข้ามา ของ โทรศัพท์ คือ อะไร</sentence>
+<sentence count="1">โหล มี ส่ง ข้อความ มา ไม่ รู้ จัก ส่ง มา ไร</sentence>
+<sentence count="1">ถ้า ต้องการ ทราบว่า เวลา เงิน เข้า เงิน ออก ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง เอสเอ็มเอส</sentence>
+<sentence count="1">มี เอสเอ็มเอส เข้ามา แจ้ง เลขที่ ลงทะเบียน ของ ออมสิน คือ อะไร</sentence>
+<sentence count="1">ได้รับ เอสเอ็มเอส บัญชีออมทรัพย์ ครบ เก้า เดือน แล้ว</sentence>
+<sentence count="1">มี ข้อความ ส่ง มา ให้ จ่าย ค่าบริการ เช็ค ให้หน่อย</sentence>
+<sentence count="1">ปิดยอด ชำระ บัตรเครดิต ไป แล้ว มี เอสเอ็มเอส แจ้ง มา ว่า ยัง ไม่ ปิด</sentence>
+<sentence count="1">สอบถาม ส่ง ข้อความ มา ให้ ชำระ ก่อน วัน ที่สอง นี่ อย่างไร</sentence>
+<sentence count="1">กรณี บัตรออมสิน เดบิต ทำ รายการ โอนเงิน ไป บัญชี ต่าง ธนาคาร มี บริการ เอสเอ็มเอส แจ้ง ให้ บัญชี ปลายทาง ทราบ หรือไม่</sentence>
+<sentence count="1">รอ เอสเอ็มเอส แจ้ง เตือน</sentence>
+<sentence count="1">เบอร์ ที่ สมัคร มายโม่ ไป หาย ไป แล้ว อยาก รู้ ความเคลื่อนไหว ของ เงิน ทำ ยังไง</sentence>
+<sentence count="1">ไป ทำ บัตรคนจน บัตรรัฐ ไว้ แล้ว ทาง ธนาคาร ให้ ทำ เอสเอ็มเอส เวลา มี อะไร ส่ง ข้อความ มา แจ้ง</sentence>
+<sentence count="1">ค่า สอบถาม ที่ ปลายทาง โอน เงิน มา ให้ แต่ ยัง ไม่ รู้ เข้า รึเปล่า เช็ค ยังไง ไม่ มี ไม่ มี ข้อความ เตือน</sentence>
+<sentence count="1">ขึ้น โอทีพี อะไร</sentence>
+<sentence count="1">ให้ กด เข้า รหัส โอทีพี ไร</sentence>
+<sentence count="1">รบกวน ขอ สเตทเม้น พอดี โอน เงิน แล้ว ทำ สลิป หาย</sentence>
+<sentence count="1">โทร มา สอบถาม ถ้า ขอ สเตทเม้น ทาง มายโม่ นี่ ได้ ไหม</sentence>
+<sentence count="1">อยาก โหลด สเตทเม้น ออนไลน์ ของ ออมสิน มี ไหม</sentence>
+<sentence count="1">ต้องการ ปริ้น สเตทเม้น ผ่าน ใน เว็บ ออนไลน์ สามารถ ทำได้ ไหม แต่ จำ รหัส ผู้ใช้งาน กับ รหัสผ่าน ไม่ ได้</sentence>
+<sentence count="1">ต้องการ เช็ค ความเคลื่อนไหว เงิน ใน บัญชี</sentence>
+<sentence count="1">เข้า ใช้งาน ได้ แต่ว่า ไป เรียก แบงค์ สเตทเม้น แล้ว บอก คุณ ไม่ มีสิทธิ์</sentence>
+<sentence count="1">ขอ สเตทเม้น ทำ ไม่ เป็น ต้อง ทำ ยังไง ผ่าน ตัว แบงค์กิ้ง</sentence>
+<sentence count="1">ถ้า ขอ สเตทเม้น ทาง อินเทอร์เน็ต นี่ ได้ ไหม</sentence>
+<sentence count="1">อยาก จะ ขอ หนังสือ รับรอง เงิน ใน บัญชี</sentence>
+<sentence count="1">ถ้า ดู สเตทเม้น ต้อง ทำ ไง</sentence>
+<sentence count="1">สอบถาม ดึง สเตทเม้น จาก แอพ มายโม่ ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง ขอ สเตทเม้น ทาง อีเมล</sentence>
+<sentence count="1">ถ้า เอา สเตทเม้น ใน โทรศัพท์ ต้อง ทำ ไง</sentence>
+<sentence count="1">แอพ ออมสิน ปกติ ขอ สเตทเม้น ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง ขอ สเตทเม้น ที่ ธนาคาร ต้อง เอา สมุด ด้วย ไหม</sentence>
+<sentence count="1">สอบถาม เรื่อง สเตทเม้น</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ทำ ขอ สเตทเม้น ใน มายโม่</sentence>
+<sentence count="1">หวัด ดี ค่า ค่า รบกวน ถาม นิดหนึ่ง ถ้า ดึง สเตทเม้น ดึง ยังไง</sentence>
+<sentence count="1">ฝากประจำ ฝาก เข้า ตู้ ได้ ไหม</sentence>
+<sentence count="1">อยาก เช็ค เงิน ใน บัญชี กด ออก มา รึยัง ตู้เสีย</sentence>
+<sentence count="1">บัตรเดบิต ออมสิน สามารถ รับ โอนเงิน จาก ต่างประเทศ เข้า บัญชี บัตรเดบิต ผ่าน เครือข่าย วีซ่าเน็ต ได้ ไหม</sentence>
+<sentence count="1">สอบถาม เงินโอน เข้า บัญชี แล้ว ทำไม กด ไม่ ได้</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ วิธีการ โอนเงิน</sentence>
+<sentence count="1">อยาก ทราบ ระยะ เวลา เงิน เข้า บัญชี หลัง จาก โอน</sentence>
+<sentence count="1">ชำระเงิน เข้า บัตร ใช้ เวลา เท่าไหร่ เงิน ถึง จะ เข้า</sentence>
+<sentence count="1">เช็ค ยอด โอนเงิน เข้า บัญชี</sentence>
+<sentence count="1">อยาก จะ สอบถาม มีเงิน เข้า บัญชี แต่ ไม่รู้ ใคร โอน ให้ แต่ อยาก สอบถาม ชื่อ ผู้ ที่ โอน ให้</sentence>
+<sentence count="1">สอบถาม โอนเงิน เข้า โอนเงิน ออก ตอนนี้ โอน ได้ หรือ ยัง</sentence>
+<sentence count="1">แจ้ง ปัญหา ใช้งาน มี คน โอนเงิน ออก จาก บัญชี อยากรู้ ปลายทาง เป็น ใคร</sentence>
+<sentence count="1">ยอด เงินออก จาก บัญชี สอง ร้อย ธนาคาร หัก ค่า อะไร หรือ เปล่า ช่วย เช็ค ให้ หน่อย</sentence>
+<sentence count="1">สอบถาม โอนตังค์ ไป แล้ว เอา คืน ได้ ไหม</sentence>
+<sentence count="1">ตอนนี้ ทำ ธุรกรรม ได้ ตลอด หรือ เปล่า</sentence>
+<sentence count="1">มี ยอด โอนเงิน เข้า มา เงิน เข้า บัญชี รึเปล่า</sentence>
+<sentence count="1">รบกวน เช็ค สั่ง ของ ออนไลน์ ตัด บัตร สำเร็จ ไหม</sentence>
+<sentence count="1">สอบถาม ยอด ที่ รูด ไป ทำ เป็น ระบบ ผ่อน หรือ เปล่า</sentence>
+<sentence count="1">ซื้อ ของ ออนไลน์ ผ่าน ลาซาด้า ระบบ ค้าง ตัด ชำระเงิน ไป หรือ ยัง</sentence>
+<sentence count="1">สอบถาม โอนเงิน ใน บัตร ต้อง ทำ ไง</sentence>
+<sentence count="1">สอบถาม ยอด ฝากเงิน ยัง ไม่ เข้า</sentence>
+<sentence count="1">สอบถาม ยอดเข้า</sentence>
+<sentence count="1">สอบถาม ว่า ยอดเงิน เข้า หรือ ยัง</sentence>
+<sentence count="1">สอบถาม ว่า ยอดเข้า หรือ ยัง</sentence>
+<sentence count="1">อยากจะ สอบถาม เกี่ยวกับ การ ถอนเงิน</sentence>
+<sentence count="1">อยาก ติดต่อ เกี่ยวกับ การ กดเงิน</sentence>
+<sentence count="1">รบกวน สอบถาม ว่า ไม่ใช่ เจ้า ของ บัญชี จะ ไป เบิกเงิน ได้ ไหม</sentence>
+<sentence count="1">อยากจะ สอบถาม ว่า เงินเข้า หรือเปล่า</sentence>
+<sentence count="1">อยาก สอบถาม โอนเงิน ผิด ต้อง ขึ้น ยังไง</sentence>
+<sentence count="1">อยาก สอบถาม โอนเงิน ผิด ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก ถาม ว่า โอนตังค์ ไป ผิด สามารถ ดึง กลับ ได้ ไหม</sentence>
+<sentence count="1">ฝากเงิน แล้ว เงิน ยัง ไม่ เข้า</sentence>
+<sentence count="1">ต้องการ โอนตังค์ จาก หมายเลข บัญชี หนึ่ง ไป ที่ หมายเลข บัญชี หนึ่ง</sentence>
+<sentence count="1">โอนเงิน แล้ว ไม่มี แอพ</sentence>
+<sentence count="1">รบกวน เช็ค เงิน เข้า มา ใน ระบบ หรือ ยัง</sentence>
+<sentence count="1">มี การ หัก บัญชี ไป กี่ ครั้ง</sentence>
+<sentence count="1">อยาก ทราบ โอน เงิน ไป ให้ ใคร บ้าง เช็ค ยังไง</sentence>
+<sentence count="1">สามารถ โอนเงิน ไป ต่าง ธนาคาร ได้ สูงสุด เท่าไร</sentence>
+<sentence count="1">บัตรออมสิน เดบิต โอนเงิน ภายใน ธนาคาร ออมสิน ให้ วงเงิน สูงสุด เท่าไหร่</sentence>
+<sentence count="1">บัตรออมสิน เดบิต โอนเงิน รายย่อย ระหว่าง ธนาคาร ให้ วงเงิน สูงสุด เท่าไหร่</sentence>
+<sentence count="1">บัตรออมสิน วีซ่า เดบิต สมาร์ทไลฟ์ โอนเงิน ภายใน ธนาคาร ออมสิน ให้ วงเงิน สูงสุด เท่าไหร่</sentence>
+<sentence count="1">เพิ่ม วง เงินโอน ต่าง ธนาคาร</sentence>
+<sentence count="1">ค่า ทำ รายการ โอน เงิน แต่ ขึ้น ยอด โอน เกิน ตาม ยอด ที่ตั้ง ไว้ ใน แต่ ละ วัน อันนี้ สามารถ ขยาย วงเงิน การ โอน เงินได้ ไหม</sentence>
+<sentence count="1">วันนี้ ถาม เอา เงิน ไป เข้า เมื่อกี้ แล้ว โอน ไป ต่าง แบงค์ หก หมื่น บอก ว่า เกิน จำนวน หมายความ ว่า ไง</sentence>
+<sentence count="1">สอบถาม เรื่อง วงเงิน ที่ สามารถ โอน ได้ ต่อ วัน เมื่อวาน โอน ได้ แค่ แสน เดียว</sentence>
+<sentence count="1">อยาก ทราบ บัญชี วงเงิน ตัวเอง สามารถ โอน ได้ เท่าไหร่</sentence>
+<sentence count="1">สอบถาม เรื่อง การ เพิ่ม วงเงิน ใน การ โอน ทาง อินเทอร์เน็ต แบงค์กิ้ง ต้อง ทำ ยังไง บ้าง บุคคลธรรมดา</sentence>
+<sentence count="1">ปรับ วง เงินโอน ใน มายโม่</sentence>
+<sentence count="1">ขอ สอบถาม การ โอนเงิน นี่ วงเงิน ไม่ เกิน สอง ล้าน ต่อ วัน ใช่ไหม ต่าง ธนาคาร</sentence>
+<sentence count="1">สมัคร ใช้ ตัว คอร์ปอเรท อยู่ แล้ว ตอน สมัคร ตอนแรก ขอ วงเงิน ไว้ แค่ หนึ่ง แสน บาท รู้สึก ใน ระบบ ตั้ง โอน ได้ ครั้ง ห้า หมื่น บาท เห็น ช่วงนี้ มี ขยาย วงเงิน ต่าง ธนาคาร สนใจ อยาก ทำ รายการ เอง ไม่ต้อง ไป ธนาคาร ต้อง ทำ ยังไง</sentence>
+<sentence count="1">ตอนนี้ อยู่ หน้าจอ ประสงค์ เปลี่ยนแปลง การ ตั้งค่า วงเงิน โอน ให้ เป็น ศูนย์ บาท เหมือน ธนาคาร อื่น ทำ ตรงไหน ช่วย บอก หน่อย อยู่ หน้าจอ</sentence>
+<sentence count="1">สามารถ โอนเงิน จาก ธนาคาร ออมสิน ไป บัญชี ธนาคาร ออมสิน บุคคล อื่น ได้ เท่าไร</sentence>
+<sentence count="1">สามารถ จำกัด วงเงิน ใน การ โอน ต่อ วัน ได้ หรือไม่</sentence>
+<sentence count="1">ถาม เกี่ยวกับ เรื่อง โอน เงิน แต่ว่า ไป บัญชี ออมสิน เหมือนกัน เห็น ใน นี้ เขียน วงเงิน สูงสุด ห้า ล้าน ใช่ไหม แล้ว จำกัด ต่อ ครั้ง ไหม ถ้า สมมติ ต้องการ โอน ประมาณ หนึ่ง ล้าน เจ็ด แสน</sentence>
+<sentence count="1">สอบถาม ของ มายโม่ โอน ได้ วันหนึ่ง แสน ใช่ไหม หรือว่า เพิ่ม วงเงิน ได้</sentence>
+<sentence count="1">อยาก เพิ่ม วงเงิน โอน ได้ เท่าไหร่ ต่อ วัน กสิกร โอน แล้ว ขึ้น ว่า หนึ่ง แสน ค่ะ</sentence>
+<sentence count="1">สอบถาม เรื่อง วงเงิน ที่ โอน ได้ ต่อ วัน</sentence>
+<sentence count="1">รบกวน สอบถาม วงเงิน ที่ โอน ผ่าน มายโม่ สูงสุด ได้ เท่าไหร่</sentence>
+<sentence count="1">ใช้ มายโม่ อยู่แล้ว จะ เพิ่ม วงเงิน โอน ออก ต่าง บัญชี เพิ่ม ไม่ ได้ ต้อง ทำ ไง</sentence>
+<sentence count="1">สอบถาม โอนเงิน ได้ สูงสุด ที่ เท่าไร</sentence>
+<sentence count="1">จะ ขอ เพิ่ม วงเงิน โอน ได้ เปล่า</sentence>
+<sentence count="1">ลืม หมายเลข บัญชี</sentence>
+<sentence count="1">สอบถาม เรื่อง บัญชี ไม่สามารถ กดเงินได้</sentence>
+<sentence count="1">บัญชี ไม่ สามารถ ใช้งาน ได้</sentence>
+<sentence count="1">แจ้ง บัญชี ไม่ โชว์</sentence>
+<sentence count="1">อยาก ให้ ตรวจสอบ บัญชี ให้ ครับ</sentence>
+<sentence count="1">ช่วย ดู เลขบัญชี ให้ หน่อย ค่ะ</sentence>
+<sentence count="1">รบกวน เช็ค บัญชี ใช้ไม่ได้</sentence>
+<sentence count="1">รบกวน ช่วย เช็ค บัญชี ให้ หน่อย ใช้ไม่ได้</sentence>
+<sentence count="1">ตั้งค่า สิทธิ์ การใช้งาน ทาง บัญชี ไม่ เป็น</sentence>
+<sentence count="1">อยาก ทราบ ว่า โดน อายัด บัตร เรื่อง อะไร ค่ะ</sentence>
+<sentence count="1">คือ มี บัตร นึง ที่ โดน อายัด อะค่ะ อยากรู้ ว่า ทำไม ถึง โดน อายัด คะ</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ถูก อายัด ค่ะ ไม่รู้ ทำไม ค่ะ</sentence>
+<sentence count="1">สอบถาม ข้อมูล เรื่อง ไป กดตังค์ แล้ว ทีนี้ มัน ยึด บัตร แล้ว เงิน ก็ ไม่ ออก</sentence>
+<sentence count="1">คือ บัตร มัน กด แล้ว มัน กดเงิน ไม่ ออก อะค่ะ มัน ขึ้น หน้าจอ ว่า โดน อายัด อะค่ะ</sentence>
+<sentence count="1">เออ พอดี ว่า เอา บัตรเอทีเอ็ม ไป กด อะค่ะ แล้ว มัน ขึ้น ว่า บัตร ถูก อายัด อะค่ะ</sentence>
+<sentence count="1">ครับ พอดี บัตร ผม มัน โดน อายัด อ่ะครับ</sentence>
+<sentence count="1">แจ้ง บัตรแอคซิเดน ถูก อายัด</sentence>
+<sentence count="1">พอดี บัตร ผม โดน ระงับ ครับผม บัตรเครดิต ครับ พอดี จ่าย ล่าช้า พอดี จ่าย เข้าไป แล้ว เมื่อคืน</sentence>
+<sentence count="1">พอดี อยาก จะ แจ้ง อายัด บัตรกดเงินสด หน่อย</sentence>
+<sentence count="1">จะ โทร มา อายัด บัตร</sentence>
+<sentence count="1">ถ้า จะ ขอ อายัด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ครับผม เออ เหมือน กับ ว่า ไป กดเงิน แล้ว มัน บอก ว่า บัตร โดน อายัด</sentence>
+<sentence count="1">พอดี ไป กดตังค์ แล้ว มัน บอก บัตร โดน อายัด</sentence>
+<sentence count="1">บัตร ถูก ระงับ ทำไง ค่ะ</sentence>
+<sentence count="1">บัตร ถูกล็อค</sentence>
+<sentence count="1">พอดี ว่า กด รหัส แล้ว เหมือน กด ผิด ครั้ง เดียว เอง แล้ว ก็ บอก อายัด</sentence>
+<sentence count="1">บัตร ถูก ระงับ การ ใช้ งาน ชั่วคราว</sentence>
+<sentence count="1">พอ ดี มา กดตังค์ นะคะ บัตร มัน เขียน ไว้ ว่า บัตร อายัด โปรด ติดต่อ ธนาคาร นะคะ</sentence>
+<sentence count="1">แจ้ง บัตรเอทีเอ็ม ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรกดเงินสด สินเชื่อเงินสด ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรเครดิต ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรเดบิต ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรบีเอ็นเค สี่ สิบ แปด ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรผู้สูงอายุ ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรเจนการ์ด ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรสมาร์ทแคร์ ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรสมาร์ทไลฟ์ ถูกอายัด</sentence>
+<sentence count="1">แจ้ง บัตรสวัสดิการ ถูกอายัด</sentence>
+<sentence count="1">ค่ะ สวัสดีค่ะ แล้ว พอดี มัน ขึ้น อายัดบัตร อะค่ะ ขอ ยึด บัตร ต้อง ทำไง อะค่ะ</sentence>
+<sentence count="1">เรื่อง บัตร พี่ โดน อายัด ต้องทำ ยังไง</sentence>
+<sentence count="1">ยัง ไม่ได้ ไป จ่าย ค่าบริการ บัตร โดน อายัด</sentence>
+<sentence count="1">เรื่อง บัตร ผม โดน อายัด</sentence>
+<sentence count="1">เรื่อง บัตร โดน อายัด</sentence>
+<sentence count="1">บัตร มัน โดน อายัด ทำ ยังไง</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ไป กดเงิน แล้ว เค้า บอกว่า บัตร ถูกอายัด</sentence>
+<sentence count="1">ไป กดตังค์ แล้ว ที่ หน้า ตู้ มัน ขึ้น ว่า บัตรอายัด</sentence>
+<sentence count="1">กดตังค์ แล้ว ตู้ แจ้งว่า บัตรอายัด</sentence>
+<sentence count="1">ไป กดเงิน ที่ ตู้ เอทีเอ็ม มัน บอกว่า บัตร โดน อายัด</sentence>
+<sentence count="1">ตู้ เอทีเอ็ม มัน ฟ้อง ว่า บัตร โดน อายัด</sentence>
+<sentence count="1">ตู้ เอทีเอ็ม มัน แจ้งว่า บัตร โดน อายัด</sentence>
+<sentence count="1">ตู้ แจ้งว่า บัตร โดน อายัด</sentence>
+<sentence count="1">เอทีเอ็ม มัน โดนระงับ เนื่องจาก หัก ค่าธรรมเนียม ไม่ได้</sentence>
+<sentence count="1">อยาก แก้ไข บัตร โดน อายัด</sentence>
+<sentence count="1">เอทีเอ็มโดนระงับ เนื่องจาก หัก ค่าธรรมเนียม ไม่ได้</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเอทีเอ็ม ไป กดเงิน แล้ว บอกว่า อายัดบัตร</sentence>
+<sentence count="1">มีปัญหา เรื่อง บัตรเอทีเอ็ม ไป กด เงิน แล้ว บอกว่า บัตรถูกอายัด</sentence>
+<sentence count="1">เมื่อกี้ ไป กดตังค์ แล้ว ขึ้น ที่ หน้า ตู้ บัตรอายัด</sentence>
+<sentence count="1">ไป กดตังค์ ขึ้น บัตรถูกอายัด</sentence>
+<sentence count="1">เมื่อเช้า ไป กด เงิน แล้ว บัตร บอกว่า โดนอายัด ถูกอายัด</sentence>
+<sentence count="1">บัตรโดนอายัด ไว้ สงสัย ตังค์ ไม่มี พอ</sentence>
+<sentence count="1">ไป กดตังค์ แล้ว บอก บัตรโดนอายัด</sentence>
+<sentence count="1">เผอิญ กด รหัสผิด หลาย รอบ แล้ว บัตรโดนอายัด</sentence>
+<sentence count="1">บัตรถูกอายัด อยู่ อยู่ อายัด ไป กดตังค์ เมื่อกี้ บอก บัตรถูกอายัด</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตร ทำไม ถูกอายัด ได้</sentence>
+<sentence count="1">วันนี้ กด เงิน ด้วย บัตรเอทีเอ็ม ที่ เครื่อง บอกว่า บัตรถูกอายัด</sentence>
+<sentence count="1">บัตร กดเงิน ไม่ได้ ถูกอายัด</sentence>
+<sentence count="1">อยากทราบ ว่า ทำไม บัตรโดนอายัด</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเครดิต ออมสิน ทำไม บัตรโดนอายัด</sentence>
+<sentence count="1">บัตรกดเงิน บัตรเอทีเอ็ม กด ไม่ได้ บอกว่า บัตรถูกอายัด</sentence>
+<sentence count="1">กด แล้ว เงิน ไม่ ออก ระบบ แจ้ง ยกเลิกบัตร อะไร ไม่รู้ ที่ตู้</sentence>
+<sentence count="1">บัตรกดเงินสด ถูกอายัด นี่ ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">ถามว่า บัตรโดนอายัด ต้อง ทำ ยังไง</sentence>
+<sentence count="1">ตู้ บอก บัตรโดนอายัด เกี่ยวกับ ที่ว่า บัญชี ไม่ เคลื่อนไหว</sentence>
+<sentence count="1">ไป กด เงิน แล้ว ขึ้น บัตรอายัด แล้ว ไม่ได้ กด ผิด อายัด ได้ไง</sentence>
+<sentence count="1">เมื่อกี้ ไป กดตังค์ แล้ว ขึ้น ที่ หน้าตู้ บัตรอายัด</sentence>
+<sentence count="1">กดเงินแล้ว บัตรโดนอายัด</sentence>
+<sentence count="1">เอทีเอ็ม โดนระงับ</sentence>
+<sentence count="1">เวลา ไป กดตังค์ แจ้ง ว่า รหัสผิด</sentence>
+<sentence count="1">แม่ ไม่ได้ ตั้ง รหัส แล้ว กดเงิน ไม่ได้</sentence>
+<sentence count="1">ถาม ว่า ทำไม กด ไม่ได้ บอก ว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">ยาย จำรหัส บัตร ไม่ได้ ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">บัตร กด รหัสผิด</sentence>
+<sentence count="1">รหัส บัตร ยัง ไม่ได้</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม จำไม่ได้ เมื่อกี้ ไป กด แล้ว</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ทำไม กด รหัส ถูก แล้ว ทำไม บอก ไม่ถูกต้อง</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม ไม่ แน่ใจ ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">อยาก จะ ทราบ ว่า ลืมรหัส กดเงิน เอทีเอ็ม กด ไม่ได้ อยาก ทราบ เบอร์ รหัส</sentence>
+<sentence count="1">รหัส เข้า ไม่ได้ แล้ว เอทีเอ็ม</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม แต่ว่า มี สมุดบัญชี อยู่ จำเป็น ใช้ ตังค์ ต้อง ทำไง</sentence>
+<sentence count="1">บัตรเอทีเอ็ม กด ไม่ได้ ไป กด รหัสผิด</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม</sentence>
+<sentence count="1">บัตรเอทีเอ็ม กด ไม่ได้ สงสัย กด รหัสผิด ต้อง ทำไง</sentence>
+<sentence count="1">แจ้งปัญหา การ ใช้ บัตรเอทีเอ็ม บัตร ใช้งาน ไม่ได้ พอ กดรหัส เรียบร้อย กด จำนวนเงิน ถอนเงิน แล้ว บอก รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">ลืมรหัส บัตรกดเงินสด ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">สอบถาม ทำ รหัส บัตรเงินสด หาย</sentence>
+<sentence count="1">ลืมรหัส บัตรจีเอสบี สมาร์ท การ์ด</sentence>
+<sentence count="1">บัตรออมสิน เดบิต กด รหัสผิด สาม ครั้ง ต้อง แก้ไข อย่าง ไร</sentence>
+<sentence count="1">จำรหัส บัตรเดบิต ไม่ได้</sentence>
+<sentence count="1">จำรหัส บัตร บีเอ็นเค สี่สิบแปด ไม่ได้</sentence>
+<sentence count="1">พอ ดี ว่า บัตรเอทีเอ็ม ไป กดเงิน แล้ว ตู้ บอก ว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">ต้องการ สอบถาม เกี่ยวกับ บัตรกดเงินสด จำรหัส ไม่ได้</sentence>
+<sentence count="1">บัตรกดเงินสด จำรหัส ไม่ได้ ต้อง ทำ ไง</sentence>
+<sentence count="1">ลืมรหัส บัตร ขอ รหัส บัตร ใหม่</sentence>
+<sentence count="1">จำรหัส ผ่าน บัตรเครดิต ไม่ได้</sentence>
+<sentence count="1">ลืมรหัส บัตร</sentence>
+<sentence count="1">ติดต่อ รหัส บัตรเครดิต พีเพิ้ล การ์ด รหัส หาย</sentence>
+<sentence count="1">สอบถาม เรื่อง การ ใช้ บัตรกดเงินสด ตอนแรก กด ได้ แต่ ตอนนี้ ไป กด แล้ว บอกว่า รหัสผ่าน เดิม ใช้ไม่ได้</sentence>
+<sentence count="1">บัตรกดเงินสด จำรหัส ไม่ได้</sentence>
+<sentence count="1">บัตร กด ไม่ได้ บอก รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม</sentence>
+<sentence count="1">สมมุติ บัตรกดเงินสด ของ ออมสิน จำรหัส ไม่ได้ สามารถ ไป แจ้ง ที่ ธนาคาร ได้ ไหม</sentence>
+<sentence count="1">สอบถาม บัตรกดเงินสด กด ไม่ได้ เหมือน เข้า รหัสผ่าน เดิม ไม่ได้</sentence>
+<sentence count="1">ไป ทำรายการ ที่ ตู้ แล้ว บอกว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">เปิด บัตรกดเงินสด แล้ว กด หมายเลข ไม่ถูกต้อง</sentence>
+<sentence count="1">บัตรเงินสด ลืมรหัส บัตร</sentence>
+<sentence count="1">กด รหัสผิด แต่ จำรหัส เดิม ได้ จะต้อง ทำ อย่างไร</sentence>
+<sentence count="1">ใส่รหัสผิด นี่ ต้อง ทำ อย่าง ไง</sentence>
+<sentence count="1">เปลี่ยนรหัส บัตร แล้ว จำรหัส บัตร ไม่ได้</sentence>
+<sentence count="1">ลืมรหัส แล้ว ต้อง ทำไง บ้าง</sentence>
+<sentence count="1">กด รหัสผิด เกิน สาม ครั้ง</sentence>
+<sentence count="1">กดตังค์ บอกว่า รหัสผิด</sentence>
+<sentence count="1">ลืมรหัส บัตร</sentence>
+<sentence count="1">บัตร วีซ่า ลืมรหัส</sentence>
+<sentence count="1">ถาม เรื่อง บัตร กด รหัสผิด ขึ้น รหัส ไม่ถูกต้อง กรุณา ติดต่อ ธนาคาร</sentence>
+<sentence count="1">รบกวน จำรหัส บัตร ไม่ได้ รหัส ใช้ กด เงินสด</sentence>
+<sentence count="1">บัตรจีเอสบี กด รหัส ไป แล้ว บอกว่า ใส่รหัสผิด</sentence>
+<sentence count="1">รหัสบัตร ไม่ถูกต้อง อันนี้ เป็น บัตร ของ แม่</sentence>
+<sentence count="1">กด รหัส บัตร ผิด</sentence>
+<sentence count="1">ขอ สอบถาม ไป ทำ บัตร มา แล้ว ก็ จำรหัส ไม่ได้</sentence>
+<sentence count="1">ลืมรหัส บัตร</sentence>
+<sentence count="1">ค่า จำรหัส ผิด แล้ว บัตร ก็ ดีด ออก</sentence>
+<sentence count="1">ลืมรหัส กด ไป ครบ สาม ครั้ง แล้ว แจ้ง ว่า ให้ ติดต่อ ธนาคาร</sentence>
+<sentence count="1">เมื่อ กี้ ไป กด บัตร มา แล้ว ขึ้น ใส่ รหัสผิด ทั้ง ที่ กด รหัสถูก</sentence>
+<sentence count="1">โทรศัพท์ กด รหัสผิด สาม ครั้ง</sentence>
+<sentence count="1">กดเงิน ไม่ได้ พอ ใส่รหัส แล้ว บอกว่า ใส่ รหัสผิด</sentence>
+<sentence count="1">ถาม ว่า บัตร กดเงิน ไม่ได้ บอกว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">มา กดตังค์ แล้ว บอก รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">อยาก ขอ รหัส บัตรกดเงินสด รหัส หาย</sentence>
+<sentence count="1">สอบถาม ลืมรหัส บัตรเอทีเอ็ม</sentence>
+<sentence count="1">เอทีเอ็ม รหัส ล็อค</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ไป กดเงิน กด รหัส เดิม แต่ว่า กด ไม่ได้</sentence>
+<sentence count="1">ส่ง บัตรเอทีเอ็ม มา ให้ แต่ ไม่ ส่ง รหัส มา ให้ ไม่รู้ กด รหัส อะไร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ลืมรหัส บัญชี</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">ลืม เลข รหัส บัตรเอทีเอ็ม</sentence>
+<sentence count="1">กด บัตรเอทีเอ็ม ไม่ได้ ลืมรหัส</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรกดเงิน บัตรเอทีเอ็ม กด รหัสผิด</sentence>
+<sentence count="1">ไป กด เงิน แล้ว หน้าจอ บอกว่า รหัส ไม่ถูกต้อง แล้วก็ ให้ ติดต่อ เจ้าของ บัตร</sentence>
+<sentence count="1">อยากจะ รบกวน สอบถาม ข้อมูล เกี่ยวกับ รหัส บัตรเอทีเอ็ม ลืมรหัส</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">จำรหัส เอทีเอ็ม ไม่ได้ จะ ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">ไป กด เอทีเอ็ม แล้ว กด รหัสผิด</sentence>
+<sentence count="1">ลืม เลข บัตรเอทีเอ็ม ทำ ยังไง ได้ บ้าง</sentence>
+<sentence count="1">ไม่ ทราบ ว่า ลืมรหัส บัตรเอทีเอ็ม ทำ ไง</sentence>
+<sentence count="1">ลืมรหัส เอทีเอ็ม ต้อง ทำ อย่าง ไง</sentence>
+<sentence count="1">เอทีเอ็ม ไม่ ค่อย ได้ ใช้ กด รหัส สาม ครั้ง แล้ว ใช้ ไม่ ได้ ใช่ ไหม คะ</sentence>
+<sentence count="1">ลืมรหัส บัตรเอทีเอ็ม จะ ขอ ทราบ ได้ ไหม หรือ อย่าง ไง</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรเอทีเอ็ม ทำ ไว้ ไม่ เคย ได้ ไป กด แล้ว รหัส เอทีเอ็ม ลืม ไป แล้ว ทำ ไง</sentence>
+<sentence count="1">กด รหัส บัตรเอทีเอ็ม ผิด สาม ครั้ง แล้ว ต้อง ไป ปลดล็อค ยัง ไง หรือ ว่า รอ วัน ถัด ไป</sentence>
+<sentence count="1">ลืมรหัส เอทีเอ็ม</sentence>
+<sentence count="1">กด รหัสผิด สาม ครั้ง</sentence>
+<sentence count="1">กด บัตรเงินสด แล้ว บอก ว่า รหัส เอทีเอ็ม ไม่ถูกต้อง ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">จำรหัส บัตรเครดิต ไม่ได้</sentence>
+<sentence count="1">บัตรออมสิน เดบิต กด รหัสผิด สี่ ครั้ง ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">ถ้า จำรหัส บัตรออมสิน เดบิต ไม่ได้ ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">จำรหัส บัตรผู้สูงอายุ ไม่ได้</sentence>
+<sentence count="1">จำรหัส บัตรสมาร์ทแคร์ ไม่ได้</sentence>
+<sentence count="1">จำรหัส บัตรสมาร์ทไลฟ์ ไม่ได้</sentence>
+<sentence count="1">จำรหัส บัตรสวัสดิการ ไม่ได้</sentence>
+<sentence count="1">กด รหัส กดเงิน ผิด</sentence>
+<sentence count="1">สมัคร ออนไลน์ ไว้ แต่ ลืมรหัส</sentence>
+<sentence count="1">ลืมรหัส บัตรกดเงินสด</sentence>
+<sentence count="1">กด รหัสผิด แล้ว รหัส ล็อค</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง บัตรกดเงินสด กด ไป แล้ว บอก ว่า จำ รหัส ไม่ได้ ให้ ติดต่อ เจ้าหน้าที่</sentence>
+<sentence count="1">กด รหัส ที่ คอลเซ็นเตอร์ ให้ มา แล้ว เข้า ไม่ได้</sentence>
+<sentence count="1">ได้ รับ บัตร แล้ว เปิด บัตร แล้ว มี รหัส บัตร ส่ง มา ลอง มา กด กด ไม่ได้ หรือ ต้อง กด ที่ ตู้ ของ ออมสิน</sentence>
+<sentence count="1">บัตรกดเงินสด ส่ง รหัส มา ที หลัง ใช่ ไหม ส่ง มา แล้ว ทิ้ง ไป แล้ว</sentence>
+<sentence count="1">บัตรกดเงินสด เคย กด อยู่ ตลอด รหัส เดิม แต่ ตอน นี้ ไป กด ไม่ได้ ที่ หน้า ตู้ บอก ว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">จำ รหัส บัตร ไม่ได้</sentence>
+<sentence count="1">บัตรกดเงินสด กด รหัส ไม่ได้ กด ไป บอก ว่า รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">สอบถาม เรื่อง ขอ รหัส บัตรกดเงินสด ไป ใหม่ ส่ง มา ให้ แล้ว กด ไม่ได้ ข้าง หน้า ตู้ บอก ว่า ให้ ติดต่อ ทาง ธนาคาร</sentence>
+<sentence count="1">สอบถาม เพิ่ง เปิด บัตร เงินสด ไป กด บัตร แล้ว บอก รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">อยาก ทราบ มา กด เงิน กด ต้อง แจ้ง ปลดล็อค บัตร ก่อน หรือ ไง กด แล้ว เด้ง ออก</sentence>
+<sentence count="1">กด รหัสผิด รหัส บัตรเครดิต</sentence>
+<sentence count="1">รหัส หลัง บัตร สาม ตัว จำ ไม่ได้</sentence>
+<sentence count="1">รหัส บัตรกดเงินสด ไม่ถูกต้อง ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">ลืมรหัส บัตรกดเงินสด อยาก ขอ ใหม่</sentence>
+<sentence count="1">ลืมรหัส บัตรบัตรเครดิต</sentence>
+<sentence count="1">มีเรื่อง สอบถาม เป็น บัตรกดเงินสด ของ ธนาคารออมสิน แต่ว่า กด แล้ว บอก ว่า เหมือน รหัสผิด</sentence>
+<sentence count="1">ลืมรหัส ผ่าน บัตรเครดิต</sentence>
+<sentence count="1">เสียบ บัตร แล้ว รหัสไม่ถูกต้อง</sentence>
+<sentence count="1">ลืมรหัสบัตร</sentence>
+<sentence count="1">จำรหัสบัตร ไม่ได้</sentence>
+<sentence count="1">ลืมรหัสบัตร เอทีเอ็ม</sentence>
+<sentence count="1">พอดี ผม ลืมรหัสบัตร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม รหัสล็อค</sentence>
+<sentence count="1">บัตรเครดิต ของ เรา ถ้า เรา จำรหัสไม่ได้ เรา สามารถ ทำใหม่ ได้ไหม</sentence>
+<sentence count="1">จำรหัส บัตรเจนการ์ด ไม่ได้</sentence>
+<sentence count="1">ไป กดเงิน แล้ว กดรหัสผิด</sentence>
+<sentence count="1">พอดีว่า จำรหัสบัตร ไม่ได้</sentence>
+<sentence count="1">อยากจะ ใช้ บัตร คือ รหัส มันหาย ก็ เลย จำไม่ได้</sentence>
+<sentence count="1">พอดีว่า ลืมรหัส บัตรกดเงินสด</sentence>
+<sentence count="1">อยาก จะ ขอ รหัสใหม่ พอดี จำรหัสบัตร ไม่ได้</sentence>
+<sentence count="1">พอดี ผม ไป กด บัตรเครดิต แล้ว มัน บอก ว่า รหัสไม่ถูกต้อง ครับ</sentence>
+<sentence count="1">ลืมรหัส บัตรเครดิต</sentence>
+<sentence count="1">รหัสไม่ถูกต้อง</sentence>
+<sentence count="1">รหัสมันหาย ก็ เลย จำไม่ได้</sentence>
+<sentence count="1">อายัด บัตร ต้อง ทำ ไง ลืม บัตร หน้า ตู้ หาย</sentence>
+<sentence count="1">กดตังค์ แล้ว บัตร ไม่ ออก</sentence>
+<sentence count="1">กดเงิน แล้ว ตู้ ออมสิน ที่ อุบล ไม่ คืน บัตร</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร เข้า ไป</sentence>
+<sentence count="1">ตู้ กิน บัตร เข้า ไป</sentence>
+<sentence count="1">กด บัตร ไม่ ออก ตรวจสอบ สถานะ ให้</sentence>
+<sentence count="1">อายัด บัตร บัตร โดน กลืน ลง ตู้</sentence>
+<sentence count="1">ตอนนี้ มา กดตังค์ ที่ ตู้ เซเว่น มุกดาหาร ตรง สี่แยก ตู้ กิน บัตร ไป เงิน ไม่ ออก มา</sentence>
+<sentence count="1">เมื่อ สักครู่ บัตร โดน อายัด กลืน ไป</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร เข้า ไป</sentence>
+<sentence count="1">ลืม เอทีเอ็ม ไว้ ใน ตู้</sentence>
+<sentence count="1">บัตร โดน อายัด ใช้ ตู้ ของ ที เอ็ม บี แต่ ว่า กิน บัตร ไม่ คืน แล้ว ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">ลืม บัตรเอทีเอ็ม ไว้ ที่ ตู้</sentence>
+<sentence count="1">เมื่อ กี้ มา ฝาก ตังค์ แล้ว พอ เสียบ บัตร เข้าไป แล้ว เครื่อง ขึ้น จอ สีแดง แล้ว ก็ เขียน ขออภัย ขณะ นี้ เครื่อง ปิด บริการ ชั่วคราว แล้ว ไม่ คืน บัตร ให้ อัน นี้ ต้อง ทำ ไง</sentence>
+<sentence count="1">ยึด บัตร ไป</sentence>
+<sentence count="1">บัตร โดน ยึด ไป รับ ได้ ที่ ไหน</sentence>
+<sentence count="1">ตู้ กิน บัตร</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร เข้า ไป</sentence>
+<sentence count="1">บัตร ไม่ ออก</sentence>
+<sentence count="1">จะแจ้ง ตู้เอทีเอ็ม กิน บัตร เข้าไป</sentence>
+<sentence count="1">ค่า เอทีเอ็ม มา กด เงิน เมื่อ กี้ ตู้ กลืน บัตร ลง ไป</sentence>
+<sentence count="1">สอบถาม ตู้ กลืน บัตร</sentence>
+<sentence count="1">สอบถาม ว่า มา กดตังค์ แล้ว ไฟ ดับ แล้ว บัตร อยู่ ใน เครื่อง</sentence>
+<sentence count="1">มา กด เอทีเอ็ม ตู้ ออมสิน บัตร ไม่ ออก</sentence>
+<sentence count="1">ไป กดเงิน แล้ว ตู้ ไฟ ดับ แล้ว บัตร ติด อยู่ ใน ตู้</sentence>
+<sentence count="1">มา กดตังค์ แล้ว บัตร ติด อยู่ ใน ตู้ แล้ว ตู้ เสีย</sentence>
+<sentence count="1">บัตร ตู้ กลืน บัตร</sentence>
+<sentence count="1">บัตร ค้าง ตู้</sentence>
+<sentence count="1">เครื่อง พอ กด ปรับ เงิน ไม่ คืน บัตร</sentence>
+<sentence count="1">ไป กดเงิน เงิน ออก แล้ว แต่ บัตร ไม่ ออก</sentence>
+<sentence count="1">มา กดเงิน ที่ ตู้ แล้ว กิน บัตร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ติด อยู่ ใน ตู้</sentence>
+<sentence count="1">กดเงิน ตู้เอทีเอ็ม แล้ว ไฟ ดับ บัตร คา อยู่ ใน ตู้</sentence>
+<sentence count="1">ตู้ กิน บัตร ไป</sentence>
+<sentence count="1">เอา เอทีเอ็ม มา กดตังค์ แล้ว ไฟ ดับ โดน ยึด บัตร</sentence>
+<sentence count="1">บัตร ติด อยู่ ใน ตู้ ไฟ ดับ</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กลืน บัตร ไป</sentence>
+<sentence count="1">มา กดเงิน ที่ ออมสิน สลาก บัตร โดน กิน ไม่ คลาย ออก มา</sentence>
+<sentence count="1">บัตร ค้าง และ กิน บัตร ด้วย</sentence>
+<sentence count="1">ใช้ บัตรเอทีเอ็ม กดเงิน แล้ว โดน ตู้ ยึด บัตร</sentence>
+<sentence count="1">ถามสอบ เรื่อง ตู้เอทีเอ็ม กด แล้ว ตู้ ไม่ คืน บัตร</sentence>
+<sentence count="1">สอบถาม กดเงิน แล้ว ตู้ ค้าง</sentence>
+<sentence count="1">มา กดตังค์ แล้ว ไฟ ดับ พอดี บัตร เข้า ไป แล้ว</sentence>
+<sentence count="1">แม่ มา กดเงิน แล้ว ไฟ ดับ บัตร อยู่ ข้าง ใน ให้ ทำ ไง</sentence>
+<sentence count="1">เมื่อเช้า ไป กด บัตร ตู้ กิน บัตร เข้าไป</sentence>
+<sentence count="1">เมื่อวาน นี้ ตู้ ค้าง แล้ว ก็ กิน บัตร</sentence>
+<sentence count="1">มี กรณี ที่ ว่า ตู้เอทีเอ็ม กิน บัตร</sentence>
+<sentence count="1">ไป กดเงิน ที่ ตู้ แล้ว บัตร ค้าง</sentence>
+<sentence count="1">กดเงิน ที่ ตู้เอทีเอ็ม บัตรเอทีเอ็ม ติด อยู่ ที่ เครื่อง</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร เจ้าหน้าที่ มา ดู ได้ ไหม หรือ ยัง ไง</sentence>
+<sentence count="1">เกี่ยวกับ บัตร ตู้ ยึด บัตร แต่ จะ ต้อง ทำ ไง บ้าง แต่ เป็น บัตร ของ ธนาคาร อื่น</sentence>
+<sentence count="1">ไป กดเงิน แล้ว ตู้ กิน บัตร ต้อง ทำ ยัง ไง</sentence>
+<sentence count="1">เมื่อ กี้ มา กดตังค์ แล้ว ก็ หน้า จอ หาย ไป แล้ว บัตรเอทีเอ็ม ไม่ ออก</sentence>
+<sentence count="1">บัตรเอทีเอ็ม โดน ยึด เข้าไป ของ ออมสิน</sentence>
+<sentence count="1">มา กด แล้ว ลืม เอา บัตร ออก</sentence>
+<sentence count="1">มา กด เอทีเอ็ม แล้ว เครื่อง เอทีเอ็ม ดับ กลืน บัตร ไป</sentence>
+<sentence count="1">ลูกชาย เอา บัตรเอทีเอ็ม ของ คุณแม่ ไป กด แล้ว สงสัย ลืม บัตรเอทีเอ็ม</sentence>
+<sentence count="1">แจ้ง ตู้ กิน บัตร</sentence>
+<sentence count="1">เมื่อ กี้ บัตร ค้าง อยู่ ใน ตู้เอทีเอ็ม ไม่รู้ ทำ ไง</sentence>
+<sentence count="1">มา กดเงิน แล้ว มัน ยึด บัตร</sentence>
+<sentence count="1">ขอ แจ้ง ปัญหา บัตร ถูก อายัด เข้าไป</sentence>
+<sentence count="1">สอบถาม ว่า เมื่อ กี้ มา กดตังค์ ที่ ตู้ ของ ออมสิน ที่ นี้ ไม่ไ ด้ เอา บัตร ออก ตู้ ดึง บัตร เข้าไป ไหม คะ</sentence>
+<sentence count="1">กดเงิน แล้ว บัตร กิน เข้า ไป ใน ตู้</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กลืน บัตร ไป</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ค้าง อยู่ ใน ตู้</sentence>
+<sentence count="1">ตู้ กิน บัตร</sentence>
+<sentence count="1">บัตรเอทีเอ็ม โดน ยึด</sentence>
+<sentence count="1">มา กดเงิน ตู้ ออมสิน แล้ว ก็ ตู้ ยึด บัตร ไป</sentence>
+<sentence count="1">โดน กิน บัตร</sentence>
+<sentence count="1">ลืม บัตรเอทีเอ็ม ตู้ ดูด บัตร ไป แล้ว</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ยึด บัตร ต้อง ทำ ยัง ไง บ้าง</sentence>
+<sentence count="1">กดเงิน ที่ ตู้ ของ กรุงเทพ แล้ว ลืม เอา บัตร ออก มา</sentence>
+<sentence count="1">บัตร โดน ตู้ กลืน เข้าไป</sentence>
+<sentence count="1">มา กดเงิน แล้ว ไม่ ทอน บัตร</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ดูด บัตร</sentence>
+<sentence count="1">สอบถาม ถ้า ลืม บัตร ไว้ เครื่อง เครื่อง ยึด คืน ไหม คะ</sentence>
+<sentence count="1">ติดต่อ ด้าน บัตรเอทีเอ็ม โดน ยึด</sentence>
+<sentence count="1">บัตร โดน กิน เข้า ไป</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ถูก ตู้ กิน</sentence>
+<sentence count="1">เสียบ บัตร เข้า กด รหัส แล้ว ไฟ ดับ ตู้เอทีเอ็ม ดับ แล้ว บัตร ได้ คืน ไหม</sentence>
+<sentence count="1">มา กดเงิน ที่ ตู้ แล้ว กิน บัตร เข้า ไป แล้ว</sentence>
+<sentence count="1">ตู้เอทีเอ็ม แบบ ฝาก กลืน บัตร ไป</sentence>
+<sentence count="1">อยาก จะ ติดต่อ ตู้ กิน บัตร</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ยึด บัตร ไม่ คืน บัตร ให้</sentence>
+<sentence count="1">มี บัตรอิออน ไป กดเงิน กลืน บัตร เข้า ไป ต้อง ทำ ไง</sentence>
+<sentence count="1">สอบถาม บัตร ไป กด ตู้ แล้ว ไม่ ออก</sentence>
+<sentence count="1">เอา บัตร ไป กด แล้ว ตู้ กิน บัตร</sentence>
+<sentence count="1">บัตร ติด อยู่ ใน เครื่อง บัตรเครดิต</sentence>
+<sentence count="1">มา กดเงิน แล้วก็ ไฟ ดับ แล้ว บัตร ค้าง อยู่ ใน ตู้เอทีเอ็ม</sentence>
+<sentence count="1">เอทีเอ็ม โดน กลืน ไป</sentence>
+<sentence count="1">ตู้ ไม่ ยอม คืน บัตร</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร เข้า ไป ไม่ คาย ออก มา</sentence>
+<sentence count="1">บัตร คา อยู่ กับ เครื่อง</sentence>
+<sentence count="1">ลืม บัตร ไว้ ใน ตู้ ธนาคาร</sentence>
+<sentence count="1">กด มา กดตังค์ แล้ว ตู้ กิน บัตร ไป</sentence>
+<sentence count="1">พอ ดี บัตร อยู่ ที่ ตู้</sentence>
+<sentence count="1">เอา บัตรเอทีเอ็ม มา กด ใน ตู้ แล้ว ไม่ ออก ได้ เงิน แต่ ว่า บัตร ไม่ ออก มา</sentence>
+<sentence count="1">บัตร มา กดเงิน ไม่ ได้ ตู้ ค้าง แล้ว บัตร อยู่ ใน ตู้</sentence>
+<sentence count="1">เอา บัตร เข้า ไป มัน กลืน เป็น อะ ไร</sentence>
+<sentence count="1">บัตร โดน ตู้ ยึด ไป</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ค้าง</sentence>
+<sentence count="1">เครื่อง เอทีเอ็ม กิน บัตร ไป</sentence>
+<sentence count="1">เสียบ เข้า ไป แล้ว ไม่ คืน บัตร</sentence>
+<sentence count="1">ลืม บัตรเอทีเอ็ม ที่ ตู้</sentence>
+<sentence count="1">กดตังค์ แล้ว บัตร ไม่ ออก ตู้ กิน บัตร</sentence>
+<sentence count="1">บัตร ติด อยู่ ใน ตู้</sentence>
+<sentence count="1">ลืม บัตร ไว้ ใน ตู้</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร</sentence>
+<sentence count="1">มา กดเงิน ตู้เอทีเอ็ม ตรง ตลาด นกฮูก กิน บัตร เข้า ไป</sentence>
+<sentence count="1">ตู้ กิน บัตร ไป</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ไป กดตังค์ แล้ว ลืม ดึง บัตร ออก มา แล้ว ตู้ กิน บัตร เข้า ไป</sentence>
+<sentence count="1">ลูกสาว มา กดเงิน แล้ว ลืม บัตร ไว้ ใน ตู้</sentence>
+<sentence count="1">บัตร ต่าง ธนาคาร ถูก เครื่อง เอทีเอ็ม ออมสิน ยึด บัตร</sentence>
+<sentence count="1">กดเงิน แล้ว ลืม เอา บัตร ออก แล้ว ตู้ กิน บัตร ไป</sentence>
+<sentence count="1">บัตร โดน ตู้ ยึด</sentence>
+<sentence count="1">ไป กดเงิน ตู้ ยึด บัตร ไว้ ตู้ เสีย</sentence>
+<sentence count="1">ตู้ เอา บัตร เข้าไป แล้ว แล้ว ขึ้น ปิด บริการ ชั่วคราว</sentence>
+<sentence count="1">บัตร ถูก กลืน ไป ใน ตู้</sentence>
+<sentence count="1">เมื่อกี้ ไป กดตังค์ แล้ว โดน ดูด บัตร</sentence>
+<sentence count="1">มา กดเงิน แล้ว ไม่ แน่ใจ ตู้ กิน บัตร หรือ เปล่า</sentence>
+<sentence count="1">บัตร โดน ยึด เป็น บัตร กดเงินสด</sentence>
+<sentence count="1">ทำ รายการ เอทีเอ็ม แล้ว ไฟ ดับ บัตร ไม่ ออก มา</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร ไม่ ยอม ให้ คืน</sentence>
+<sentence count="1">บัตร โดน กิน ไม่ ออก ธนาคาร กรุงไทย</sentence>
+<sentence count="1">มา กดตังค์ ของ ตู้ ออมสิน บัตร ไม่ ออก มา ตู้ ยึด ไป เมื่อ สักครู่ นี้</sentence>
+<sentence count="1">ตู้ กิน บัตร ทำไง บัตรกสิกร</sentence>
+<sentence count="1">บัตร โดน ตู้ ยึด</sentence>
+<sentence count="1">ตู้เอทีเอ็ม กิน บัตร</sentence>
+<sentence count="1">ธนาคารออมสิน ที่ พัทยา จอมเทียน ชลบุรี กิน บัตร ไป แล้ว ก็ กิน เงิน ไป ด้วย</sentence>
+<sentence count="1">กดเงิน แล้ว ลืม บัตร ไม่ รู้ ใคร หยิบ ไป หรือ ว่า บัตร กิน ไป ใน ตู้ ไม่ แน่ ใจ</sentence>
+<sentence count="1">ตู้ ไม่ ยอม คืน บัตร ขึ้น กรุณา รอ สักครู่ กำลัง ทำ รายการ นี่ ร่วม ยี่สิบ นาที แล้ว</sentence>
+<sentence count="1">ไป กด บัตร แล้ว ตู้เอทีเอ็ม ยึด บัตร ไป</sentence>
+<sentence count="1">กด เอทีเอ็ม แล้ว เหมือน บัตร กิน เข้าไป</sentence>
+<sentence count="1">กดเงิน เสร็จ แล้ว ไม่ ได้ ดึง บัตร ออก</sentence>
+<sentence count="1">มา ใช้ บริการ ตู้ ออมสิน ใช้ บัตรเอทีเอ็ม กด เข้า ไป แล้ว ตู้ ยึด บัตร ไป</sentence>
+<sentence count="1">บัตร ไม่ ออก อยู่ ใน ตู้ ออมสิน เอา บัตร ไม่ ได้</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ไป กด เมื่อกี้ มัน กลืน บัตร ไป</sentence>
+<sentence count="1">ตู้เอทีเอ็ม พอ เสียบ บัตร เข้าไป แล้ว ดูด บัตร เข้าไป</sentence>
+<sentence count="1">ตู้ ยึด บัตร</sentence>
+<sentence count="1">เครื่อง เอทีเอ็ม กิน บัตร ต้อง ทำ ยังไง</sentence>
+<sentence count="1">เสียบ บัตร แล้ว บัตร ค้าง ข้างใน เนี้ย</sentence>
+<sentence count="1">ใช้ บัตร ของ กรุงไทย มา กด ที่ ออมสิน แต่ ว่า กิน บัตร ไป</sentence>
+<sentence count="1">เมื่อ กี้ กดเงิน อยู่ อยู่ ยึด บัตร ไป</sentence>
+<sentence count="1">มา กดเงิน เงิน ออก แต่ บัตร ไม่ ออก</sentence>
+<sentence count="1">ไป กด บัตร แล้ว มัน กิน เข้า ไป</sentence>
+<sentence count="1">ตู้ หน้า ธนาคาร เสีย ไม่ ทัน เห็น แล้ว กิน บัตร ไป</sentence>
+<sentence count="1">มา กดตังค์ ที่ ตู้ ออมสิน แล้ว ที่ นี้ กด เอา สลิป แล้ว บัตร ไม่ ออก</sentence>
+<sentence count="1">มา กดตังค์ มา กด ตู้ ของ ออมสิน แล้ว ยึด บัตร</sentence>
+<sentence count="1">บัตร โดน เครื่อง ยึด</sentence>
+<sentence count="1">สอดบัตร เข้า ไป แล้ว บัตร ไม่ ออก มา กิน เข้า ไป</sentence>
+<sentence count="1">มา กดตังค์ ใส่ บัตร เข้า ไป กลืน บัตร เข้า ไป</sentence>
+<sentence count="1">ตอนนี้ บัตร โดน กลืน เข้า ไป</sentence>
+<sentence count="1">กดเงิน แล้ว ตู้ กิน บัตร ไป</sentence>
+<sentence count="1">กลืน บัตร ไป</sentence>
+<sentence count="1">เมื่อกี้ กดตังค์ แล้ว ตู้ ดับ แล้ว ทั้ง บัตร ทั้ง ตังค์ อยู่ ใน ตู้ หมด</sentence>
+<sentence count="1">ตู้ ยึด บัตรเอทีเอ็ม</sentence>
+<sentence count="1">เมื่อ กี้ กำ ลัง จะ กดตังค์ แล้ว ไฟ ดับ บัตร อยู่ ใน ตู้ เป็น ตู้ ของ ธนาคารออมสิน แต่ บัตร ของ กรุงเทพ</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ของ ธนาคารออมสิน สาขา เซเว่น มีปัญหา มา กดตังค์ แล้ว บัตร ติด อยู่ ใน นั้น แล้ว เครื่อง ดับ</sentence>
+<sentence count="1">ไป กดเงิน แล้ว ไม่ ได้ รับ เงิน บัตร ถูก ยึด</sentence>
+<sentence count="1">ไป กดตังค์ บัตร ก็ ไม่ ออก ตังค์ ก็ ไม่ ได้</sentence>
+<sentence count="1">กดเงิน แล้ว ตู้ ยึด บัตร</sentence>
+<sentence count="1">กดเงิน ตู้ ไม่ คืน บัตร</sentence>
+<sentence count="1">กดเงิน บัตร ไม่ ออก มา</sentence>
+<sentence count="1">ตู้เอทีเอ็ม สอดบัตร เข้า ไป กิน บัตร เข้า ไป กดตังค์ ไม่ ได้</sentence>
+<sentence count="1">มา กดตังค์ แล้ว ตู้ มัน กลืน บัตร เข้า ไป</sentence>
+<sentence count="1">กด ตู้ แล้ว บัตร โดน ยกเลิก ไม่ คืน บัตร มา</sentence>
+<sentence count="1">กดเงิน ดูด บัตร เข้า ไป</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ไม่ คืน บัตร</sentence>
+<sentence count="1">ตู้ ยึด บัตร</sentence>
+<sentence count="1">บัตรกดเงินสด โดน ตู้ ยึด</sentence>
+<sentence count="1">บัตร ติด อยู่ ใน ตู้</sentence>
+<sentence count="1">ไป กดเงิน แล้ว ตู้ อม บัตร ไป</sentence>
+<sentence count="1">กด ตู้เอทีเอ็ม แล้ว ที่ นี้ บัตร ไม่ คืน ออก มา</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ไม่ คืน บัตร</sentence>
+<sentence count="1">พอ ดี ว่า บัตรเอทีเอ็ม โดน ยึด</sentence>
+<sentence count="1">สอบถาม เรื่อง บัตรกดเงินสด โดน ตู้ กิน บัตร</sentence>
+<sentence count="1">จะ โทร แจ้ง เรื่อง ตู้เอทีเอ็ม กิน บัตร มา กด ให้ พ่อ</sentence>
+<sentence count="1">เมื่อ กี้ กด เงิน แล้ว บัตร โดน ตู้ กลืน</sentence>
+<sentence count="1">โดน กลืน บัตร เข้า ไป ทำ ไง</sentence>
+<sentence count="1">มา กด ตังค์ แล้ว บัตร ไม่ ออก มา</sentence>
+<sentence count="1">เครื่อง ยึด บัตรกดเงินสด</sentence>
+<sentence count="1">อยาก ติดต่อ เรื่อง บัตรเครดิต ที่ โดน ยึด ไป</sentence>
+<sentence count="1">บัตร ไป กด กับ ตู้เอทีเอ็ม แล้ว ยึด บัตร ไป ต้อง ทำ ไง บัตรกดเงินสด</sentence>
+<sentence count="1">มันกินบัตร ไป ต้อง ทำ ยังไง</sentence>
+<sentence count="1">อยาก จะ แจ้ง เรื่อง บัตรเอทีเอ็ม ธรรมดา โดนตู้ยึด</sentence>
+<sentence count="1">ฝากเงิน แล้ว ลืมเอาบัตร เอทีเอ็ม ออกมา</sentence>
+<sentence count="1">พอดี ลืมบัตรเอทีเอ็ม ไว้ ที่ ตู้</sentence>
+<sentence count="1">เครื่องยึดบัตร เอทีเอ็ม ไป</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ผม มัน โดนกลืน เข้าไป</sentence>
+<sentence count="1">บัตรเอทีเอ็มติด เอา ออกมา ไม่ได้</sentence>
+<sentence count="1">บัตรเอทีเอ็ม ประมาณ ว่า ถูกดูด เข้าไป แล้ว อย่างนี้ ต้อง ทำ อย่าง ไง บ้าง</sentence>
+<sentence count="1">ไม่ ทราบ ว่า เครื่องดูดบัตร ไป หรือเปล่า พอ เช็ค ได้ ไหม</sentence>
+<sentence count="1">พิมพ์ รหัสผ่าน แบงค์กิ้ง ผิด แล้ว บอก ว่า ให้ ติดต่อ คอลเซ็นเตอร์</sentence>
+<sentence count="1">สอบถาม เกี่ยวกับ การ แก้ไข ระบบ อินเทอร์เน็ต แบงค์กิ้ง ของ กองทุนหมู่บ้าน ลืม รหัสผ่าน</sentence>
+<sentence count="1">ใช้ อินเทอร์เน็ต แบงค์กิ้ง แต่ ว่า นาน แล้ว จำ ยูสเซอร์ กับ พาสเวิร์ด ไม่ ได้ พอ เข้าไป ใช้ ไม่ได้</sentence>
+<sentence count="1">ยัง ไม่ ได้รับ รหัส อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">โทร มา สอบถาม ใช้ ยูสเซอร์ เนม พาสเวิร์ด ที่ เคย สมัคร อินเทอร์เน็ต แบงค์กิ้ง ล็อคอิน แล้ว ใช้ ไม่ ได้ ให้ ติดต่อ คอลเซ็นเตอร์</sentence>
+<sentence count="1">เข้า อินเทอร์เน็ต แบงค์กิ้ง ครั้งแรก แล้ว บอก รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง รหัสล็อค จะ ขอ ปลด อายัด</sentence>
+<sentence count="1">ทำ อินเทอร์เน็ต แบงค์กิ้ง ได้รับ พาสเวิร์ด ขึ้น มา แล้ว แล้ว ลอง เข้าไป ทำ ไม่ ได้ ไม่ ผ่าน</sentence>
+<sentence count="1">สมุดบัญชี หาย แล้ว ใน กระเป๋า ใบ มี รหัส ยูสเซอร์ กับ พาสเวิร์ด แต่ ไม่ แน่ ใจ ว่า เป็น ยูสเซอร์ พาสเวิร์ด ของ อินเทอร์เน็ต แบงค์กิ้ง หรือ โมบาย แบงค์กิ้ง ถ้า เป็น อินเทอร์เน็ต แบงค์กิ้ง ทำ ยังไง ได้ เปลี่ยน รหัส หรือ ยังไง ไม่ ทราบ</sentence>
+<sentence count="1">ลืมรหัสผ่าน เข้า ใช้งาน อินเทอร์เน็ต แบงค์กิ้ง ของ บุคคลธรรมดา</sentence>
+<sentence count="1">ล็อกอิน เข้า อินเทอร์เน็ต แบงค์กิ้ง บอกว่า ให้ ติด ต่อมา ที่ เบอร์ นี้</sentence>
+<sentence count="1">ลืม หมายเลข ไอดี อินเทอร์เน็ต แบงค์กิ้ง ลืมรหัส ผู้ใช้งาน ปกติ เป็น พาสเวิร์ด หรือ อะไร ลืม</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง แล้ว มา แจ้ง เปลี่ยน เบอร์ ยัง ไม่ ได้ รหัส เข้า ต้อง ทำ ไง</sentence>
+<sentence count="1">จะแจ้ง ใส่ พาสเวิร์ด ล็อค บุคคลธรรมดา</sentence>
+<sentence count="1">ขอ สอบถาม เกี่ยวกับ การ เข้า ใช้ อินเทอร์เน็ต แบงค์กิ้ง ลืมรหัส ผู้ใช้ ต้อง ทำ ยังไง บ้าง</sentence>
+<sentence count="1">รหัส ล็อค จีเอสบี อินเทอร์เน็ต แบงค์กิ้ง อยู่ บน คอมพิวเตอร์ ใส่ รหัสผิด โปรด ติดต่อ คอลเซ็นเตอร์</sentence>
+<sentence count="1">เข้า ของ ออมสิน อินเทอร์เน็ต แบงค์กิ้ง ไม่ได้ รหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">พยายาม ที่ จะ เข้า อินเทอร์เน็ต แบงค์กิ้ง ปรากฏ เหมือน มี เข้าไป ใส่รหัส ผู้ใช้งาน และ รหัสผ่าน ใส่ ลง ไป แล้ว ไม่ได้ บอกว่า โปรด ติดต่อ คอลเซนเตอร์</sentence>
+<sentence count="1">สอบถาม อินเทอร์เน็ต แบงค์กิ้ง ไป สมัคร แล้ว ที่ ออมสิน แต่ จำ รหัส ผู้ใช้ ไม่ได้ ลืมรหัสผ่าน</sentence>
+<sentence count="1">เข้ารหัส แบงค์กิ้ง ผิด</sentence>
+<sentence count="1">แบงค์กิ้ง ของ โดน ล็อค</sentence>
+<sentence count="1">เปลี่ยน เบอร์ ใหม่ แล้ว เข้า ไม่ ได้</sentence>
+<sentence count="1">เมื่อ สัก ครู่ โทร มา เข้า ระบบ ไม่ ได้ ตอนนี้ ยัง เข้า ไม่ ได้ อยู่</sentence>
+<sentence count="1">ล็อกอิน เข้า ไม่ ได้</sentence>
+<sentence count="1">ลืม รหัส ที่ตั้ง ไว้ ใน แอพ อยากจะ ตั้งค่า ใหม่</sentence>
+<sentence count="1">รหัส จีเอสบี เปย์ ล็อค</sentence>
+<sentence count="1">มีปัญหา เรื่อง การ ใช้ แอพ เคย โหลด ไว้ แล้ว เหมือน หาย ไป จาก เครื่อง โหลด ใหม่ อีกที แล้ว ทำ ขั้นตอน ไป ถึง รับ รหัส โอทีพี ไม่ ส่ง รหัส มา ให้ ทำต่อ ไม่ ได้ ต้อง ยัง ไง</sentence>
+<sentence count="1">ปลดล็อค รหัส แอพ</sentence>
+<sentence count="1">ลืม รหัสผ่าน แอพ</sentence>
+<sentence count="1">ลืม รหัส เข้า รหัส แอพพลิเคชั่น</sentence>
+<sentence count="1">เข้า แอพ แล้ว ลืม รหัส</sentence>
+<sentence count="1">ลืม รหัส เข้า แอพ ล็อค</sentence>
+<sentence count="1">แอพพลิเคชั่น ล็อค</sentence>
+<sentence count="1">เมื่อกี้ เข้ารหัส ผิด ไป สาม ครั้ง แล้ว ลบ แอพ ติดตั้งใหม่ เข้า ไม่ ได้</sentence>
+<sentence count="1">จีเอสบี เปย์ ลืม รหัส ต้อง ทำ ไง</sentence>
+<sentence count="1">ถาม กด รหัสผิด แล้ว โดน ล็อค ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">ใช้ ตัว แอพ จีเอสบี แล้วก็ จำ รหัสผ่าน ไม่ได้ แล้ว ก็ คง จะ เกิน จำนวน ครั้ง ที่ กด รหัสผ่าน</sentence>
+<sentence count="1">ใน แอพพลิเคชั่น ที่ เช็ค ยอด บัตร ขึ้น รหัสผิด</sentence>
+<sentence count="1">แอพพลิเคชั่น ถูก ล็อค</sentence>
+<sentence count="1">โอนเงิน ทาง โทรศัพท์ แล้วก็ รหัสล็อค โอน ไม่ได้</sentence>
+<sentence count="1">แอพ ของ ธนาคาร ใส่ รหัสผ่านผิด แล้ว ล็อค</sentence>
+<sentence count="1">ติดต่อ เรื่อง รหัส พิมพ์ ของ แอพ</sentence>
+<sentence count="1">มีปัญหา เรื่อง การเข้ารหัส แอพ</sentence>
+<sentence count="1">โทรศัพท์ แอพ กดรหัสผิด แล้ว ล็อค</sentence>
+<sentence count="1">ใส่รหัส แอพ ของ ออมสิน ผิด</sentence>
+<sentence count="1">กด รหัสผิด แอพ ล็อค</sentence>
+<sentence count="1">ลืมรหัส</sentence>
+<sentence count="1">เมื่อกี้ เข้า แอพ แล้ว จำรหัส ไม่ได้ แล้ว ตอนนี้ ถูก บล็อค</sentence>
+<sentence count="1">แอพ ถูก บล็อค ใส่รหัสผิด</sentence>
+<sentence count="1">เข้า แอพ ไม่ ได้</sentence>
+<sentence count="1">ลืมรหัส เข้า แอพ</sentence>
+<sentence count="1">เข้า แอพ แล้ว แจ้งรหัส ไม่ถูกต้อง</sentence>
+<sentence count="1">กด รหัส เข้าตัว แอพพลิเคชั่น ผิด</sentence>
+<sentence count="1">ลืมรหัสผ่าน ของ แอพพลิเคชั่น</sentence>
+<sentence count="1">แอพพลิเคชั่น ที่ เคย สมัคร ไว้ จำรหัส ไม่ ได้</sentence>
+<sentence count="1">ที่ เป็น แอพ ของ จีเอสบี ใส่รหัส ไป แล้ว ลืม</sentence>
+<sentence count="1">จะ แจ้ง เข้า แอพ ของ เครดิตการ์ด แล้ว ล็อค จำรหัสผ่าน ไม่ได้</sentence>
+<sentence count="1">แอพ จีเอสบี เปย์ เข้า ไม่ ได้ เหมือน กด รหัสผิด เกิน สาม ครั้ง</sentence>
+<sentence count="1">รหัส แอพ ล็อค อีกแล้ว</sentence>
+<sentence count="1">สอบถาม ลืมรหัส เข้า แอพพลิเคชั่น จีเอสบี กด จน ล็อค ทำ ยังไง แก้ ได้ เปล่า</sentence>
+<sentence count="1">เข้า จีเอสบี เปย์ ไม่ ได้ แจ้ง รหัสผ่าน ไม่ถูกต้อง</sentence>
+<sentence count="1">ลืม รหัสผ่าน เข้า แอพพลิเคชั่น</sentence>
+<sentence count="1">อยาก สอบถาม ทำ ไม แอพ มายโม่ ทำไม เข้า ไม่ได้</sentence>
+<sentence count="1">พอดี แอพ ใน มือถือ มัน ล็อค ค่ะ กด รหัส ผิด ค่ะ สาม ครั้ง ค่ะ</sentence>
+<sentence count="1">ผม ทำ เคแบงค์ ของ มายโม่ ครับ และ ทีนี้ ผม เปลี่ยน เครื่อง แล้ว ผม อยาก ได้ แอพ มา ใส่ เครื่อง ใหม่ นี่ ผม ต้อง ทำไง</sentence>
+<sentence count="1">ลืมรหัส มายโม่</sentence>
+<sentence count="1">สอบถาม เรื่อง มายโม่ มัน โอน ไม่ได้</sentence>
+<sentence count="1">พอดี มายโม่ มัน ใช้ งาน ไม่ได้ อะค่ะ</sentence>
+<sentence count="1">แอพ มายโม่ โดน บล็อค</sentence>
+<sentence count="1">ใน แอพ มายโม่ ไม่ แจ้ง ข้อมูล</sentence>
+<sentence count="1">ไม่ มี ข้อความ แจ้ง มา ใน มายโม่</sentence>
+<sentence count="1">ไม่ สามารถ โอนเงิน ผ่าน แอพ มายโม่ ได้ ค่ะ</sentence>
+<sentence count="1">ชำระ ผ่าน มายโม่ แต่ โดน หัก ไป สอง ยอด</sentence>
+<sentence count="1">คือ ทำไม มายโม่ มัน อัปโหลด ไม่ ได้ อัพเดท</sentence>
+<sentence count="1">พอดี แอพ มัน ล็อค</sentence>
+<sentence count="1">ทำ รายการ มายโม่ มาย การ์ด ไม่ ได้</sentence>
+<sentence count="1">พอดี โทรศัพท์ หาย มัน มี มายโม่ ของ ธนาคาร ออมสิน อยู่ ใน เครื่อง</sentence>
+<sentence count="1">จะ รบกวน เปิด วงเงิน ใน การ โอน ของ ไอ แบงค์กิ้ง เป็น มายโม่ ค่ะ</sentence>
+<sentence count="1">แจ้ง ปัญหา เกี่ยวกับ การ ใช้ งาน มายโม่</sentence>
+<sentence count="1">ชำระ ค่าบัตร เครดิต ผ่าน มายโม่ ตัว ใบ แจ้ง ยอด กับ เลข หน้า บัตร ไม่ ตรง กัน ต้อง ทำ ยังไง ค่ะ</sentence>
+<sentence count="1">แอพ มัน เข้า ไม่ ได้ อะ ค่ะ ต้อง ทำ ยังไง คะ</sentence>
+<sentence count="1">ค่ะ คือ แอพ มายโม่ อะ เข้า ไม่ ได้ เลย ค่ะ เป็น เพราะ อะไร คะ</sentence>
+<sentence count="1">พอดี เข้า มายโม่ ไม่ ได้</sentence>
+<sentence count="1">พอดี เปลี่ยน เบอร์ โทรศัพท์ มัน เข้า ไม่ ได้</sentence>
+<sentence count="1">ป้า ต้องการ ทราบ ว่า ทำไม มายโม่ มัน ถึง ใช้ งาน ไม่ ได้</sentence>
+<sentence count="1">มายโม่ ทำไม มี การ เปลี่ยน บ่อย ที่ สุด เลย</sentence>
+<sentence count="1">คือ จะ กด เงิน ผ่าน มายโม่ แต่ กด ไม่ ได้</sentence>
+<sentence count="1">จะ สอบถาม ว่า แฟน ไป กด มายโม่ สี่ ครั้ง แล้ว มัน ล็อค</sentence>
+<sentence count="1">พอดี ว่า สมัคร มายโม่ ไป แล้ว ที่นี้ จะ ดู รายละเอียด ของ กรมธรรม์ มัน ดู ไม่ได้ มัน ไม่ ขึ้น โชว์</sentence>
+<sentence count="1">รบกวน ค่ะ พอดี ว่า เมื่อกี้ เรื่อง แอพ มายโม่ บัญชี มัน หาย ไป หนึ่ง บัญชี</sentence>
+<sentence count="1">ใช้ แอพ มายโม่ ถอนเงิน ที่ ตู้ เงิน ใน บัญชี หาย ไป แต่ ว่าไม่ได้ รับเงิน</sentence>
+<sentence count="1">ใช้ แอพ มายโม่ ถอนเงิน ที่ ตู้ เงิน ไม่ ออก แบบนี้ ต้องทำ ยังไง</sentence>
+<sentence count="1">มายโม่ มัน เข้า ไม่ได้</sentence>
+<sentence count="1">บัญชี มัน ไม่ ขึ้น ใน ระบบ มายโม่</sentence>
+<sentence count="1">โทรศัพท์ ที่ สมัคร มายโม่ ข้อความ ไม่ เข้า</sentence>
+<sentence count="1">เปิด บัญชี แต่ ว่า ไม่ เข้า มายโม่</sentence>
+<sentence count="1">ต้องการ ติดต่อ แอพ มายโม่ ไม่ สามารถ เข้า ได้</sentence>
+<sentence count="1">แจ้ง สมัคร มายโม่ ยัง ไม่ สามารถ ใช้ งาน ได้</sentence>
+<sentence count="1">เปิด บัญชี ธนาคาร ไป แล้ว ก็ สมัคร มายโม่ รอ มา เป็น ชั่วโมง ยัง ไม่ ได้ เอสเอ็มเอส</sentence>
+<sentence count="1">ลงทะเบียน มายโม่ บอก ว่า ใช้ บัตรประชาชน ถูก บล็อค</sentence>
+<sentence count="1">อยาก ทราบ ว่า สมัคร แอพ มายโม่ และ ไป ที่ ตู้ แล้ว โหลด อะไร ไว้ พอ ใส่หมายเลข บัตรประชาชน ขึ้น ถูก บล็อค บอก ว่า ของ คุณ ยัง ไม่ได้ ลงทะเบียน กับ ทาง ธนาคาร</sentence>
+<sentence count="1">โหลด แอพ มายโม่ เชื่อมต่อ ไม่ได้ บอกว่า ยัง ไม่ ลงทะเบียน บัตรประชาชน</sentence>
+<sentence count="1">ทำไม มายโม่ เข้า ไม่ได้ ทำไม ต้อง ปรับปรุง</sentence>
+<sentence count="1">ยาย ดู มายโม่ ไม่ได้</sentence>
+<sentence count="1">สมัคร มายโม่ ไม่ได้ เหมือน บอก ว่า เลขบัตร ประชาชน โดน บล็อค</sentence>
+<sentence count="1">สมัคร มายโม่ ใน โทรศัพท์ ของ ลูก แล้ว สมัคร ไม่ได้</sentence>
+<sentence count="1">สมัคร มายโม่ โอทีพี ไม่เข้า</sentence>
+<sentence count="1">สมัคร มายโม่ ไป แล้ว แต่ ยัง ไม่ มี การ สมัคร ใน ระบบ ตอนนี้</sentence>
+<sentence count="1">สมัคร มายโม่ ไป ให้ รอ แมสเสจ ยัง ไม่ มา</sentence>
+<sentence count="1">ใช้ แอพ มายโม่ ลงทะเบียน เข้า ไม่ ได้</sentence>
+<sentence count="1">ลงทะเบียน เข้าตัว แอพ มายโม่ แต่ ว่า ลง ไม่ ได้ เหมือน บอกว่า บัตรประชาชน ไม่ เรียบร้อย</sentence>
+<sentence count="1">ฝากเงิน แล้ว เงิน ไม่ เข้า</sentence>
+<sentence count="1">เงิน ใน บัญชี มี แล้ว บัตร กดเงิน ออก ไม่ได้</sentence>
+<sentence count="1">เมื่อกี้ กดเงิน ผ่าน มายโม่ เงิน ตัด ไป แล้ว ใน มือถือ แต่ ว่า เงิน ไม่ออก จาก ตู้</sentence>
+<sentence count="1">กดตังค์ แล้ว ตังค์ ไม่ออก มา แต่ เงิน ใน บัญชี ถูก หัก ไป</sentence>
+<sentence count="1">กดตังค์ แล้ว สลิป ออก แล้ว ไม่ได้รับ ตังค์</sentence>
+<sentence count="1">กดเงิน แล้ว ได้เงิน ไม่ ครบ</sentence>
+<sentence count="1">มี สอบถาม เกี่ยวกับ โอนเงิน ผ่าน มือถือ ตัดเงิน เรียบร้อย แล้ว แต่ ไม่ โอน เข้า บัญชี ผู้ รับ</sentence>
+<sentence count="1">ใช้ มายโม่ กดเงิน จาก ตู้ ออมสิน แล้ว ตู้ ดับ ไป เงิน ไม่ออก แต่ ว่า หัก ใน บัญชี ไป แล้ว</sentence>
+<sentence count="1">มา โอนตังค์ ที่ ตู้ แล้ว บริการ บอก ว่า รอ สักครู่ รอ นาน มาก ไม่ ให้ สลิป</sentence>
+<sentence count="1">จะ ติดต่อ ว่า ทำไม เงิน อยู่ ใน บัญชี แล้ว ถอน ไม่ได้ ขึ้น ไม่ พอ จ่าย</sentence>
+<sentence count="1">กดเงิน แล้ว ไม่ได้ รับ เงิน อยาก ทราบ ว่า จะ ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">อยาก สอบถาม กดเงิน กด ไม่ได้</sentence>
+<sentence count="1">บัตร กดเงิน ไม่ได้ บอก ให้ ติดต่อ เจ้าของ บัตร หมายเลขบัญชี</sentence>
+<sentence count="1">อยาก สอบถาม ว่า มา กดเงิน ที่ ตู้ ออมสิน แล้ว หัก ยอดเงิน ไป แล้ว แต่ เงิน ไม่ออก</sentence>
+<sentence count="1">กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">ไป กดตังค์ แล้ว เงิน ไม่ออก แต่ ถูก หัก เงิน</sentence>
+<sentence count="1">โอนเงิน ผิด ช่วย เช็ค ให้ ได้ ไหม ค่ะ</sentence>
+<sentence count="1">กด บัตร แล้ว เงิน ไม่ออก แต่ ว่า กลืน ไป</sentence>
+<sentence count="1">เมื่อ กี้ กดเงิน ที่ ตู้เอทีเอ็ม ออมสิน แล้ว เงิน ไม่ออก แต่ ว่า หัก จาก ธนาคาร ไป แล้ว</sentence>
+<sentence count="1">สอบถามว่า บัตร ทำไม กด เช็ค ดู เงิน ดู อะไร ไม่ได้</sentence>
+<sentence count="1">ถอนเงิน เมื่อกี้ สองร้อย บาท เอา ไม่ ทัน แล้ว ตู้ ยึด คืน</sentence>
+<sentence count="1">รบกวน ให้ เช็ค โอนเงิน เข้า บัตรเอทีเอ็ม แล้ว กดเงิน ไม่ได้</sentence>
+<sentence count="1">บัตร ทำไม กด ไม่ได้ ฝาก ไม่ได้ ถอน ไม่ได้</sentence>
+<sentence count="1">โอนเงิน ผ่าน บัตร ไม่ได้</sentence>
+<sentence count="1">ไป กดเงิน มา ใช่ไหม แล้ว รอ ทำ รายการ ตู้ ทำ รายการ เสร็จ ปุ๊บ อยู่ อยู่ ขึ้น ยกเลิก การ กดเงิน อะไร ประมาณ นั้น สงสัย เงิน มี ค้าง อยู่ ใน นั้น ไหม เพราะว่า ตู้ ยกเลิก เอง อะไร อย่างนี้</sentence>
+<sentence count="1">โอนตังค์ ไป แล้ว คน กด อยู่ บ้าน กด แล้ว ไม่ได้ ตังค์</sentence>
+<sentence count="1">ค่า กดเงิน ไม่ได้</sentence>
+<sentence count="1">บัตร ทำไม กดเงิน ไม่ได้</sentence>
+<sentence count="1">บัตร กดเงิน ไม่ได้</sentence>
+<sentence count="1">ฝาก เงินสด ที่ เครื่อง ฝากเงิน ธนาคารออมสิน ไม่เข้า บัญชี ปลายทาง</sentence>
+<sentence count="1">เห็น ยอดเงิน แต่ ถอน ไม่ได้</sentence>
+<sentence count="1">สอบถาม เรื่อง เมื่อคืน ไป ฝากเงิน ที่ ตู้ แล้ว เงิน ไม่เข้า บัญชี</sentence>
+<sentence count="1">เอา เงินฝาก เข้าตู้ แล้ว ใบ ขึ้น ว่า รายการ ไม่สำเร็จ</sentence>
+<sentence count="1">เงิน ไม่เข้า บัญชี ค่ะ</sentence>
+<sentence count="1">โอน ฝากเงิน เข้าไป แล้ว ไม่เข้า บัญชี</sentence>
+<sentence count="1">ตู้เอทีเอ็ม ค้าง ได้ ฝากเงิน เข้าไป</sentence>
+<sentence count="1">ไป ฝากเงิน เข้าไป แล้ว แต่ เงิน ไม่เข้า บัญชี</sentence>
+<sentence count="1">ค่า ไป ฝากเงิน เซเว่น มา เงิน ยังไม่เข้า แต่ สลิป ออกมา เรียบร้อย แล้ว</sentence>
+<sentence count="1">เพื่อน โอนเงิน มา ให้ ถึง ใน ขณะนี้ เงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน ผิด ดึง เงิน คืน ให้ ได้ ไหม คะ</sentence>
+<sentence count="1">โอนตังค์ เข้าบัญชี ออมสิน แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">อยาก สอบถาม ว่า ถ้า สมมุติ มี คน โอนเงิน จาก ต่างประเทศ มา วัน ศุกร์ แล้ว วันนี้ มา กด แล้ว ตังค์ ไม่เข้า ธนาคาร เกี่ยวกับ เสาร์ อาทิตย์ ไหมคะ</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน สามร้อย บาท เข้า ใน บัญชี แล้ว ไม่เข้า แต่ ใน โทรศัพท์ มี ข้อความ เข้า</sentence>
+<sentence count="1">โอนเงิน เข้าบัญชี แล้ว ระบบ บอกว่า ให้ ติดต่อ เจ้าของ บัญชี คือ ยังไง ค่ะ</sentence>
+<sentence count="1">โอน พร้อมเพย์ จาก บัญชี ออมสิน ไป เข้า อีก บัญชี นึง แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">อยาก ทราบ เมื่อวาน นี้ มี เงิน โอน เข้า มา แล้ว ไม่เข้า เอทีเอ็ม</sentence>
+<sentence count="1">อยาก ถามว่า ทำไม โอนเงิน มา ให้ แล้ว ไม่เข้า บัญชี แต่ มี หลักฐาน โอน มา แล้ว</sentence>
+<sentence count="1">โหล ไป โอนเงิน แล้ว ไม่เข้า</sentence>
+<sentence count="1">โอนตังค์ แล้ว ตังค์ ไม่เข้า บอกว่า มีปัญหา</sentence>
+<sentence count="1">ติดต่อ โอนตังค์ ผิด</sentence>
+<sentence count="1">ตามเรื่อง เงิน ที่ โอน เข้าตู้ เงินสด ยังไม่เข้า</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน ผิด</sentence>
+<sentence count="1">สอบถาม เรื่อง โอนเงิน กับ ตู้ แล้ว ไม่เข้า</sentence>
+<sentence count="1">ตรวจสอบ โอนเงิน ไม่เข้า โอน ตู้ เงินสด</sentence>
+<sentence count="1">โอนเงิน จาก ผ่าน ตู้เอทีเอ็ม เข้า ธนาคาร กรุงเทพ แต่ เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ไป กดตังค์ แล้ว ไม่ได้ ตังค์ สลิป ไม่ได้ แต่ มายโม่ โดน หัก</sentence>
+<sentence count="1">โอนเงิน เข้า พร้อมเพย์ มี ข้อความ เข้า แต่ ยอดเงิน ไม่ มี</sentence>
+<sentence count="1">เพื่อน แจ้ง โอนเงิน มา ให้ เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ตอนนี้ ตอนนี้ เหมือน โอนเงิน ไป ธนาคาร อื่น ไม่ได้ ใช่ไหมคะ</sentence>
+<sentence count="1">โอนเงิน ไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน ผิด บัญชี</sentence>
+<sentence count="1">สอบถาม ว่า ไป กดตังค์ แล้ว ตู้ มีปัญหา ไม่ได้รับ แต่ ยอดเงิน ถูก หัก</sentence>
+<sentence count="1">กดเงิน แล้ว แต่ ตังค์ ไม่ออก จาก เครื่อง</sentence>
+<sentence count="1">บัตร ไม่ออก เงิน หาย ไป</sentence>
+<sentence count="1">เมื่อกี้ กดตังค์ ที่ ตู้ ออมสิน ตังค์ ไม่ออก แต่ โดน หัก ตังค์</sentence>
+<sentence count="1">มา ถอน ตังค์ ที่ ตู้ แล้ว บัตร ไม่ออกมา ตังค์ ไม่ออกมา แต่ว่า ยอด ข้อความ เข้า ตังค์ ถอน แล้ว</sentence>
+<sentence count="1">กดตังค์ จาก แอพมายโม่ ที่ ตู้ เงิน ไม่ออก แต่ ว่า ใน สลิป ส่ง มา แล้ว หัก เงิน แล้ว</sentence>
+<sentence count="1">เมื่อกี้ กดเงิน แล้ว กด รหัส แล้ว กด ถอนเงิน แล้ว แต่ ว่า เงิน ไม่ออก เครื่อง ไม่ คืน บัตร</sentence>
+<sentence count="1">กดเงิน แล้ว เงิน ไม่ออกมา</sentence>
+<sentence count="1">กด ตู้เอทีเอ็ม ของ ธนาคาร ออมสิน แล้ว ก็ เงิน หาย แจ้ง ยอดเงิน อยู่ เงิน ใน บัญชี หาย ไป แต่ เงิน ไม่ออก</sentence>
+<sentence count="1">ติดต่อ เรื่อง เงิน ที่ ถอน แล้ว ไม่ออก</sentence>
+<sentence count="1">แจ้ง กดเงิน แล้ว เงิน ไม่ออก แต่ หัก ใน บัญชี</sentence>
+<sentence count="1">มา กดเงิน แล้ว เงิน ไม่ออก แต่ว่า หัก เงิน ไป แล้ว</sentence>
+<sentence count="1">ตู้เอทีเอ็ม มีปัญหา หรือเปล่า หน้า วัด กดเงิน แต่ ว่า เงิน ไม่ออก มา แต่ เงิน ใน บัตรหาย</sentence>
+<sentence count="1">มา กด เอทีเอ็ม เงิน ไม่ออก มา แล้ว ก็ อายัดบัตร ไว้</sentence>
+<sentence count="1">ไป กดตังค์ ที่ ตู้เอทีเอ็ม ออมสิน กดตังค์ แล้ว ตังค์ ไม่ออก เงิน ถูก ตัด แล้ว บัตร เด้ง คืน ออก มา</sentence>
+<sentence count="1">กดเงิน แล้ว ไม่ออก จาก ตู้</sentence>
+<sentence count="1">ไป กดตังค์ แล้ว ตังค์ ไม่ออก แต่ หัก จาก บัญชี ไป แล้ว แต่ เป็น ตู้ ของ ธนาคาร กรุงเทพ</sentence>
+<sentence count="1">บัตรออมสิน ไป กด ตู้ กรุงเทพ แต่ ว่า เงิน ไม่ออก แต่ บัตร เด้ง ออก มา แล้ว เครื่อง บอก ว่า หยุด ใช้ บริการ ชั่วคราว</sentence>
+<sentence count="1">สอบถาม ใช้ บัตร กรุงไทย ถอน ที่ ตู้ ออมสิน ตัด บัญชี แต่ เงิน ไม่ออก</sentence>
+<sentence count="1">กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">บัตรเอทีเอ็ม มีปัญหา อ่ะครับผม ไป กดเงิน แล้ว เงิน ไม่ออก แต่ ว่า เงิน ตัด บัญชี ไป แล้ว</sentence>
+<sentence count="1">เมื่อกี้ กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">กดตังค์ ใช้ บัตรเอทีเอ็ม ของ กรุงเทพ กด ที่ หน้า ตู้ออมสิน กด แล้ว แต่ ว่า หัก ตังค์ ใน บัญชี แล้ว แต่ เงิน ไม่ออก</sentence>
+<sentence count="1">เมื่อ เช้า กดตังค์ แล้ว ตังค์ ไม่ออก</sentence>
+<sentence count="1">กดเงิน ไป แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">กดเงิน ใน ตู้เอทีเอ็ม แล้ว เงิน ไม่ออก แต่ว่า ยอด ออก ไป แล้ว</sentence>
+<sentence count="1">จะ แจ้งปัญหา ไป กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">เมื่อ กี้ กด ผ่าน มือถือ แล้ว เงิน ใน บัญชี ออก แล้ว แต่ เงิน ไม่ออก ให้</sentence>
+<sentence count="1">มี ปัญหา กดตังค์ แล้ว ตังค์ ไม่ออก แต่ เงิน ใน บัญชี หาย ไป</sentence>
+<sentence count="1">ไป กดเงิน แล้ว บอก ว่า เงิน ใน บัญชี ไม่ พอ จ่าย แต่ ว่า เงิน ใน บัญชี มี อยู่</sentence>
+<sentence count="1">โหล ค่ะ มี ปัญหา เรื่อง กดเงิน</sentence>
+<sentence count="1">ได้ ทำการ กดเงิน แล้ว ไม่ได้ รับเงิน ตาม จำนวน ที่ กำหนด</sentence>
+<sentence count="1">พอดี ว่า มา กดเงิน ที่ ตู้ออมสิน แล้ว บัตร มัน เด้ง คืน มา แต่ ตังค์ ไม่ออก ให้</sentence>
+<sentence count="1">จะ สอบถาม กดเงิน แล้ว เงิน มัน ไม่ออก</sentence>
+<sentence count="1">จะ สอบถาม กดเงิน แล้ว แต่ ไม่ได้ รับเงิน</sentence>
+<sentence count="1">กดเงิน แล้ว บัตร ออกมา แล้ว แต่ ไม่ได้ รับเงิน</sentence>
+<sentence count="1">ค่า พอดีว่า เมื่อ เมื่อ สักครู่ กดเงิน ของ ธนาคาร ก็คือ เอา บัตรกรุงไทย ไปกด ของ ธนาคารออมสิน แล้ว แล้ว กด ช่วงประมาณ สามโมง สิบห้า จุด สามห้า กดไป สามพัน แล้ว เงิน ไม่ออก แล้ว กดไป อีกครั้ง นึง เป็น สองครั้ง แต่ เงิน ออกมา แค่ ครั้งเดียว</sentence>
+<sentence count="1">พอดี ว่า กดตังค์ ธนาคาร ตู้ออมสิน แล้ว กด ไป เงิน มัน ไม่ออก แต่ ว่า หัก บัญชี ไป</sentence>
+<sentence count="1">ติดต่อ ไป เรื่อง กดเงิน แล้ว ไม่ได้ รับเงิน</sentence>
+<sentence count="1">กดเงิน แล้ว ไม่ได้ รับเงิน</sentence>
+<sentence count="1">เมื่อวาน ไป กดเงิน ไม่ได้ เงิน แต่ บัญชี ถูกหัก</sentence>
+<sentence count="1">กดเงิน เสร็จ มี ข้อความ เข้า หัก เงิน แต่ เงิน ไม่ออก</sentence>
+<sentence count="1">มี ปัญหา กดเงิน แล้ว ไม่ได้ รับเงิน</sentence>
+<sentence count="1">อยาก จะ แจ้ง เรื่อง เกี่ยวกับ ตู้ออมสิน กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">อยาก จะ สอบถามว่า ทำไม กดเงิน แล้ว ไม่ได้ รับเงิน</sentence>
+<sentence count="1">เมื่อเช้า ไป กดตังค์ ตังค์ ไม่ออก แต่ ว่า ยอดเงิน บัญชี หาย หมด</sentence>
+<sentence count="1">ติดต่อ เรื่อง ใช้ บัญชี ไม่ได้ โอนเงิน เข้า บัญชี โอนไม่ได้</sentence>
+<sentence count="1">ติดต่อ โอนเงิน เข้า ไม่ได้</sentence>
+<sentence count="1">โอนเงิน แล้ว เงิน ไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน ไป แล้ว ยอดเงิน ยังไม่เข้า</sentence>
+<sentence count="1">โอนตังค์ ผิด</sentence>
+<sentence count="1">เมื่อกี้ นี้ มีคน โอนเงิน เข้า มา ไม่เข้า บัญชี</sentence>
+<sentence count="1">โอน ยอด จาก พร้อมเพย์ แล้ว เหมือนกับ ยอด ไม่ ยอม โชว์</sentence>
+<sentence count="1">มีปัญหา โอนตังค์ ไป แต่ ตังค์ ไม่เข้า บัญชี ปลายทาง โอน ผ่าน บัวหลวง โมบาย แบงก์กิ้ง</sentence>
+<sentence count="1">อยาก จะ สอบถาม โอนเงิน แล้ว ไม่ได้ รับ ยอด</sentence>
+<sentence count="1">อยาก สอบถาม โอนเงิน แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">โอนตังค์ เข้า บัญชี เงิน ยังไม่เข้า</sentence>
+<sentence count="1">โอนตังค์ เข้า ผิดบัญชี</sentence>
+<sentence count="1">พอดี ว่า โอนเงิน ไป ยอด ไม่เข้า</sentence>
+<sentence count="1">พอดี ว่า โอนเงิน เข้า บัญชี เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนตังค์ ผิด</sentence>
+<sentence count="1">อยาก จะ สอบถาม โอนเงิน ผิดบัญชี ทำ ไง ได้ บ้าง</sentence>
+<sentence count="1">สอบถาม ว่า โอนเงิน จาก แอพมายโม่ แล้ว เงิน ไม่เข้า เป็น เพราะ อะไร</sentence>
+<sentence count="1">พอ โอนเงิน ไป อีก บัญชี แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน ผิดบัญชี</sentence>
+<sentence count="1">พอดี ว่า โอนเงิน เข้า บัญชี แล้ว ยัง ไม่ได้ รับ ยอดเงิน</sentence>
+<sentence count="1">โอนเงิน แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ค่า อยาก จะ สอบถาม เรื่อง โอนเงิน ผิดบัญชี</sentence>
+<sentence count="1">เพิ่ง โอนตังค์ ไป ไม่ได้รับ</sentence>
+<sentence count="1">โอนเงิน เข้า ผิดบัญชี</sentence>
+<sentence count="1">สอบถาม โอนเงิน แล้ว ยอด ยังไม่เข้า</sentence>
+<sentence count="1">โอนเงิน แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน แล้ว ไม่ เข้า</sentence>
+<sentence count="1">โอนเงิน ผ่าน ตู้บุญเติม แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">พอดีว่า โอนเงิน ธนาคาร ป่านนี้ ยังไม่เข้า หมายเลข ปลายทาง ให้ เลย</sentence>
+<sentence count="1">พอดีว่า โอนเงิน ใน ตู้ ออนไลน์ ตังค์ ยังไม่เข้า แต่ มี ข้อความ เข้ามา</sentence>
+<sentence count="1">โอนเงิน จาก ออมสิน ไป กสิกร ผิด</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน ไป เช็ค ให้หน่อย ได้ไหม โอนเงิน ผิดบัญชี หรือป่าว</sentence>
+<sentence count="1">โอนตังค์ ผ่าน เซเว่น เงิน ไม่เข้า</sentence>
+<sentence count="1">พอ โอนเงิน เข้า บัญชี แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">มี การ โอนเงิน เข้า สองพัน บาท แต่ ไปดู ใน แอพ มี แค่ สองร้อย</sentence>
+<sentence count="1">แจ้ง เมื่อกี้ โอน ผิดบัญชี</sentence>
+<sentence count="1">โอนเงิน ไป แล้ว เงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน ผิดบัญชี</sentence>
+<sentence count="1">พอดี จะ ติดต่อ โอน ผิดบัญชี อะ พี่</sentence>
+<sentence count="1">โอนเงิน มา ให้ แต่ ไม่ มี ยอดเงิน เข้า</sentence>
+<sentence count="1">เมื่อ สักครู่ มี คน โอนเงิน เข้ามา ให้ แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">โอน ผ่าน แอพมายโม่ แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน แล้ว กดเงิน ไม่ได้</sentence>
+<sentence count="1">โดนหลอก ให้ โอนเงิน สามารถ ระงับ ยอด ได้ ไหม ค่ะ</sentence>
+<sentence count="1">ค่า ขอโทษ พอดีว่า โอนเงิน ผ่าน ตู้เอทีเอ็ม ตู้ ธนาคารออมสิน แล้ว โอน ไป ประมาณ หก โมง ตอนนี้ สองทุ่ม แล้ว ยอด ยังไม่เข้า</sentence>
+<sentence count="1">อยาก จะ รบกวน ถาม โอนเงิน ผิดบัญชี ต้อง ทำ อย่าง ไร</sentence>
+<sentence count="1">อยาก สอบถามว่า โอนเงิน แล้ว ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน แต่ ว่า เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">เมื่อกี้ ไป ฝากเงิน ยังไม่เข้า ที่ เซเว่น</sentence>
+<sentence count="1">ฝากเงิน แล้ว เงิน ไม่เข้า</sentence>
+<sentence count="1">อยาก จะ สอบถาม มี เงิน ที่ โอน เข้า มา จาก ธนาคาร ไทยพาณิชย์ โอนมา ตั้งแต่ วันที่ หก ผ่าน ระบบ ออนไลน์ แต่ ว่า ตอน นี้ เงิน ยัง ไม่ เข้า</sentence>
+<sentence count="1">พอดี ว่า เมื่อ ตะ กี้ ไป ฝากเงิน ที่ เซเว่น แล้ว ยอด ยังไม่เข้า</sentence>
+<sentence count="1">แจ้ง เอา เงิน เข้า ตู้อัตโนมัติ แล้ว ยอดเงิน ไม่เข้า</sentence>
+<sentence count="1">เอา เงิน ไป ชำระ ที่ เซเว่น แต่ พนักงาน บอก ว่า ไม่สามารถ ชำระ ได้</sentence>
+<sentence count="1">ค่า ไป ฝากเงิน ผ่าน เซเว่น เงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">มี ปัญหา เกี่ยวกับ การ ฝากเงิน</sentence>
+<sentence count="1">ทำการ ฝากเงิน แล้ว ไม่ได้ รับ สลิป</sentence>
+<sentence count="1">ฝากเงิน เข้าไป สองร้อย แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ฝากเงิน แล้ว เงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">ฝากเงิน ใส่ ตู้บุญเติม แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ฝากเงิน ที่ตู้ ยัง ไม่ได้ เงิน</sentence>
+<sentence count="1">ฝากเงิน เข้า แต่ ยอดเงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">พอดี ว่า ไป ฝากตังค์ แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">ฝากเงิน เข้าไป เซเว่น ยอดเงิน ยังไม่เข้า บัญชี</sentence>
+<sentence count="1">ฝากเงิน ยังไม่เข้า</sentence>
+<sentence count="1">สอบถาม เมื่อเช้า ไป ฝากเงิน แล้ว เงิน เข้า ไม่ ครบ</sentence>
+<sentence count="1">ฝากเงิน ที่ เซเว่น แล้ว ยัง ไม่ได้ รับเงิน</sentence>
+<sentence count="1">ฝากเงิน เข้า บัญชี ยาย ยัง ไม่ได้ รับเงิน</sentence>
+<sentence count="1">ฝากเงิน ที่ เซเว่น เงิน ยังไม่เข้า</sentence>
+<sentence count="1">พอดี ว่า ฝากเงิน เข้า บัญชี แล้ว ไม่เข้า ผ่าน เคาน์เตอร์ เซอร์วิส</sentence>
+<sentence count="1">สอบถาม ฝากเงิน แล้ว ไม่ เข้า</sentence>
+<sentence count="1">อยาก สอบถาม เรื่อง เอา เงิน ไป เข้า แล้ว ตู้ มีปัญหา แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">อยาก สอบถาม เอา เงิน เข้า บัญชี แล้ว เงิน ไม่เข้า บัญชี</sentence>
+<sentence count="1">อยากจะ สอบถาม ไปทำ สินเชื่อ มา มี เงินโอน เข้ามา แต่ ทำไม เหลือ แค่นี้</sentence>
+<sentence count="1">พอดีว่า เงิน เข้ามา แล้ว แล้วไป กดเงิน ไม่มี</sentence>
+<sentence count="1">สอบถาม มายการ์ด กดเงินสด ต้อง สมัคร ก่อน หรือ ว่า ยังไง</sentence>
+<sentence count="1">โอนเงิน เบอร์หาย จะแจ้ง เบอร์ใหม่</sentence>
+<sentence count="1">เอา เช็ค เงินสด เข้า หลาย วัน แล้ว แต่ โอนไม่ได้</sentence>
+<sentence count="1">อยากทราบ ว่า เมื่อกี้ กดตังค์ แล้ว ตังค์ ไม่ออก แต่ โดนหัก ใน บัญชี</sentence>
+<sentence count="1">กดเงิน แล้ว เงิน ไม่ออก</sentence>
+<sentence count="1">กดตังค์ ออกมา บันทึก ออกมา สองครั้ง แต่ เงิน ออกมา แค่ ครั้งเดียว</sentence>
+<sentence count="1">เงิน ที่ โอน ยัง ไม่ เข้า</sentence>
+<sentence count="1">เผอิญ กด ยอดเงิน ออก ไม่ ได้</sentence>
+<sentence count="1">เมื่อกี้ เอา ตังค์ ไป เข้าตู้ มี ข้อความ เอสเอ็มเอส เข้า แล้ว แต่ ยอดเงิน ใน บัญชี ไม่ เพิ่มขึ้น</sentence>
+<sentence count="1">เมื่อกี้ โอน เงิน เข้าบัญชี ทำไม ยัง ไม่ ขึ้น</sentence>
+<sentence count="1">เมื่อกี้ โอน เงิน ไป ผิด เอา กลับคืน มา ได้ ไหม</sentence>
+<sentence count="1">ตอน ช่วง ตี สี่ เอา เงิน ไป เข้า มี สลิป ใน การฝาก ตู้ อัตโนมัติ ออกมา แต่ ใน แอพ ทำไม ไม่ ขึ้น การใช้งาน</sentence>
+<sentence count="1">เมื่อวาน ฝาก ตังค์ เข้าบัญชี แต่ ขึ้น ยกเลิก รายการ โปรด ติดต่อ ธนาคาร เจ้าของ บัตร</sentence>
+<sentence count="1">กด โอน ตังค์ แต่ ธนาคาร ไม่ ขึ้น ให้</sentence>
+<sentence count="1">ทำไม โอน ธนาคาร กรุงไทย เข้า มายโม่ ไม่ มี ยอดเงิน ขึ้น แต่ กรุงไทย ไลน์ บอกว่า โอนเงิน ตัดเงิน บัญชี ไป แล้ว</sentence>
+<sentence count="1">จะ โอนเงิน ไป บัญชี นึง แต่ ดัน ไป โอนเข้า อีก บัญชี ที่ ผูก เอาไว้ กับ ธนาคาร ออมสิน</sentence>
+<sentence count="1">มี ตังค์ ใน บัญชี โอน ออก ไม่ ได้</sentence>
+<sentence count="1">โอน เงิน ผิด จะ ยกเลิก รายการ</sentence>
+<sentence count="1">มี คน โอนเงิน เข้า มา ใน บัญชี ของ ผม แต่ ทำไม ไม่ ขึ้น แจ้งยอด</sentence>
+<sentence count="1">โอนเงิน เข้า บัญชี ทำไม ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน ไม่ ได้ ต้อง ติดต่อ เบอร์ อะไร</sentence>
+<sentence count="1">ไม่ ทราบ โอน เงิน เข้าบัญชี แล้ว ทำไม เงิน คงเหลือ สี่ พัน เท่าเดิม โอน เข้า สอง พัน</sentence>
+<sentence count="1">โอนเงิน เข้า บัญชี ของ มายโม่ แต่ว่า เงิน ไม่เข้า</sentence>
+<sentence count="1">กดเงิน ด้วย มายโม่ ทำไม กด ไม่ได้</sentence>
+<sentence count="1">ไป ฝากตังค์ ที่ เซเว่น ทำไม โอนไม่ได้</sentence>
+<sentence count="1">ขอ ยอดเงิน เมื่อวาน มี โอน ออก ไป แต่ เงิน ไม่ ไป</sentence>
+<sentence count="1">ขอ สอบถาม โอนเงิน ไป ผิดเบอร์ ดึงเงิน คืน เข้าบัญชี</sentence>
+<sentence count="1">โอนเงิน แล้ว ยังไม่เข้า</sentence>
+<sentence count="1">เมื่อวาน โอน เงิน เข้าบัญชี กรุงเทพ แต่ เงิน ยังไม่เข้า</sentence>
+<sentence count="1">โอนเงิน ไป แล้ว ไม่ได้เงิน</sentence>
+<sentence count="1">บัญชี มายโม่ ถอน ไม่ได้</sentence>
+<sentence count="1">เข้าไป โอนเงิน ใน โทรศัพท์ ให้ ใส่ อีเมล อะไร ไม่รู้</sentence>
+<sentence count="1">โอนเงิน ผิดบัญชี</sentence>
+<sentence count="1">ถอนเงิน ด้วย คิวอาร์โค้ด ไม่ได้</sentence>
+<sentence count="1">ฝากเงิน เข้ามา ทำไม โอนไม่ได้</sentence>
+<sentence count="1">โอนเงิน เข้ามา บัญชี ธนาคาร แล้ว เข้า ดู ยอด ใน มายโม่  ไม่โชว์</sentence>
+<sentence count="1">สอบถาม เรื่อง เติมเงิน แล้ว ยังไม่เข้า</sentence>
+<sentence count="1">โทรศัพท์ โอน ตังค์ ไม่ได้ ตอนนี้</sentence>
+<sentence count="1">สอบถาม โอนเงิน ไป ผิด ต้องทำ ไง</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน เข้า บุญเติม ทำไม ไม่เข้า มายโม่</sentence>
+<sentence count="1">เช็ค แอพ มายโม่ มี เงิน โอนเข้า แต่ ทำไม ยอดไม่ขึ้น จาก ต้นทาง ยืนยัน การโอน เรียบร้อยแล้ว</sentence>
+<sentence count="1">ไป กด ผู บัญชี กับ เบอร์โทรศัพท์ และ เหมือน โอนตังค์ ไม่ได้</sentence>
+<sentence count="1">สอบถาม เรื่อง แอพพลิเคชั่น จะ โอนเงิน ไป อีก ที่ แล้ว เงิน โอนไม่ได้</sentence>
+<sentence count="1">โอนเงิน ไม่ได้</sentence>
+<sentence count="1">สอบถาม เรี่อง การ ฝากเงิน ที่ ตู้บุญเติม เมื่อกี้ ยัง ไม่มี ตัวเงิน เข้า ต้องรอ ถึง หลัง ตีสาม ใช่ไหม</sentence>
+<sentence count="1">อยาก สอบถาม โอน จ่าย ยอด ผิดบัญชี</sentence>
+<sentence count="1">โอนเงิน แล้ว โอน ไม่ออก ทำ ไง</sentence>
+<sentence count="1">จะ โอนเงิน เข้าบัญชี ออมสิน แต่ มายโม่ เลข ไม่ ขึ้น โชว์ เลขบัญชี</sentence>
+<sentence count="1">ยอดเงิน ยัง ไม่ปรับ ใช่ไหม</sentence>
+<sentence count="1">พี่ โอนตังค์ มาให้ สองร้อย แต่ว่า ยังไม่เข้า ใน บัญชี</sentence>
+<sentence count="1">โอนเงิน ไม่เข้า โอน ผ่าน แอพมายโม่</sentence>
+<sentence count="1">โอนเงิน ไปแล้ว ยังไม่เข้า</sentence>
+<sentence count="1">โอนเงิน มา แปดพัน สลิป ส่ง มา แปดพัน แต่ว่า เข้า หกพันแปด</sentence>
+<sentence count="1">ทำไม มายโม่ โอนตังค์ ไม่ได้ ต้องรอ กี่โมง ปกติ ตีสาม ตีสี่ โอน ได้แล้ว ไม่ใช่ เหรอ</sentence>
+<sentence count="1">อยาก จะแจ้ง เมื่อกี้ เติมเงิน เข้า ผิดเบอร์</sentence>
+<sentence count="1">อยาก ทราบ บัญชี ที่ ใช้ อยู่ ใน มือถือ ทำไม โอน ไม่ได้</sentence>
+<sentence count="1">อยาก สอบถาม ทำไม มี เงิน ใน บัญชี แต่ว่า โอนออก ไม่ได้</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน ทำไม โอน ไม่ได้</sentence>
+<sentence count="1">เมื่อกี้ โอนเงิน ไป แล้ว เงิน ยังไม่เข้า</sentence>
+<sentence count="1">เมื่อวาน โอนเงิน แล้ว ยัง ไม่ได้รับ</sentence>
+<sentence count="1">โอนเงิน ให้ ปลายทาง ผิด</sentence>
+<sentence count="1">โอนเงิน ผิด  โอน ใน มายโม่</sentence>
+<sentence count="1">เมื่อเช้า โอนตังค์ จาก ทาง กสิกร โอน เข้า พร้อมเพย์ ของ ออมสิน แต่ ทำไม เงิน ไม่เข้า</sentence>
+<sentence count="1">โอนเงิน ไปแล้ว ยัง ไม่ได้ รับเงิน</sentence>
+<sentence count="1">โอนเงิน ออก ไม่ได้</sentence>
+<sentence count="1">จะแจ้ง ทำรายการ ไม่ได้</sentence>
+<sentence count="1">ตอนนี้ มี เงินโอน เข้าบัญชี ไหม เช็คให้หน่อย</sentence>
+<sentence count="1">ทำไม โอนเงิน ไม่ได้</sentence>
+<sentence count="1">โอนเงิน แล้ว ไม่เข้า บัญชี</sentence>
+<sentence count="1">โอนเงิน ผิดบัญชี</sentence>
+<sentence count="1">โอนเงิน เข้าบัญชี ตัวเอง ใส่ เลขบัญชี ถูก ก็ บอกว่า ผิด ตลอด</sentence>
+<sentence count="1">มี การ โอนเงิน เข้าทาง มายโม่ แต่ว่า ยอดเงิน ใน แอพ ไม่ขึ้น</sentence>
+<sentence count="1">โอนเงิน เข้าบัญชี แต่ใน แอพ ไม่ ขึ้น จำนวนเงิน โอนออก ไม่ได้</sentence>
+<sentence count="1">กดเงิน แล้ว เงิน ไม่ ออก แต่ แอพ มายโม่ ถูก หัก</sentence>
+<sentence count="1">ไป กดเงิน แล้ว ไม่ สามารถ กดเงิน ได้</sentence>
+<sentence count="1">กดเงิน ไม่ ได้</sentence>
+<sentence count="1">จะ โทร มา ระงับ บัตรเอทีเอ็ม พอดี ตู้ มัน กิน บัตร เข้า ไป</sentence>
+<sentence count="1">ต้องการ อายัด บัตรเอทีเอ็ม ต้อง ทำ อย่างไร</sentence>
+<sentence count="1">สอบถาม ว่า บัตรติด อยู่ ใน ตู้เอทีเอ็ม จะ ขอ อายัด</sentence>
+<sentence count="1">จะ อายัดบัตร ครับ บัตรหาย ครับ</sentence>
+<sentence count="1">พอดี จะ อายัดบัตร ครับ</sentence>
+<sentence count="1">ลืมบัตร ไว้ ที่ ตู้ รบกวน อายัดบัตร ให้ หน่อย</sentence>
+<sentence count="1">อายัดบัตร ค่ะ พอดี กระเป๋า ตังค์ หาย</sentence>
+<sentence count="1">จะ อายัด บัตรวีซ่า</sentence>
+<sentence count="1">ทำ บัตรเอทีเอ็ม หาย จะ อายัดบัตร ยกเลิก ต้อง ทำ ยังไง</sentence>
+<sentence count="1">จะ อายัด ขอ อายัด บัตรเอทีเอ็ม ของ ธนาคาร ออมสิน</sentence>
+<sentence count="1">ขอ อายัด บัตรบีเอ็นเค สี่สิบแปด</sentence>
+<sentence count="1">ขอ อายัด บัตร สมาร์ทแคร์</sentence>
+<sentence count="1">ขอ อายัด บัตร สวัสดิการ</sentence>
+<sentence count="1">พอดี ว่า บัตรเครดิต หาย อยาก อายัด ชั่วคราว ไว้</sentence>
+<sentence count="1">อยาก จะ ยกเลิก ใช้งาน บัตรเครดิต หน่อย</sentence>
+<sentence count="1">จะ อายัด บัตรวีซ่า ของ ธนาคาร ออมสิน เมื่อวาน ได้ ทำ หาย ไป</sentence>
+<sentence count="1">สวัสดี ครับ อยาก จะ อายัด บัตร หน่อย ครับ</sentence>
+<sentence count="1">อายัดบัตร ค่ะ เพราะ ว่า ลืม เอา บัตร ออก แล้ว ทีนี้ มัน เข้า ไป อีก เหมือน เดิม</sentence>
+<sentence count="1">จะ อายัดบัตร ค่ะ เพราะ ว่า ลืม บัตรเอทีเอ็ม ไว้ ใน ตู้</sentence>
+<sentence count="1">ผม จะ ให้ ระงับ บัตรเอทีเอ็ม ก่อน</sentence>
+<sentence count="1">ขอ อายัด</sentence>
+<sentence count="1">จะแจ้ง อายัดบัตร</sentence>
+<sentence count="1">จะ อายัดบัตร</sentence>
+<sentence count="1">อายัดบัตร ครับ เรา ไม่ใช้ บัตร แล้ว</sentence>
+<sentence count="1">จำรหัส บัตรเอทีเอ็ม ไม่ได้ อะไร อยากจะ อายัดบัตร</sentence>
+<sentence count="1">อายัดบัตร ค่ะ น่าจะ ทำ บัตรหาย ค่ะ</sentence>
+<sentence count="1">อายัดบัตร ครับ</sentence>
+<sentence count="1">อายัดบัตร ค่ะ</sentence>
+<sentence count="1">ขอ สมัคร แบงค์กิ้ง แล้ว ก็ ขอ เปลี่ยนเบอร์ ที่ เชื่อมโยง กับ บัตร ธนาคาร ได้ไหม</sentence>
+<sentence count="1">สมัคร แบงค์กิ้ง</sentence>
+<sentence count="1">ต้องการ สมัคร โมบาย แบงค์กิ้ง ของ ออมสิน</sentence>
+<sentence count="1">อยาก สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สมัคร ใช้ แอพ อินเทอร์เน็ต แบงค์กิ้ง ของ ออมสิน</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง ผ่าน มือถือ</sentence>
+<sentence count="1">สมัคร เป็น แบงค์กิ้ง</sentence>
+<sentence count="1">หน่วยงาน เทศบาล ต้องการ ใช้ สมัคร อินเทอร์เน็ต แบงค์กิ้ง สามารถ ทำ ได้ ไหม</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง แอพ ใน มือถือ</sentence>
+<sentence count="1">อยาก ขอ สมัคร เน็ต แบงค์</sentence>
+<sentence count="1">เปิด อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สมัคร แอพ ออมสิน</sentence>
+<sentence count="1">อยาก สมัคร ออนไลน์</sentence>
+<sentence count="1">สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">อยาก สมัคร อินเทอร์เน็ต แบงค์กิ้ง</sentence>
+<sentence count="1">สมัคร แบงค์กิ้ง ใช้ ผ่าน มือถือ</sentence>
+<sentence count="1">กำลัง จะ สมัคร อินเทอร์เน็ต แบงค์กิ้ง ต้อง ไป สมัคร ที่ ธนาคาร หรือว่า สมัคร เอง ได้ เลย</sentence>
+<sentence count="1">สอบถาม อินเทอร์เน็ต แบงค์กิ้ง ไป ดาวน์โหลด ใบสมัคร ได้ จาก ไหน แล้วก็ วิธีการ ทำ</sentence>
+<sentence count="1">อยาก สมัคร ใช้ อินเทอร์เน็ต แบงค์กิ้ง ต้อง ดำเนินการ ยัง ไง</sentence>
+<sentence count="1">อยาก จะ สมัคร แอพ ใหม่</sentence>
+<sentence count="1">โหล สมัคร แอพ ต้อง สมัคร ยังไง</sentence>
+<sentence count="1">เปิด แอพ ของ ธนาคาร ออมสิน</sentence>
+<sentence count="1">สมัคร แอพ โอน เงิน ใน โทรศัพท์</sentence>
+<sentence count="1">ต้องการ สมัคร โอน เงิน ผ่าน มือถือ</sentence>
+<sentence count="1">อยาก ทำ ที่ ว่า ทำ ผ่าน แอพ</sentence>
+<sentence count="1">โหล สมัคร แอพ</sentence>
+<sentence count="1">สมัคร แอพ ของ ออมสิน</sentence>
+<sentence count="1">สมัคร แอพ ออมสิน</sentence>
+<sentence count="1">สมัคร สมาชิก ธนาคาร ใน โทรศัพท์</sentence>
+<sentence count="1">สมัคร เกี่ยวกับ แอพ ของ ธนาคาร ออมสิน</sentence>
+<sentence count="1">ทำ แอพ ใน โทรศัพท์</sentence>
+<sentence count="1">สนใจ สมัคร เคแบงค์ ต้อง ทำ ยังไง</sentence>
+<sentence count="1">เปิด ใช้ งาน ธนาคาร ออมสิน ผ่าน แอพพลิเคชั่น</sentence>
+<sentence count="1">ต้องการ เปิด ใช้ แอพ</sentence>
+<sentence count="1">สมัคร ใช้ แอพ ต้อง ไป สมัคร ใช้งาน ที่ไหน</sentence>
+<sentence count="1">อยาก สมัคร แอพ</sentence>
+<sentence count="1">ใช้ แอพ ออมสิน</sentence>
+<sentence count="1">สอบถาม ต้องการ สมัคร แอพพลิเคชั่น บน มือถือ</sentence>
+<sentence count="1">สมัคร ธนาคาร ออมสิน เข้า โทรศัพท์</sentence>
+<sentence count="1">ติดตั้ง แอพ</sentence>
+<sentence count="1">อยาก สมัคร แอพ</sentence>
+<sentence count="1">ถ้า จะ ใช้ มายโม่ ต้อง ลงทะเบียน มายโม่ ก่อน ไหม</sentence>
+<sentence count="1">ขอ เปิด มายโม่</sentence>
+<sentence count="1">สมัคร แอพ มายโม่</sentence>
+<sentence count="1">สมัคร อัน นี้ มายโม่</sentence>
+<sentence count="1">เปิด มายโม่ ผ่าน โทรศัพท์</sentence>
+<sentence count="1">โหลด แอพ มายโม่ ออมสิน เอง แต่ คอลเซ็นเตอร์ บอก ว่า ให้ ติดต่อ ธนาคาร เพื่อ ให้ ลงทะเบียน</sentence>
+<sentence count="1">ใช่ ธนาคาร ออมสิน หรือ ป่าว ขอ สมัคร แอพ มายโม่</sentence>
+<sentence count="1">จะ ให้ ลงทะเบียน ทำ เคแบงค์ มายโม่ ให้</sentence>
+<sentence count="1">จะ ทำ มายโม่ ของ โทรศัพท์</sentence>
+<sentence count="1">อยาก เปิด แอพ มายโม่</sentence>
+<sentence count="1">ลงทะเบียน มายโม่</sentence>
+<sentence count="1">โหลด แอพ มายโม่ ออมสิน เอง จำเป็น ต้อง ใช้ วันนี้</sentence>
+<sentence count="1">ขอ สมัคร แอพ มายโม่</sentence>
+<sentence count="1">ไป กด ยกเลิก มายโม่ แล้ว ตอนนี้ จะ ใช้ ยัง ใช้ ได้ ไหม</sentence>
+<sentence count="1">ลงทะเบียน มายโม่ ไว้ เปลี่ยนเบอร์ โทร เข้า มายโม่ ใหม่</sentence>
+<sentence count="1">เปิด มายโม่</sentence>
+<sentence count="1">เคย ใช้ บริการ มายโม่ แต่ ไป กด ลบ ไป แต่ อยาก ใช้ บริการ ใหม่</sentence>
+<sentence count="1">สมัคร มายโม่ ต้อง ทำ ไง บ้าง</sentence>
+<sentence count="1">สมัคร มายโม่ ของ ธนาคาร ออมสิน</sentence>
+<sentence count="1">อยาก สมัคร มายโม่</sentence>
+</training>
+</SLMTraining>

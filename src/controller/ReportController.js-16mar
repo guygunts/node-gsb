@@ -1,0 +1,34 @@
+const ReportService = require('../services/ReportService');
+class report{
+    async report(req,res){
+        if(req.body.report_name=='SR'){
+          const report= await  ReportService.ServiceReport(req);
+            res.json(report);
+            res.end();
+        }else if(req.body.report_name=='AR'){
+            const accuracy = await ReportService.AccuracyReport(req);
+            res.json(accuracy);
+            res.end();
+        }else if(req.body.report_name=='ER'){
+            const Envnt =await ReportService.EventReport(req);
+            res.json(Envnt);
+            res.end();
+        }else if(req.body.report_name=='TR'){
+            const TopTen =await ReportService.TopTenReport(req);
+            res.json(TopTen);
+            res.end();
+        }else if(req.body.report_name=='UR'){
+            const Usage =await ReportService.UsageReport(req);
+            res.json(Usage);
+            res.end();
+        }else if(req.body.report_name=='PR'){
+            const Performance =await ReportService.PerformanceReport(req);
+            res.json(Performance);
+            res.end();
+        }else{
+            res.end("please enter type SR,AR,ER,TR,UR,PR");
+        }   
+    }
+}
+const Report = new report();
+module.exports = Report;

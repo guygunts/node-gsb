@@ -1,0 +1,40 @@
+const loginController =require('../src/controller/LoginController') ;
+
+var express = require('express');
+const router = express.Router();
+const jwt = require('jsonwebtoken');
+router.post('/geniespeech/login', loginController.loginUser);
+router.post('/geniespeech/adminmenu',verifyToken, loginController.adminMenu);
+
+
+function verifyToken ( req,res,next){
+  const bearerHeader =req.headers['authorization'];
+  if(typeof bearerHeader !== 'undefined'){
+      req.token = bearerHeader;
+      jwt.verify(req.token, 'secretkey', (err , authData) => {
+             console.log("authData:"+authData)
+              if(req.token!=''){
+				  console.log("pass token")
+              if(typeof authData !== 'undefined'){
+				  console.log("pass authData")
+                  next();
+      }else{
+          return res.status(401).send({
+              message: 'User not authenticated because not found  server.'
+          });
+      }
+  }else{
+      return res.status(401).send({
+          message: 'User not authenticated.'
+      });
+  }
+      });
+      
+ }else{
+  return res.status(401).send({
+      message: 'User not authenticated.'
+  });
+ }
+  }
+
+module.exports = router;
